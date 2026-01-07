@@ -4,9 +4,7 @@
     class="shopify-design-mode"
   {% endif %}
   lang="{{ request.locale.iso_code }}"
->{% if request.locale.iso_code == 'he' %}
-  <link rel="stylesheet" href="{{ 'rtl-he.css' | asset_url }}">
-{% endif %}
+>
   <head>
     {%- if settings.favicon != blank -%}
       <link
