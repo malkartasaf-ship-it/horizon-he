@@ -179,7 +179,7 @@
               "settings": {
                 "variant_style": "buttons",
                 "show_swatches": true,
-                "alignment": "center",
+                "alignment": "right",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
