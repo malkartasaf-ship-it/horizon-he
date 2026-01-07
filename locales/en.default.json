@@ -174,7 +174,7 @@
   "shopify": {
     "checkout": {
       "order_summary": {
-        "discount_code_aria_text": "קוד קופון"
+        "discount_code_aria_text": " הוסף קוד קופון "
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה"
