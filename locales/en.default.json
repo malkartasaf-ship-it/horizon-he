@@ -165,5 +165,12 @@
     "discount": "הנחה",
     "cart_estimated_total": "₪  סה״כ ",
     "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "מיסים ומשלוח יחושבו בצ׳קאאוט"
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "page_title": "עמוד תשלום"
+      }
+    }
   }
 }
