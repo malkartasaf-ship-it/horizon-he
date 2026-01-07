@@ -346,6 +346,11 @@
           "save": "שמור ",
           "cancel": "ביטול"
         }
+      },
+      "review": {
+        "blocks": {
+          "billing_address_title": "כתבות לחיוב "
+        }
       }
     }
   }
