@@ -334,7 +334,8 @@
         "name_on_card_placeholder": "שם של בעל הכרטיס ",
         "card_expired": "תוקף",
         "delete_customer_mandate_modal_confirm": "הסר כרטיס",
-        "delete_customer_mandate_modal_cancel": "ביטול"
+        "delete_customer_mandate_modal_cancel": "ביטול",
+        "billing_address_title": "כתובת לחיוב"
       },
       "localized_fields": {
         "additional_information": {
