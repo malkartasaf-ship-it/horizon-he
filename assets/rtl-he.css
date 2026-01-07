@@ -1,23 +1,21 @@
-/* ========== RTL לעברית – Horizon ========== */
+/* ================= RTL לעברית – Horizon ================= */
 html[lang="he"], body[lang="he"] {
   direction: rtl !important;
   text-align: right !important;
   unicode-bidi: embed !important;
+  font-family: 'Heebo', sans-serif !important;
 }
 
-/* כל הטקסטים */
 body[lang="he"] * {
   direction: rtl !important;
   text-align: right !important;
 }
 
-/* כפתורים */
 body[lang="he"] button,
 body[lang="he"] .button {
   direction: rtl !important;
 }
 
-/* Drawer / סל צד / עמוד מוצר */
 body[lang="he"] .drawer,
 body[lang="he"] .cart,
 body[lang="he"] .product,
@@ -27,32 +25,27 @@ body[lang="he"] .product__title {
   text-align: right !important;
 }
 
-/* טפסים */
 body[lang="he"] input,
 body[lang="he"] textarea,
 body[lang="he"] select {
   text-align: right !important;
 }
 
-/* אייקונים הפוכים */
 body[lang="he"] .icon,
 body[lang="he"] .icon--arrow {
   transform: scaleX(-1);
 }
 
-/* תפריט ראשי */
 body[lang="he"] nav,
 body[lang="he"] .header__menu {
   direction: rtl !important;
 }
 
-/* Breadcrumbs */
 body[lang="he"] .breadcrumb {
   direction: rtl !important;
   text-align: right !important;
 }
 
-/* Footer */
 body[lang="he"] footer {
   direction: rtl !important;
   text-align: right !important;
