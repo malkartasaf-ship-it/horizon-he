@@ -377,6 +377,9 @@
         "express_checkout": "הזמנה מהירה ",
         "or": "או ",
         "or_pay_another_way": "או בחר אמצעי תשלום אחר"
+      },
+      "customer_account": {
+        "sign_in_link_label": "התחבר"
       }
     }
   }
