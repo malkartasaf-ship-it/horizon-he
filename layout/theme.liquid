@@ -7,7 +7,8 @@
 >{% if request.locale.iso_code == 'he' %}
   <link rel="stylesheet" href="{{ 'rtl-he.css' | asset_url }}">
 {% endif %}
-  <head>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<head>
     {%- if settings.favicon != blank -%}
       <link
         rel="icon"
@@ -38,7 +39,6 @@
     {% endif %}
 
     {{ content_for_header }}
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
 
   <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
