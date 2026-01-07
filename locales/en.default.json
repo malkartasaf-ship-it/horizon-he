@@ -152,6 +152,8 @@
     "item_count": {
       "one": "{{ count }} פריט",
       "other": "{{ count }} פריטים"
-    }
+    },
+    "account_title": "חשבון",
+    "submit": "שלח"
   }
 }
