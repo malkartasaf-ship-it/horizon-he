@@ -675,6 +675,10 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "/* צבע רקע וכיתוב של כפתור הוסף לסל */.btn--add-to-cart {background-color: #ff0000; /* צבע רקע */ color: #ffffff; /* צבע טקסט */}",
+      "/* צבע רקע וכיתוב של כפתור קנה עכשיו */.btn--buy-now {background-color: #000000; /* צבע רקע */ color: #ffffff; /* צבע טקסט */}",
+      "/* אפשר גם להוסיף כפתורים מעוגלים */.btn--add-to-cart, .btn--buy-now {border-radius: 8px;}"
+    ]
   }
 }
