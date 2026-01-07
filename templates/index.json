@@ -140,7 +140,7 @@
                 "font": "var(--font-accent--family)",
                 "font_size": "1rem",
                 "line_height": "loose",
-                "letter_spacing": "normal",
+                "letter_spacing": "tight",
                 "case": "uppercase",
                 "wrap": "balance",
                 "color": "var(--color-foreground)",
