@@ -83,8 +83,8 @@
     "variant_button_width": "equal-width-buttons",
     "content_for_index": [],
     "blocks": {
-      "6987625696575125306": {
-        "type": "shopify://apps/weglot-translate-your-store/blocks/weglot/3097482a-fafe-42ff-bc33-ea19e35c4a20",
+      "15132424025755801183": {
+        "type": "shopify://apps/upload-lift/blocks/app-embed/3c98bdcb-7587-4ade-bfe4-7d8af00d05ca",
         "disabled": false,
         "settings": {}
       }
