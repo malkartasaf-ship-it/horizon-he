@@ -182,7 +182,8 @@
         "error_page_title": "שגיאה",
         "continue_button_label": "המשיכו לתשלום",
         "pay_now_button_label": "בחרו אמצעי תשלום",
-        "choose_billing_address": "בחרו כתובת לחיוב "
+        "choose_billing_address": "בחרו כתובת לחיוב ",
+        "choose_shipping_method": "שיטת משלוח "
       },
       "contact": {
         "title": "פרטי המזמין",
