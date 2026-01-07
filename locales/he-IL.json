@@ -181,7 +181,13 @@
           "other": "סך הכל"
         },
         "shipping_label": "משלוח",
-        "free_shipping_total_label": "חינם"
+        "free_shipping_total_label": "חינם",
+        "order_total_label": "סה״כ",
+        "total_label": "סה״כ",
+        "total_paid_label": "סה״כ",
+        "total_price_label": "סה״כ",
+        "partial_total_label": "סה״כ",
+        "free_total_label": "חינם"
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
