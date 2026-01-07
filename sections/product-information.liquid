@@ -196,44 +196,7 @@
     display: flex;
     align-items: center;
     gap: var(--gap-md);
-<div class="custom-product-box" style="
-    border:1px solid #ddd; 
-    padding:8px; 
-    width:250px; 
-    text-align:right; 
-    font-family: Heebo,sans-serif; 
-    font-size:13px; 
-    margin-top:10px;
-">
-  <!-- תווית כיתוב -->
-  <label for="custom_text" style="display:block; margin-bottom:2px; font-weight:500;">הוספת כיתוב:</label>
-  <input type="text" id="custom_text" name="properties[כיתוב]" placeholder="למשל: שם, תאריך" 
-         style="width:100%; padding:3px; border:1px solid #ccc; text-align:right; font-size:13px;">
 
-  <!-- תווית העלאת תמונה -->
-  <label for="custom_image" style="display:block; margin:5px 0 2px; font-weight:500;">העלאת תמונה:</label>
-  <input type="file" id="custom_image" name="properties[תמונה]" accept="image/*" 
-         style="width:100%; padding:2px; border:1px solid #ccc; font-size:13px;">
-
-  <!-- פריוויו תמונה -->
-  <img id="preview_image" src="" style="max-width:60px; display:none; margin-top:5px; float:right;">
-</div>
-
-<script>
-  const fileInput = document.getElementById('custom_image');
-  const preview = document.getElementById('preview_image');
-
-  fileInput.addEventListener('change', function(event){
-    const file = event.target.files[0];
-    if(!file) return;
-    const reader = new FileReader();
-    reader.onload = function(e){
-      preview.src = e.target.result;
-      preview.style.display = 'block';
-    }
-    reader.readAsDataURL(file);
-  });
-</script>
     @starting-style {
       opacity: 0;
       transform: translateX(-50%) translateY(calc(100% + 40px));
