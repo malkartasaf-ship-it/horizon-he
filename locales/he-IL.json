@@ -252,7 +252,14 @@
         "save_my_information_label": "שמור מידע זה לפעם הבאה"
       },
       "thank_you": {
-        "shipping_method_title": "שיטת משלוח"
+        "shipping_method_title": "שיטת משלוח",
+        "payment_information_title": "אמצעי תשלום"
+      },
+      "payment": {
+        "payment_method": "תשלום"
+      },
+      "alternative_payment_method_banner": {
+        "or": "או "
       }
     }
   },
@@ -262,6 +269,9 @@
       "contact_information": "פרטי המזמין",
       "shipping": {
         "method": "שיטת משלוח"
+      },
+      "payment": {
+        "title": "תשלום"
       }
     }
   }
