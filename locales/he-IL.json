@@ -177,7 +177,11 @@
         "discount_code_aria_text": "קוד קופון"
       },
       "general": {
-        "complete_purchase_button_label": "השלימו את ההזמנה"
+        "complete_purchase_button_label": "השלימו את ההזמנה",
+        "page_title": "עמוד תשלום",
+        "error_page_title": "שגיאה",
+        "continue_button_label": "המשיכו לתשלום",
+        "pay_now_button_label": "בחרו אמצעי תשלום"
       },
       "contact": {
         "title": "פרטי המזמין",
