@@ -299,7 +299,8 @@
         },
         "discount_discovery": {
           "add_code": "הוסף קוד קופון"
-        }
+        },
+        "subtotal_label": "סה״כ"
       },
       "shipping": {
         "title": "משלוח",
