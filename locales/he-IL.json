@@ -200,6 +200,13 @@
         "contact_information": {
           "title": "פרטי המזמין"
         }
+      },
+      "field_errors": {
+        "handle_email_invalid": "הזן כתובת מייל",
+        "email_invalid": "הזן כתובת מייל",
+        "email_or_phone_blank": "הזן כתובת מייל",
+        "email_or_phone_invalid": "הזן כתובת מייל",
+        "email_blank": "הזן כתובת מייל"
       }
     }
   },
