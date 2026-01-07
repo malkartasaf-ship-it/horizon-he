@@ -1,0 +1,184 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "accessibility": {
+    "account": "חשבון",
+    "cart": "סל",
+    "cart_count": "סה\"כ פריטים בסל",
+    "close_dialog": "סגור",
+    "country_region": "מדינה/אזור",
+    "country_results_count": "{{ count }} תוצאות",
+    "decrease_quantity": "הפחת כמות",
+    "discount": "הכנס קוד הנחה",
+    "discount_menu": "קודי הנחה",
+    "discount_applied": "קוד ההנחה הוחל: {{ code }}",
+    "filters": "מסננים",
+    "filter_count": {
+      "one": "{{ count }} מסנן פעיל",
+      "other": "{{ count }} מסננים פעילים"
+    },
+    "increase_quantity": "הגדל כמות",
+    "inventory_status": "סטטוס מלאי",
+    "localization_region_and_language": "בחר אזור ושפה",
+    "menu": "תפריט",
+    "nested_product": "{{ product_title }} עבור {{ parent_title }}",
+    "new_window": "נפתח בחלון חדש",
+    "open_hotspot": "פתח נקודת חום",
+    "quantity": "כמות",
+    "pause_video": "עצור וידאו",
+    "play_model": "הפעל מודל תלת מימד",
+    "play_video": "נגן וידאו",
+    "loading_product_recommendations": "טוען המלצות למוצרים",
+    "rating": "דירוג המוצר: {{ rating }} מתוך 5",
+    "remove_item": "הסר {{ title }}",
+    "remove": "הסר",
+    "reset_search": "אפס חיפוש",
+    "scroll_to": "גלול אל {{ title }}",
+    "search_results_count": "נמצאו {{ count }} תוצאות עבור \"{{ query }}\"",
+    "search_results_no_results": "לא נמצאו תוצאות עבור \"{{ query }}\"",
+    "skip_to_product_info": "דלג למידע המוצר",
+    "skip_to_results_list": "דלג לרשימת התוצאות",
+    "skip_to_text": "דלג לתוכן",
+    "slide_status": "שקף {{ index }} מתוך {{ length }}",
+    "slideshow": "מצגת שקפים",
+    "slideshow_next": "שקף הבא",
+    "slideshow_pause": "הפסק מצגת",
+    "slideshow_play": "הפעל מצגת",
+    "slideshow_previous": "שקף קודם",
+    "unit_price": "מחיר ליחידה",
+    "find_country": "מצא מדינה",
+    "view_pricing_info": "צפה במידע מחירים"
+  },
+  "actions": {
+    "add": "הוסף",
+    "add_to_cart": "הוספה לסל",
+    "added": "נוסף",
+    "apply": "החל",
+    "back": "חזור",
+    "choose": "בחר",
+    "clear": "נקה",
+    "clear_all": "נקה הכל",
+    "close": "סגור",
+    "open": "פתח",
+    "continue_shopping": "המשך קניות",
+    "enter_password": "הזן סיסמה",
+    "log_in_html": "יש לך חשבון? <a href=\"{{ link }}\">התחבר</a> לצ׳קאאוט מהיר יותר.",
+    "log_in": "התחבר",
+    "log_out": "התנתק",
+    "open_image_in_full_screen": "פתח תמונה במסך מלא",
+    "remove_discount": "הסר הנחה {{ code }}",
+    "show_all_options": "הצג את כל האפשרויות",
+    "see_items": {
+      "one": "ראה {{ count }} פריט",
+      "other": "ראה {{ count }} פריטים"
+    },
+    "show_filters": "מסננים",
+    "show_less": "הצג פחות",
+    "show_more": "הצג עוד",
+    "sign_in_options": "אפשרויות התחברות נוספות",
+    "view_in_your_space": "צפה במרחב שלך",
+    "view_all": "הצג הכל",
+    "more": "עוד",
+    "zoom": "הגדל",
+    "reset": "אפס",
+    "sign_up": "הרשם",
+    "submit": "שלח",
+    "view_store_information": "מידע על החנות",
+    "sort": "מיין"
+  },
+  "blocks": {
+    "contact_form": {
+      "name": "שם",
+      "email": "מייל",
+      "phone": "טלפון",
+      "comment": "תגובה",
+      "post_success": "תודה שפנית אלינו. נחזור בהקדם.",
+      "error_heading": "אנא תקן את השדות הבאים:"
+    },
+    "email_signup": {
+      "label": "מייל",
+      "placeholder": "כתובת מייל",
+      "success": "תודה שנרשמת!"
+    },
+    "filter": "מסנן",
+    "load_video": "טען וידאו: {{ description }}",
+    "sold_out": "אזל מהמלאי",
+    "payment_methods": "שיטות תשלום",
+    "slider_label": "סליידר"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "הוספה לסל",
+      "adding_to_cart": "מוסיף...",
+      "added_to_cart": "נוסף לסל",
+      "add_to_cart_error": "שגיאה בהוספה לסל",
+      "quantity_error_max": "מוצר זה מוגבל ל-{{ maximum }} יחידות",
+      "sold_out": "אזל מהמלאי",
+      "unavailable": "לא זמין",
+      "quantity": "כמות",
+      "quantity_increments": "מכפלות של {{ increment }}",
+      "quantity_minimum": "מינימום {{ minimum }}",
+      "quantity_maximum": "מקסימום {{ maximum }}",
+      "in_cart": "בסל",
+      "default_title": "כותרת ברירת מחדל",
+      "sticky_add_to_cart": "הוספה מהירה לסל"
+    }
+  },
+  "placeholders": {
+    "password": "סיסמה",
+    "search": "חיפוש",
+    "product_title": "שם המוצר",
+    "collection_title": "שם הקולקציה",
+    "blog_posts": "פוסטים בבלוג",
+    "blog_post_title": "כותרת",
+    "blog_post_author": "מחבר",
+    "blog_post_date": "תאריך",
+    "blog_post_description": "תקציר הפוסט"
+  },
+  "fields": {
+    "separator": "-"
+  },
+  "content": {
+    "your_cart_is_empty": "הסל שלך ריק",
+    "no_products_found": "לא נמצאו מוצרים",
+    "no_results_found": "לא נמצאו תוצאות",
+    "cancel": "ביטול",
+    "checkout": "מעבר לתשלום",
+    "use_fewer_filters_html": "נסה להשתמש בפחות מסננים, או <a class=\"{{ class }}\" href=\"{{ link }}\">נקה את כל המסננים</a>.",
+    "item_count": {
+      "one": "{{ count }} פריט",
+      "other": "{{ count }} פריטים"
+    },
+    "account_title": "חשבון",
+    "submit": "שלח",
+    "cart_title": "הסל שלי",
+    "cart_total": "₪ {{ total }}",
+    "product_image": "תמונת מוצר",
+    "product_information": "מידע על המוצר",
+    "quantity": "כמות",
+    "product_total": "₪ {{ total }}",
+    "price": "₪ {{ price }}",
+    "discount": " הוסף קוד קופון ",
+    "discount_code": "קוד קופון",
+    "cart_estimated_total": " סה״כ ",
+    "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "מיסים ומשלוח יחושבו בצ׳קאאוט",
+    "price_filter_html": "סינון לפי מחיר"
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "discount_code_aria_text": " הוסף קוד קופון "
+      },
+      "general": {
+        "complete_purchase_button_label": "השלימו את ההזמנה"
+      }
+    }
+  }
+}
