@@ -333,7 +333,19 @@
         }
       },
       "billing": {
-        "billing_address_title": "כתובת לחיוב "
+        "billing_address_title": "כתובת לחיוב ",
+        "billing_address_rollup_accessibility_label": "כתובת לחיוב ",
+        "same_as_shipping": "זהה לכתובת משלוח",
+        "add_address": "השתמש כתובת אחרת",
+        "edit": "ערוך",
+        "delete": "מחק ",
+        "address_edit": "ערכו כתובת",
+        "address_delete": "מחק כתובת",
+        "address_form": {
+          "add_address": "הוסף כתובת",
+          "save": "שמור ",
+          "cancel": "ביטול"
+        }
       }
     }
   }
