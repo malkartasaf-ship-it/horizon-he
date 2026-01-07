@@ -209,7 +209,11 @@
         "country_code": "מיקוד ( לא חובה )",
         "county_label": "מדינה",
         "county_placeholder": "מדינה ",
-        "last_name_label": "שם משפחה "
+        "last_name_label": "שם משפחה ",
+        "phone_label": "מס׳ נייד",
+        "phone_placeholder": "מס׳ נייד",
+        "zip_code_label": "מיקוד ( לא חובה ) ",
+        "optional_zip_code_label": "מיקוד ( לא חובה ) "
       }
     }
   }
