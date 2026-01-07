@@ -371,6 +371,9 @@
       },
       "order_payment_collection": {
         "pay_now": "שלמו עכשיו "
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "הזמנה מהירה "
       }
     }
   }
