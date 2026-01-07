@@ -127,6 +127,12 @@
     {% if settings.quick_add or settings.mobile_quick_add %}
       {% render 'quick-add-modal' %}
     {% endif %}
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const noteLabel = document.querySelector('.cart__note label');
+  if(noteLabel) noteLabel.textContent = "כיתוב להזמנה / הקדשה";
+});
+</script>
   </body>
 </html>
 
