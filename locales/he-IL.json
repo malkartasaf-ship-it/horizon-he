@@ -230,7 +230,10 @@
       },
       "remote_merchandise_only": {
         "title": "השלימו פרטי תשלום",
-        "return_to_store_label": "חזרו לחנות"
+        "return_to_store_label": "חזרו לחנות",
+        "detail_item_label": {
+          "other": "מוצרים"
+        }
       },
       "stock": {
         "title": "חסר במלאי",
