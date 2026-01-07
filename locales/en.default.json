@@ -304,7 +304,14 @@
       "shipping": {
         "title": "משלוח",
         "delivery_title": "משלוח ",
-        "free_rate_label": "חינם"
+        "free_rate_label": "חינם",
+        "shipping_address_title": "משלוח אל ",
+        "edit": "ערוך",
+        "delete": "מחק",
+        "back": "חזור",
+        "address_edit": "ערוך כתובת משלוח",
+        "address_delete": "מחק כתובת משלוח",
+        "add_shipping_address": "הוסף כתובת משלוח "
       }
     }
   }
