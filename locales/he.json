@@ -171,6 +171,12 @@
     "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "מיסים ומשלוח יחושבו בצ׳קאאוט",
     "price_filter_html": "סינון לפי מחיר"
   },
+  "cart": {
+    "title": "עגלה",
+    "notes_label": "כיתוב להזמנה / הקדשה",
+    "empty": "הסל שלך ריק",
+    "checkout": "מעבר לתשלום"
+  },
   "shopify": {
     "checkout": {
       "order_summary": {
