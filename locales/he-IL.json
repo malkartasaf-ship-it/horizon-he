@@ -256,7 +256,8 @@
         "payment_information_title": "אמצעי תשלום"
       },
       "payment": {
-        "payment_method": "תשלום"
+        "payment_method": "תשלום",
+        "title": "תשלום"
       },
       "alternative_payment_method_banner": {
         "or": "או "
@@ -271,8 +272,14 @@
         "method": "שיטת משלוח"
       },
       "payment": {
-        "title": "תשלום"
+        "title": "תשלום",
+        "transactions": {
+          "payment_details": "תשלום"
+        }
       }
+    },
+    "payment_methods": {
+      "or": "או"
     }
   }
 }
