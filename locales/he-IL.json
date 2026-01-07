@@ -181,7 +181,8 @@
         "page_title": "עמוד תשלום",
         "error_page_title": "שגיאה",
         "continue_button_label": "המשיכו לתשלום",
-        "pay_now_button_label": "בחרו אמצעי תשלום"
+        "pay_now_button_label": "בחרו אמצעי תשלום",
+        "choose_billing_address": "בחרו כתובת לחיוב "
       },
       "contact": {
         "title": "פרטי המזמין",
@@ -196,7 +197,8 @@
         "first_name_label": "שם פרטי ",
         "optional_first_name_label": "שם פרטי ",
         "last_name_label": "שם משפחה",
-        "optional_last_name_label": "שם משפחה "
+        "optional_last_name_label": "שם משפחה ",
+        "address_title": "כתובת מלאה "
       },
       "review": {
         "blocks": {
