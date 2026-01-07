@@ -315,7 +315,11 @@
         "free_total_label": "חינם ",
         "free_shipping_total_label": "חינם",
         "tip_label": "טיפ",
-        "title": "סיכום הזמנה"
+        "title": "סיכום הזמנה",
+        "number_items": {
+          "one": "מוצר",
+          "other": "מוצרים"
+        }
       },
       "shipping": {
         "title": "משלוח",
