@@ -148,6 +148,10 @@
     "no_results_found": "לא נמצאו תוצאות",
     "cancel": "ביטול",
     "checkout": "צ׳קאאוט",
-    "use_fewer_filters_html": "נסה להשתמש בפחות מסננים, או <a class=\"{{ class }}\" href=\"{{ link }}\">נקה את כל המסננים</a>."
+    "use_fewer_filters_html": "נסה להשתמש בפחות מסננים, או <a class=\"{{ class }}\" href=\"{{ link }}\">נקה את כל המסננים</a>.",
+    "item_count": {
+      "one": "{{ count }} פריט",
+      "other": "{{ count }} פריטים"
+    }
   }
 }
