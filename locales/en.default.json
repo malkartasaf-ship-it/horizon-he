@@ -196,7 +196,14 @@
         "email_label": "כתובת מייל",
         "email_placeholder": "כתובת מייל",
         "email_or_phone_label": "כתובת מייל או מס׳ נייד ",
-        "email_or_phone_placeholder": "כתובת מייל או מס׳ נייד "
+        "email_or_phone_placeholder": "כתובת מייל או מס׳ נייד ",
+        "first_name_label": "שם פרטי ",
+        "optional_first_name_label": "שם משפחה",
+        "company_label": "שם חברה",
+        "optional_company_label": "שם חברה",
+        "address1_label": "רחוב ומס׳ דירה ",
+        "city_label": "עיר",
+        "country_label": "מדינ ה"
       }
     }
   }
