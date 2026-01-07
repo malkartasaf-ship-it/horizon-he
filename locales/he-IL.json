@@ -379,7 +379,8 @@
         "or_pay_another_way": "או בחר אמצעי תשלום אחר"
       },
       "customer_account": {
-        "sign_in_link_label": "התחבר"
+        "sign_in_link_label": "התחבר",
+        "save_my_information_label": "שמור את הפרטים להזמנה הבאה"
       }
     }
   }
