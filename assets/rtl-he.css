@@ -1,28 +1,38 @@
-/* RTL בסיס לעברית */
-html[lang="he"] {
-  direction: rtl;
+/* בסיס RTL לעברית */
+html[lang="he"], body[lang="he"] {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: embed !important;
 }
 
-html[lang="he"] body {
-  text-align: right;
-  font-family: 'Heebo', sans-serif;
-}
-
-html[lang="he"] input,
-html[lang="he"] textarea,
-html[lang="he"] select {
-  text-align: right;
-}
-
-/* עגלת קניות ומוצרים */
-html[lang="he"] .drawer,
-html[lang="he"] .cart,
-html[lang="he"] .product {
-  direction: rtl;
+/* כל הטקסטים */
+body[lang="he"] * {
+  direction: rtl !important;
+  text-align: right !important;
 }
 
 /* כפתורים */
-html[lang="he"] button,
-html[lang="he"] .button {
-  direction: rtl;
+body[lang="he"] button,
+body[lang="he"] .button {
+  direction: rtl !important;
+}
+
+/* Drawer / סל צד */
+body[lang="he"] .drawer,
+body[lang="he"] .cart,
+body[lang="he"] .product {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+/* הרשאות טפסים */
+body[lang="he"] input,
+body[lang="he"] textarea,
+body[lang="he"] select {
+  text-align: right !important;
+}
+
+/* אייקונים הפוכים (לפי הצורך) */
+body[lang="he"] .icon {
+  transform: scaleX(-1);
 }
