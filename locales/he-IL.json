@@ -306,7 +306,8 @@
         "estimated_taxes_label": "מיסים",
         "estimated_taxes_finalization_tooltip_content": "המס הסופי והסכום הכולל יאושרו באמצעות דוא\"ל או הודעת טקסט לאחר מכן",
         "free_total_label": "חינם ",
-        "free_shipping_total_label": "חינם"
+        "free_shipping_total_label": "חינם",
+        "tip_label": "טיפ"
       },
       "shipping": {
         "title": "משלוח",
@@ -373,7 +374,9 @@
         "pay_now": "שלמו עכשיו "
       },
       "alternative_payment_method_banner": {
-        "express_checkout": "הזמנה מהירה "
+        "express_checkout": "הזמנה מהירה ",
+        "or": "או ",
+        "or_pay_another_way": "או בחר אמצעי תשלום אחר"
       }
     }
   }
