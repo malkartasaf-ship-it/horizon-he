@@ -165,8 +165,6 @@
     "quantity": "כמות",
     "product_total": "₪ {{ total }}",
     "price": "₪ {{ price }}",
-    
-  "notes_label": "כיתוב להזמנה / הקדשה",
     "discount": " הוסף קוד קופון ",
     "discount_code": "קוד קופון",
     "cart_estimated_total": " סה״כ ",
