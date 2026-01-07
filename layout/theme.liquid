@@ -49,6 +49,60 @@
 <!-- פונטים עבריים -->
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
+/* יישור כל האתר לימין */
+body, html {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* כותרות, פסקאות וטקסט רגיל */
+h1, h2, h3, h4, h5, h6, p, span, li, a, div {
+    text-align: right !important;
+}
+
+/* כפתורים */
+button, input[type="button"], input[type="submit"], .btn, .button {
+    direction: rtl !important;
+    text-align: center !important; /* אפשר לשנות ל-right אם רוצים */
+}
+
+/* תפריטים ראשיים ותפריטי קטגוריות */
+.navbar, .site-nav, .menu, .header-menu, .site-header__menu {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* טפסים ושדות קלט */
+input, textarea, select {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* כפתורי "הוסף לסל" ותוספות דומות */
+.product-form button, .add-to-cart {
+    direction: rtl !important;
+    text-align: center !important;
+}
+
+/* תפריטים צדדיים (אם קיימים) */
+.sidebar, .drawer__inner {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* ווידג'טים ותוכן דינמי */
+.section, .rte, .rich-text, .content {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* לתצוגה במובייל בלבד */
+@media screen and (max-width: 768px) {
+    body, html {
+        direction: rtl !important;
+        text-align: right !important;
+    }
+}
 </head>
 
   <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
@@ -128,82 +182,3 @@
     {% endif %}
   </body>
 </html>
-/* יישור כל הטקסטים לימין */
-body {
-    direction: rtl;
-    text-align: right;
-}
-
-/* כפתורים */
-button, .btn {
-    text-align: center; /* או right אם רוצים בתוך הכפתור לימין */
-}
-
-/* תפריטים */
-.navbar, .site-nav {
-    text-align: right;
-}
-
-/* כותרות */
-h1, h2, h3, h4, h5, h6 {
-    text-align: right;
-}
-
-/* שדות וטפסים */
-input, textarea, select {
-    direction: rtl;
-    text-align: right;
-}/* יישור כל האתר לימין */
-body, html {
-    direction: rtl !important;
-    text-align: right !important;
-}
-
-/* כותרות, פסקאות וטקסט רגיל */
-h1, h2, h3, h4, h5, h6, p, span, li, a, div {
-    text-align: right !important;
-}
-
-/* כפתורים */
-button, input[type="button"], input[type="submit"], .btn, .button {
-    direction: rtl !important;
-    text-align: center !important; /* אפשר לשנות ל-right אם רוצים */
-}
-
-/* תפריטים ראשיים ותפריטי קטגוריות */
-.navbar, .site-nav, .menu, .header-menu, .site-header__menu {
-    direction: rtl !important;
-    text-align: right !important;
-}
-
-/* טפסים ושדות קלט */
-input, textarea, select {
-    direction: rtl !important;
-    text-align: right !important;
-}
-
-/* כפתורי "הוסף לסל" ותוספות דומות */
-.product-form button, .add-to-cart {
-    direction: rtl !important;
-    text-align: center !important;
-}
-
-/* תפריטים צדדיים (אם קיימים) */
-.sidebar, .drawer__inner {
-    direction: rtl !important;
-    text-align: right !important;
-}
-
-/* ווידג'טים ותוכן דינמי */
-.section, .rte, .rich-text, .content {
-    direction: rtl !important;
-    text-align: right !important;
-}
-
-/* לתצוגה במובייל בלבד */
-@media screen and (max-width: 768px) {
-    body, html {
-        direction: rtl !important;
-        text-align: right !important;
-    }
-}
