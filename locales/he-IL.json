@@ -178,6 +178,9 @@
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה"
+      },
+      "contact": {
+        "title": "פרטי המזמין"
       }
     }
   }
