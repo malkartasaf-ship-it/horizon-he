@@ -131,3 +131,16 @@
 </html>
 
 
+<style>
+  .cart__note label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const noteLabel = document.querySelector('.cart__note label');
+  if (noteLabel) noteLabel.textContent = "כיתוב / הקדשה להזמנה";
+});
+</script>
