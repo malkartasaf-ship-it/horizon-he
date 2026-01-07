@@ -181,6 +181,19 @@
       },
       "contact": {
         "title": "פרטי המזמין"
+      },
+      "review": {
+        "blocks": {
+          "contact_method_title": "פרטי המזמין"
+        }
+      },
+      "shop_policies": {
+        "contact_information": "פרטי המזמין"
+      },
+      "notice_banner": {
+        "contact_information": {
+          "title": "פרטי המזמין"
+        }
       }
     }
   }
