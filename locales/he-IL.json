@@ -224,7 +224,8 @@
       },
       "delivery_options": {
         "free_total_label": "משלוח חינם ",
-        "pick_up": "איסוף עצמי"
+        "pick_up": "איסוף עצמי",
+        "shipping_address": "כתובת משלוח "
       },
       "remote_merchandise_only": {
         "title": "השלימו פרטי תשלום",
@@ -300,7 +301,8 @@
         "discount_discovery": {
           "add_code": "הוסף קוד קופון"
         },
-        "subtotal_label": "סה״כ"
+        "subtotal_label": "סה״כ",
+        "shipping_label": "משלוח"
       },
       "shipping": {
         "title": "משלוח",
