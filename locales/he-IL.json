@@ -179,7 +179,9 @@
         "subtotal_label_with_quantity": {
           "one": "סך הכל",
           "other": "סך הכל"
-        }
+        },
+        "shipping_label": "משלוח",
+        "free_shipping_total_label": "חינם"
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
@@ -244,7 +246,9 @@
       "shipping": {
         "delivery_title": "פרטי משלוח",
         "shipping_method_title": "שיטת משלוח",
-        "shipping_method_rollup_accessibility_label": "שיטת משלוח"
+        "shipping_method_rollup_accessibility_label": "שיטת משלוח",
+        "title": "משלוח",
+        "free_rate_label": "חינם"
       },
       "wallets": {
         "errors": {
