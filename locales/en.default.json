@@ -169,7 +169,9 @@
   "shopify": {
     "checkout": {
       "general": {
-        "page_title": "עמוד תשלום"
+        "page_title": "עמוד תשלום",
+        "continue_button_label": "המשיכו ",
+        "pay_now_button_label": "המשיכו לתשלום"
       }
     }
   }
