@@ -351,6 +351,19 @@
         "blocks": {
           "billing_address_title": "כתבות לחיוב "
         }
+      },
+      "shop_policies": {
+        "policy_label": "תקנון ",
+        "policies_label": "תקנון",
+        "refund_policy": "תקנון החזר כספי",
+        "privacy_policy": "פרטיות",
+        "terms_of_service": "תקנון האתר",
+        "shipping_policy": "פרטי משלוח",
+        "contact_information": "פרטי התקשרות",
+        "purchase_options_cancellation_policy": "ביטול עסקה"
+      },
+      "order_payment_collection": {
+        "pay_now": "שלמו עכשיו "
       }
     }
   }
