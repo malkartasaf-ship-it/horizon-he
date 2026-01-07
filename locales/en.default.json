@@ -213,7 +213,14 @@
         "phone_label": "מס׳ נייד",
         "phone_placeholder": "מס׳ נייד",
         "zip_code_label": "מיקוד ( לא חובה ) ",
-        "optional_zip_code_label": "מיקוד ( לא חובה ) "
+        "optional_zip_code_label": "מיקוד ( לא חובה ) ",
+        "zip_code_placeholder": "מיקוד ( לא חובה ) ",
+        "postal_code_label": "מיקוד ( לא חובה ) ",
+        "optional_postal_code_label": "מיקוד ( לא חובה ) ",
+        "postal_code_placeholder": "מיקוד ( לא חובה ) ",
+        "postcode_label": "מיקוד ( לא חובה ) ",
+        "optional_postcode_label": "מיקוד ( לא חובה ) ",
+        "postcode_placeholder": "מיקוד ( לא חובה ) "
       }
     }
   }
