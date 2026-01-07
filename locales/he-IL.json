@@ -260,7 +260,8 @@
         "payment_method": "תשלום",
         "title": "תשלום",
         "card_security_notice": "כל העסקאות מאובטחות ומוצפנות. פרטי כרטיס אשראי לעולם אינם נשמרים.",
-        "offsite_gateway_redirect_hint": "ניתן לשלם דרך ויזה | bit | פייבוקס | apple google pay "
+        "offsite_gateway_redirect_hint": "ניתן לשלם דרך ויזה | bit | פייבוקס | apple google pay ",
+        "billing_address_title": "כתובת לחיוב "
       },
       "alternative_payment_method_banner": {
         "or": "או "
