@@ -403,6 +403,16 @@
       },
       "review_address_modal": {
         "use_saved_address": "השתמש בכתובת חיוב שונה"
+      },
+      "field_errors": {
+        "address_address1_blank": "הכנס כתובת"
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "address1": "הכנס כתובת"
+          }
+        }
       }
     }
   }
