@@ -302,7 +302,8 @@
           "add_code": "הוסף קוד קופון"
         },
         "subtotal_label": "סה״כ",
-        "shipping_label": "משלוח"
+        "shipping_label": "משלוח",
+        "estimated_taxes_label": "מיסים"
       },
       "shipping": {
         "title": "משלוח",
