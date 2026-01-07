@@ -199,7 +199,8 @@
   },
   "customer_accounts": {
     "order_details": {
-      "contact": "פרטי המזמין"
+      "contact": "פרטי המזמין",
+      "contact_information": "פרטי המזמין"
     }
   }
 }
