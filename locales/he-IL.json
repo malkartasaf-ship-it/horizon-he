@@ -245,7 +245,8 @@
         "email_or_phone_invalid": "הזן כתובת מייל",
         "email_blank": "הזן כתובת מייל",
         "address_city_blank": "הזן עיר ",
-        "address_last_name_blank": "הזן שם משפחה"
+        "address_last_name_blank": "הזן שם משפחה",
+        "address_address1_blank": "הזן כתובת"
       },
       "delivery_options": {
         "free_total_label": "חינם "
@@ -262,7 +263,8 @@
           "missing": {
             "city": "עיר ",
             "billing_city": "עיר ",
-            "last_name": "הזן שם משפחה"
+            "last_name": "הזן שם משפחה",
+            "address1": "הזן כתובת"
           }
         }
       },
