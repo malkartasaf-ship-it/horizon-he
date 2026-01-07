@@ -187,7 +187,8 @@
         "email_placeholder": "כתובת מייל",
         "email_or_phone_label": "כתובת מייל או מס׳ נייד ",
         "email_or_phone_placeholder": "כתובת מייל או מס׳ נייד ",
-        "delivery_option_title": "פרטי משלוח"
+        "delivery_option_title": "פרטי משלוח",
+        "country_label": "מדינה"
       },
       "review": {
         "blocks": {
