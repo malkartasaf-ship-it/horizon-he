@@ -170,7 +170,7 @@
                     "width": "100%",
                     "alignment": "right",
                     "font": "var(--font-accent--family)",
-                    "font_size": "1.125rem",
+                    "font_size": "1.25rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
