@@ -154,6 +154,16 @@
       "other": "{{ count }} פריטים"
     },
     "account_title": "חשבון",
-    "submit": "שלח"
+    "submit": "שלח",
+    "cart_title": "הסל שלי",
+    "cart_total": "סך הכל",
+    "product_image": "תמונת מוצר",
+    "product_information": "מידע על המוצר",
+    "quantity": "כמות",
+    "product_total": "סה\"כ מוצר",
+    "price": "מחיר",
+    "discount": "הנחה",
+    "cart_estimated_total": "סכום משוער",
+    "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "מיסים ומשלוח יחושבו בצ׳קאאוט"
   }
 }
