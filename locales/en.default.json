@@ -190,7 +190,10 @@
         "full_price": "מחיר מלא : "
       },
       "contact": {
-        "address_title": "כתובת"
+        "address_title": "כתובת",
+        "delivery_option_title": "בחרו משלוח ",
+        "contact_method_title": "פרטי המזמין",
+        "email_label": "כתובת מייל"
       }
     }
   }
