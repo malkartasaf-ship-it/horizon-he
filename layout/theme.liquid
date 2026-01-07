@@ -36,6 +36,9 @@
     {% endif %}
 
     {{ content_for_header }}
+    {% if request.locale.iso_code == 'he' %}
+  <link rel="stylesheet" href="{{ 'rtl-he.css' | asset_url }}">
+{% endif %}
   </head>
 
   <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
