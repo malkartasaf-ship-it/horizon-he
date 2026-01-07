@@ -142,7 +142,11 @@
     "blog_post_date": "תאריך",
     "blog_post_description": "תקציר הפוסט"
   },
-"content": {
-    "your_cart_is_empty": "הסל שלך ריק"
-}
+  "content": {
+    "your_cart_is_empty": "הסל שלך ריק",
+    "no_products_found": "לא נמצאו מוצרים",
+    "no_results_found": "לא נמצאו תוצאות",
+    "cancel": "ביטול",
+    "checkout": "צ׳קאאוט"
+  }
 }
