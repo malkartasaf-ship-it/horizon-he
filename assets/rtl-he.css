@@ -1,0 +1,28 @@
+/* RTL בסיס לעברית */
+html[lang="he"] {
+  direction: rtl;
+}
+
+html[lang="he"] body {
+  text-align: right;
+  font-family: 'Heebo', sans-serif;
+}
+
+html[lang="he"] input,
+html[lang="he"] textarea,
+html[lang="he"] select {
+  text-align: right;
+}
+
+/* עגלת קניות ומוצרים */
+html[lang="he"] .drawer,
+html[lang="he"] .cart,
+html[lang="he"] .product {
+  direction: rtl;
+}
+
+/* כפתורים */
+html[lang="he"] button,
+html[lang="he"] .button {
+  direction: rtl;
+}
