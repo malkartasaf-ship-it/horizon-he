@@ -221,7 +221,8 @@
         "postal_code_placeholder": "מיקוד ( לא חובה ) ",
         "postcode_label": "מיקוד ( לא חובה ) ",
         "optional_postcode_label": "מיקוד ( לא חובה ) ",
-        "postcode_placeholder": "מיקוד ( לא חובה ) "
+        "postcode_placeholder": "מיקוד ( לא חובה ) ",
+        "civic_number_warning": "הוסף רחוב ומספר בית"
       },
       "delivery_options": {
         "free_total_label": "משלוח חינם ",
