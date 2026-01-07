@@ -321,6 +321,11 @@
         "card_number_placeholder": "מס׳ כרטיס ",
         "card_pay_with": "תשלום דרך : ",
         "card_security_notice": "תשלום מאובטח 100%"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "שיטת משלוח"
+        }
       }
     }
   }
