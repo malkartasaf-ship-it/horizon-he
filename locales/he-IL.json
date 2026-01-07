@@ -186,7 +186,8 @@
         "email_rollup_accessibility_label": "כתובת מייל",
         "email_placeholder": "כתובת מייל",
         "email_or_phone_label": "כתובת מייל או מס׳ נייד ",
-        "email_or_phone_placeholder": "כתובת מייל או מס׳ נייד "
+        "email_or_phone_placeholder": "כתובת מייל או מס׳ נייד ",
+        "delivery_option_title": "פרטי משלוח"
       },
       "review": {
         "blocks": {
@@ -207,6 +208,12 @@
         "email_or_phone_blank": "הזן כתובת מייל",
         "email_or_phone_invalid": "הזן כתובת מייל",
         "email_blank": "הזן כתובת מייל"
+      },
+      "delivery_options": {
+        "free_total_label": "חינם "
+      },
+      "shipping": {
+        "delivery_title": "פרטי משלוח"
       }
     }
   },
