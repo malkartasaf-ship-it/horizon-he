@@ -198,7 +198,12 @@
         "optional_first_name_label": "שם פרטי ",
         "last_name_label": "שם משפחה",
         "optional_last_name_label": "שם משפחה ",
-        "address_title": "כתובת מלאה "
+        "address_title": "כתובת מלאה ",
+        "address1_label": "כתובת מלאה ",
+        "address2_label": "רחוב ומס׳ דירה ",
+        "optional_address2_label": "רחוב ומס׳ דירה ",
+        "different_shipping_address_label": "כתובת שונה למשלוח",
+        "different_shipping_address_text": "זהה לכתובת למשלוח"
       },
       "review": {
         "blocks": {
