@@ -331,6 +331,9 @@
         "additional_information": {
           "title": "שיטת משלוח"
         }
+      },
+      "billing": {
+        "billing_address_title": "כתובת לחיוב "
       }
     }
   }
