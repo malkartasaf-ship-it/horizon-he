@@ -204,7 +204,11 @@
         "address1_label": "רחוב ומס׳ דירה ",
         "city_label": "עיר",
         "country_label": "מדינה",
-        "address2_label": "פרטים נוספים על הכתובת "
+        "address2_label": "פרטים נוספים על הכתובת ",
+        "optional_address2_label": "פרטים נוספים על הכתובת ",
+        "country_code": "מיקוד ( לא חובה )",
+        "county_label": "מדינה",
+        "county_placeholder": "מדינה "
       }
     }
   }
