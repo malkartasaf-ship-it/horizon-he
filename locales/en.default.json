@@ -320,7 +320,12 @@
         "card_number_label": "מס׳ כרטיס ",
         "card_number_placeholder": "מס׳ כרטיס ",
         "card_pay_with": "תשלום דרך : ",
-        "card_security_notice": "תשלום מאובטח 100%"
+        "card_security_notice": "תשלום מאובטח 100%",
+        "name_on_card_label": "שם של בעל הכרטיס ",
+        "name_on_card_placeholder": "שם של בעל הכרטיס ",
+        "card_expired": "תוקף",
+        "delete_customer_mandate_modal_confirm": "הסר כרטיס",
+        "delete_customer_mandate_modal_cancel": "ביטול"
       },
       "localized_fields": {
         "additional_information": {
