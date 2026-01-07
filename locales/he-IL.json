@@ -407,7 +407,9 @@
       "field_errors": {
         "address_address1_blank": "הכנס כתובת",
         "address_last_name_blank": "הזן שם משפחה",
-        "address_city_blank": "הזן עיר "
+        "address_city_blank": "הזן עיר ",
+        "email_or_phone_blank": "הזן אימייל",
+        "email_blank": "הזן אימייל"
       },
       "wallets": {
         "errors": {
