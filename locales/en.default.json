@@ -314,7 +314,7 @@
         "add_shipping_address": "הוסף כתובת משלוח "
       },
       "payment": {
-        "title": "אמצעי תשלום",
+        "title": "בחרו אמצעי תשלום",
         "discount_button_action_label": "קוד קופון ",
         "credit_card_vaulting_sign_in_banner_title": "שמור פרטי כרטיס לקניות הבאות",
         "card_number_label": "מס׳ כרטיס ",
