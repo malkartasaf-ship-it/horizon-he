@@ -203,7 +203,10 @@
         "address2_label": "רחוב ומס׳ דירה ",
         "optional_address2_label": "רחוב ומס׳ דירה ",
         "different_shipping_address_label": "כתובת שונה למשלוח",
-        "different_shipping_address_text": "זהה לכתובת למשלוח"
+        "different_shipping_address_text": "זהה לכתובת למשלוח",
+        "postal_code_label": "מיקוד ",
+        "optional_postal_code_label": "מיקוד ( לא חובה ) ",
+        "postal_code_placeholder": "מיקוד ( לא חובה ) "
       },
       "review": {
         "blocks": {
