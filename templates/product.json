@@ -178,8 +178,8 @@
               "type": "variant-picker",
               "settings": {
                 "variant_style": "buttons",
-                "show_swatches": false,
-                "alignment": "left",
+                "show_swatches": true,
+                "alignment": "right",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
