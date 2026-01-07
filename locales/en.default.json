@@ -188,6 +188,9 @@
         "choose_billing_address": "בחר כתובת לחיוב",
         "tooltip_accessibility_label": "עוד פרטים",
         "full_price": "מחיר מלא : "
+      },
+      "contact": {
+        "address_title": "כתובת"
       }
     }
   }
