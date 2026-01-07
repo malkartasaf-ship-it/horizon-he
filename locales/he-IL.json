@@ -212,7 +212,8 @@
       },
       "review": {
         "blocks": {
-          "contact_method_title": "פרטי המזמין"
+          "contact_method_title": "פרטי המזמין",
+          "shipping_method_title": "שיטת משלוח"
         }
       },
       "shop_policies": {
@@ -235,7 +236,8 @@
         "free_total_label": "חינם "
       },
       "shipping": {
-        "delivery_title": "פרטי משלוח"
+        "delivery_title": "פרטי משלוח",
+        "shipping_method_title": "Shipping method"
       },
       "wallets": {
         "errors": {
@@ -247,13 +249,19 @@
       },
       "customer_account": {
         "save_my_information_label": "שמור מידע זה לפעם הבאה"
+      },
+      "thank_you": {
+        "shipping_method_title": "שיטת משלוח"
       }
     }
   },
   "customer_accounts": {
     "order_details": {
       "contact": "פרטי המזמין",
-      "contact_information": "פרטי המזמין"
+      "contact_information": "פרטי המזמין",
+      "shipping": {
+        "method": "שיטת משלוח"
+      }
     }
   }
 }
