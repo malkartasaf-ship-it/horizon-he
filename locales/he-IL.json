@@ -187,7 +187,8 @@
         "choose_payment_method": "בחרו אמצעי תשלום",
         "choose_billing_address": "בחר כתובת לחיוב",
         "tooltip_accessibility_label": "עוד פרטים",
-        "full_price": "מחיר מלא : "
+        "full_price": "מחיר מלא : ",
+        "autocomplete_multi_item": "מוצר "
       },
       "contact": {
         "address_title": "כתובת",
@@ -261,6 +262,9 @@
         },
         "price_and_quantity_update": {
           "title": "מחיר וכמות עודכנו"
+        },
+        "item_label": {
+          "other": "מוצר "
         }
       },
       "contextual_availability": {
