@@ -286,7 +286,25 @@
         "sale_price": "מחיר מבצע ",
         "total_updated_label": "מחיר מעודכן : ",
         "order_total_updated_label": "מחיר עודכן ",
-        "total_already_paid_label": "שולם"
+        "total_already_paid_label": "שולם",
+        "more_items_modal": {
+          "search_item": "חפש"
+        },
+        "discount_title_stacking": {
+          "one": "הנחה ",
+          "other": "הנחה"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "משלוח לכתובת "
+        },
+        "discount_discovery": {
+          "add_code": "הוסף קוד קופון"
+        }
+      },
+      "shipping": {
+        "title": "משלוח",
+        "delivery_title": "משלוח ",
+        "free_rate_label": "חינם"
       }
     }
   }
