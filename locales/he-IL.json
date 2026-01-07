@@ -319,7 +319,8 @@
         "back": "חזור",
         "address_edit": "ערוך כתובת משלוח",
         "address_delete": "מחק כתובת משלוח",
-        "add_shipping_address": "הוסף כתובת משלוח "
+        "add_shipping_address": "הוסף כתובת משלוח ",
+        "shipping_method_title": "שיטת משלוח"
       },
       "payment": {
         "title": "בחרו אמצעי תשלום",
