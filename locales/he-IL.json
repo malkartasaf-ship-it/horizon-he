@@ -196,5 +196,10 @@
         }
       }
     }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "contact": "פרטי המזמין"
+    }
   }
 }
