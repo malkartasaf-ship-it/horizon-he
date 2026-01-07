@@ -338,7 +338,8 @@
         "delete_customer_mandate_modal_cancel": "ביטול",
         "billing_address_title": "כתובת לחיוב",
         "same_billing_address_label": "זהה לכתובת למשלוח",
-        "different_billing_address_label": "השתמש בכתובת חיוב שונה"
+        "different_billing_address_label": "השתמש בכתובת חיוב שונה",
+        "offsite_gateway_redirect_hint": "לאחר לחיצה על \"המשיכו לתשלום\", תופנה לבחרית אמצעי תשלום."
       },
       "localized_fields": {
         "additional_information": {
