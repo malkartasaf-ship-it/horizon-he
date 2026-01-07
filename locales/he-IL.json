@@ -206,7 +206,8 @@
         "different_shipping_address_text": "זהה לכתובת למשלוח",
         "postal_code_label": "מיקוד ",
         "optional_postal_code_label": "מיקוד ( לא חובה ) ",
-        "postal_code_placeholder": "מיקוד ( לא חובה ) "
+        "postal_code_placeholder": "מיקוד ( לא חובה ) ",
+        "city_label": "עיר "
       },
       "review": {
         "blocks": {
@@ -226,13 +227,22 @@
         "email_invalid": "הזן כתובת מייל",
         "email_or_phone_blank": "הזן כתובת מייל",
         "email_or_phone_invalid": "הזן כתובת מייל",
-        "email_blank": "הזן כתובת מייל"
+        "email_blank": "הזן כתובת מייל",
+        "address_city_blank": "הזן עיר "
       },
       "delivery_options": {
         "free_total_label": "חינם "
       },
       "shipping": {
         "delivery_title": "פרטי משלוח"
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "city": "עיר ",
+            "billing_city": "עיר "
+          }
+        }
       }
     }
   },
