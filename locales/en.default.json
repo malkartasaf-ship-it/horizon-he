@@ -243,7 +243,50 @@
         "remove": "הסר",
         "return_to_store_label": "חזרו לחנות",
         "continue_cta_label": "המשיכו לחנות",
-        "empty_cart_label": "העגלה שלך ריקה"
+        "empty_cart_label": "העגלה שלך ריקה",
+        "quantity_update": {
+          "page_title": "עדכן כמות",
+          "title": "הכמות עודכנה"
+        },
+        "unfulfillable_product": {
+          "title": "משלוח לא זמין"
+        },
+        "unshippable_product": {
+          "title": "משלוח לא זמין"
+        },
+        "price_update": {
+          "title": "עדכן מחיר ",
+          "updated_price": "עדכן מחיר "
+        },
+        "price_and_quantity_update": {
+          "title": "מחיר וכמות עודכנו"
+        }
+      },
+      "contextual_availability": {
+        "unavailable_label": "לא זמין"
+      },
+      "order_summary": {
+        "discount_has_been_applied": "קוד קופון הוחל",
+        "discount_has_been_removed": "קוד קופון הוסר",
+        "discount_code_aria_text": "קוד קופון",
+        "total_savings": "סה״כ חסכתם",
+        "total_label": "סה״כ",
+        "total_paid_label": "סה״כ שולם",
+        "total_price_label": "סה״כ",
+        "cost_table_item_column_header": "מוצר ",
+        "price_label": "מחיר ",
+        "quantity_label": "כמות",
+        "product_change_label": "לשנות",
+        "product_image_label": "תמונת מוצר ",
+        "product_image_quantity_label": "כמות",
+        "scroll_order_summary": "גללו לעוד מוצרים",
+        "expand_order_summary_short": "צפו",
+        "collapse_order_summary_short": "הסתר",
+        "original_price": "מחיר מקורי ",
+        "sale_price": "מחיר מבצע ",
+        "total_updated_label": "מחיר מעודכן : ",
+        "order_total_updated_label": "מחיר עודכן ",
+        "total_already_paid_label": "שולם"
       }
     }
   }
