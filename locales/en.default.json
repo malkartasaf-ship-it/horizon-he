@@ -314,7 +314,13 @@
         "add_shipping_address": "הוסף כתובת משלוח "
       },
       "payment": {
-        "title": "אמצעי תשלום"
+        "title": "אמצעי תשלום",
+        "discount_button_action_label": "קוד קופון ",
+        "credit_card_vaulting_sign_in_banner_title": "שמור פרטי כרטיס לקניות הבאות",
+        "card_number_label": "מס׳ כרטיס ",
+        "card_number_placeholder": "מס׳ כרטיס ",
+        "card_pay_with": "תשלום דרך : ",
+        "card_security_notice": "תשלום מאובטח 100%"
       }
     }
   }
