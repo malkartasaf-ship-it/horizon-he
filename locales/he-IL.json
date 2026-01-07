@@ -167,186 +167,18 @@
     "price": "₪ {{ price }}",
     "discount": "קוד קופון",
     "discount_code": "קוד קופון",
-    "cart_estimated_total": "₪  סה״כ ",
+    "cart_estimated_total": " סה״כ ",
     "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "מיסים ומשלוח יחושבו בצ׳קאאוט",
     "price_filter_html": "סינון לפי מחיר"
   },
   "shopify": {
     "checkout": {
       "order_summary": {
-        "discount_code_aria_text": "קוד קופון",
-        "subtotal_label": "סך הכל",
-        "subtotal_label_with_quantity": {
-          "one": "סך הכל",
-          "other": "סך הכל"
-        },
-        "shipping_label": "משלוח",
-        "free_shipping_total_label": "חינם",
-        "order_total_label": "סה״כ",
-        "total_label": "סה״כ",
-        "total_paid_label": "סה״כ",
-        "total_price_label": "סה״כ",
-        "partial_total_label": "סה״כ",
-        "free_total_label": "חינם"
+        "discount_code_aria_text": "קוד קופון"
       },
       "general": {
-        "complete_purchase_button_label": "השלימו את ההזמנה",
-        "page_title": "עמוד תשלום",
-        "error_page_title": "שגיאה",
-        "continue_button_label": "המשיכו לתשלום",
-        "pay_now_button_label": "בחרו אמצעי תשלום",
-        "choose_billing_address": "בחרו כתובת לחיוב ",
-        "choose_shipping_method": "שיטת משלוח "
-      },
-      "contact": {
-        "title": "פרטי המזמין",
-        "contact_method_title": "פרטי המזמין",
-        "email_label": "כתובת מייל",
-        "email_rollup_accessibility_label": "כתובת מייל",
-        "email_placeholder": "כתובת מייל",
-        "email_or_phone_label": "כתובת מייל או מס׳ נייד ",
-        "email_or_phone_placeholder": "כתובת מייל או מס׳ נייד ",
-        "delivery_option_title": "פרטי משלוח",
-        "country_label": "מדינה",
-        "first_name_label": "שם פרטי ",
-        "optional_first_name_label": "שם פרטי ",
-        "last_name_label": "שם משפחה",
-        "optional_last_name_label": "שם משפחה ",
-        "address_title": "כתובת מלאה ",
-        "address1_label": "כתובת מלאה ",
-        "address2_label": "רחוב ומס׳ דירה ",
-        "optional_address2_label": "רחוב ומס׳ דירה ",
-        "different_shipping_address_label": "כתובת שונה למשלוח",
-        "different_shipping_address_text": "זהה לכתובת למשלוח",
-        "postal_code_label": "מיקוד ",
-        "optional_postal_code_label": "מיקוד ( לא חובה ) ",
-        "postal_code_placeholder": "מיקוד ( לא חובה ) ",
-        "city_label": "עיר "
-      },
-      "review": {
-        "blocks": {
-          "contact_method_title": "פרטי המזמין",
-          "shipping_method_title": "שיטת משלוח"
-        }
-      },
-      "shop_policies": {
-        "contact_information": "פרטי המזמין",
-        "privacy_policy": "מדיניות הפרטיות"
-      },
-      "notice_banner": {
-        "contact_information": {
-          "title": "פרטי המזמין"
-        }
-      },
-      "field_errors": {
-        "handle_email_invalid": "הזן כתובת מייל",
-        "email_invalid": "הזן כתובת מייל",
-        "email_or_phone_blank": "הזן כתובת מייל",
-        "email_or_phone_invalid": "הזן כתובת מייל",
-        "email_blank": "הזן כתובת מייל",
-        "address_city_blank": "הזן עיר ",
-        "address_last_name_blank": "הזן שם משפחה",
-        "address_address1_blank": "הזן כתובת"
-      },
-      "delivery_options": {
-        "free_total_label": "חינם "
-      },
-      "shipping": {
-        "delivery_title": "פרטי משלוח",
-        "shipping_method_title": "שיטת משלוח",
-        "shipping_method_rollup_accessibility_label": "שיטת משלוח",
-        "title": "משלוח",
-        "free_rate_label": "חינם"
-      },
-      "wallets": {
-        "errors": {
-          "missing": {
-            "city": "עיר ",
-            "billing_city": "עיר ",
-            "last_name": "הזן שם משפחה",
-            "address1": "הזן כתובת"
-          }
-        }
-      },
-      "customer_account": {
-        "save_my_information_label": "שמור מידע זה לפעם הבאה"
-      },
-      "thank_you": {
-        "shipping_method_title": "שיטת משלוח",
-        "payment_information_title": "אמצעי תשלום",
-        "billing_address_title": "כתובת לחיוב "
-      },
-      "payment": {
-        "payment_method": "תשלום",
-        "title": "תשלום",
-        "card_security_notice": "כל העסקאות מאובטחות ומוצפנות. פרטי כרטיס אשראי לעולם אינם נשמרים.",
-        "offsite_gateway_redirect_hint": "ניתן לשלם דרך ויזה | bit | פייבוקס | apple google pay ",
-        "billing_address_title": "כתובת לחיוב ",
-        "same_billing_address_label": "זהה לכתובת למשלוח",
-        "different_billing_address_label": "השתמש בכתובת חיוב שונה",
-        "markets_pro_disclaimer_privacy_policy": "מדיניות הפרטיות"
-      },
-      "alternative_payment_method_banner": {
-        "or": "או "
-      },
-      "payment_summary": {
-        "billing_address_title": "כתובת לחיוב "
-      },
-      "billing": {
-        "same_as_shipping": "זהה לכתובת למשלוח"
-      },
-      "marketing": {
-        "disclaimer": {
-          "privacy_policy": "מדיניות הפרטיות"
-        },
-        "sms": {
-          "disclaimer": {
-            "privacy_policy": "מדיניות הפרטיות"
-          }
-        }
-      },
-      "mor_policies": {
-        "privacy_policy": "מדיניות הפרטיות"
+        "complete_purchase_button_label": "השלימו את ההזמנה"
       }
-    }
-  },
-  "customer_accounts": {
-    "order_details": {
-      "contact": "פרטי המזמין",
-      "contact_information": "פרטי המזמין",
-      "shipping": {
-        "method": "שיטת משלוח"
-      },
-      "payment": {
-        "title": "תשלום",
-        "transactions": {
-          "payment_details": "תשלום"
-        }
-      },
-      "billing_address": "כתובת לחיוב ",
-      "subtotal": "סך הכל"
-    },
-    "payment_methods": {
-      "or": "או",
-      "edit_payment_method": {
-        "billing_address": "כתובת לחיוב "
-      },
-      "update_payment_method": {
-        "billing_address": "כתובת לחיוב "
-      },
-      "add_payment_method": {
-        "billing_address": {
-          "title": "כתובת לחיוב "
-        }
-      }
-    },
-    "addresses": {
-      "edit_modal_title": {
-        "billing": "ערוך כתובת לחיוב "
-      }
-    },
-    "address_form": {
-      "billing_address": "כתובת לחיוב "
     }
   }
 }
