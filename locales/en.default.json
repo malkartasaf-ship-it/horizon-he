@@ -312,6 +312,9 @@
         "address_edit": "ערוך כתובת משלוח",
         "address_delete": "מחק כתובת משלוח",
         "add_shipping_address": "הוסף כתובת משלוח "
+      },
+      "payment": {
+        "title": "אמצעי תשלום"
       }
     }
   }
