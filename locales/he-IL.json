@@ -257,7 +257,8 @@
       },
       "payment": {
         "payment_method": "תשלום",
-        "title": "תשלום"
+        "title": "תשלום",
+        "card_security_notice": "כל העסקאות מאובטחות ומוצפנות. פרטי כרטיס אשראי לעולם אינם נשמרים."
       },
       "alternative_payment_method_banner": {
         "or": "או "
