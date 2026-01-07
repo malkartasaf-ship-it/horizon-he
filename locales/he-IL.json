@@ -162,7 +162,7 @@
     "quantity": "כמות",
     "product_total": "₪ {{ total }}",
     "price": "₪ {{ price }}",
-    "discount": "הנחה",
+    "discount": "קוד קופון",
     "cart_estimated_total": "₪  סה״כ ",
     "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "מיסים ומשלוח יחושבו בצ׳קאאוט"
   },
