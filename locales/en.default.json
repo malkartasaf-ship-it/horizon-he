@@ -142,5 +142,7 @@
     "blog_post_date": "תאריך",
     "blog_post_description": "תקציר הפוסט"
   },
-  "your_cart_is_empty": "הסל שלך ריק"
+"content": {
+    "your_cart_is_empty": "הסל שלך ריק"
+}
 }
