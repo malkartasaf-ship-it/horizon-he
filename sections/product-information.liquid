@@ -11,17 +11,39 @@
     closest.product: closest.product
   -%}
 {% endcapture %}
-<div class="custom-product-fields" style="margin-bottom:20px; padding:10px; border:1px solid #ddd; border-radius:6px;">
+
+{% capture product_details %}
+  {% content_for 'block',
+    type: '_product-details',
+    id: 'product-details',
+    closest.product: closest.product
+  %}
+{% endcapture %}
+
+{% capture additional_blocks %}
+  {% content_for 'blocks' %}
+{% endcapture %}
+
+{% if section.settings.enable_sticky_add_to_cart %}
+  {% liquid
+    assign current_variant = product.selected_or_first_available_variant
+    # Get the initial quantity based on quantity rules
+    assign initial_quantity = current_variant.quantity_rule.min | default: 1
+  %}
+<div class="custom-product-fields" style="margin-bottom:10px; text-align:right; font-family: Heebo, sans-serif; font-size:14px;">
+
   <!-- שדה כיתוב -->
-  <label for="custom_text" style="display:block; font-weight:600; margin-bottom:5px;">כיתוב להדפסה:</label>
-  <input type="text" id="custom_text" name="properties[כיתוב]" placeholder="למשל: שם, תאריך" style="width:100%; padding:8px; margin-bottom:10px; border:1px solid #ccc; border-radius:4px;">
+  <label for="custom_text" style="display:block; margin-bottom:3px; font-weight:500;">הוספת כיתוב:</label>
+  <input type="text" id="custom_text" name="properties[כיתוב]" placeholder="למשל: שם, תאריך" 
+         style="width:100%; padding:4px; border:1px solid #ccc; margin-bottom:8px; text-align:right; font-size:14px;">
 
   <!-- שדה העלאת תמונה -->
-  <label for="custom_image" style="display:block; font-weight:600; margin-bottom:5px;">בחר תמונה:</label>
-  <input type="file" id="custom_image" name="properties[תמונה]" accept="image/*" style="width:100%; padding:5px;">
+  <label for="custom_image" style="display:block; margin-bottom:3px; font-weight:500;">העלאת תמונה:</label>
+  <input type="file" id="custom_image" name="properties[תמונה]" accept="image/*" 
+         style="width:100%; padding:2px; border:1px solid #ccc; font-size:14px; text-align:right;">
 
   <!-- פריוויו תמונה -->
-  <img id="preview_image" src="" style="max-width:100px; display:block; margin-top:10px; display:none;">
+  <img id="preview_image" src="" style="max-width:80px; display:block; margin-top:5px; display:none; float:right;">
 </div>
 
 <script>
@@ -41,25 +63,6 @@
     reader.readAsDataURL(file);
   });
 </script>
-{% capture product_details %}
-  {% content_for 'block',
-    type: '_product-details',
-    id: 'product-details',
-    closest.product: closest.product
-  %}
-{% endcapture %}
-
-{% capture additional_blocks %}
-  {% content_for 'blocks' %}
-{% endcapture %}
-
-{% if section.settings.enable_sticky_add_to_cart %}
-  {% liquid
-    assign current_variant = product.selected_or_first_available_variant
-    # Get the initial quantity based on quantity rules
-    assign initial_quantity = current_variant.quantity_rule.min | default: 1
-  %}
-
   <sticky-add-to-cart
     class="sticky-add-to-cart"
     data-variant-available="{{ current_variant.available }}"
