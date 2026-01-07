@@ -253,7 +253,8 @@
       },
       "thank_you": {
         "shipping_method_title": "שיטת משלוח",
-        "payment_information_title": "אמצעי תשלום"
+        "payment_information_title": "אמצעי תשלום",
+        "billing_address_title": "כתובת לחיוב "
       },
       "payment": {
         "payment_method": "תשלום",
@@ -263,6 +264,9 @@
       },
       "alternative_payment_method_banner": {
         "or": "או "
+      },
+      "payment_summary": {
+        "billing_address_title": "כתובת לחיוב "
       }
     }
   },
@@ -278,10 +282,30 @@
         "transactions": {
           "payment_details": "תשלום"
         }
-      }
+      },
+      "billing_address": "כתובת לחיוב "
     },
     "payment_methods": {
-      "or": "או"
+      "or": "או",
+      "edit_payment_method": {
+        "billing_address": "כתובת לחיוב "
+      },
+      "update_payment_method": {
+        "billing_address": "כתובת לחיוב "
+      },
+      "add_payment_method": {
+        "billing_address": {
+          "title": "כתובת לחיוב "
+        }
+      }
+    },
+    "addresses": {
+      "edit_modal_title": {
+        "billing": "ערוך כתובת לחיוב "
+      }
+    },
+    "address_form": {
+      "billing_address": "כתובת לחיוב "
     }
   }
 }
