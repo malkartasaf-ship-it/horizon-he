@@ -237,7 +237,8 @@
       },
       "shipping": {
         "delivery_title": "פרטי משלוח",
-        "shipping_method_title": "Shipping method"
+        "shipping_method_title": "שיטת משלוח",
+        "shipping_method_rollup_accessibility_label": "שיטת משלוח"
       },
       "wallets": {
         "errors": {
