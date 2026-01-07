@@ -1,0 +1,19 @@
+/* ------------------------------------------------------------
+   מחירים בעברית עם פונט תומך ₪
+   ------------------------------------------------------------ */
+.money,
+.cart .money,
+.product-price .money,
+.price,
+.cart-total {
+  font-family: 'Heebo', sans-serif; /* או כל פונט אחר שתבחר */
+  font-weight: 500; /* אפשר להדגיש מעט */
+  direction: ltr; /* שומר על סימן ₪ משמאל למספר */
+  unicode-bidi: embed;
+}
+
+/* אם יש כיתוב "סה"כ" או "סה"כ בסל" ליד המחיר */
+.cart-total-label,
+.cart-subtotal-label {
+  font-family: 'Heebo', sans-serif;
+}
