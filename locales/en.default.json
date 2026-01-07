@@ -221,6 +221,29 @@
         "postcode_label": "מיקוד ( לא חובה ) ",
         "optional_postcode_label": "מיקוד ( לא חובה ) ",
         "postcode_placeholder": "מיקוד ( לא חובה ) "
+      },
+      "delivery_options": {
+        "free_total_label": "משלוח חינם ",
+        "pick_up": "איסוף עצמי"
+      },
+      "remote_merchandise_only": {
+        "title": "השלימו פרטי תשלום",
+        "return_to_store_label": "חזרו לחנות"
+      },
+      "stock": {
+        "title": "חסר במלאי",
+        "product_column_header": "מוצר",
+        "quantity_column_header": "כמות",
+        "price_column_header": "מחיר ",
+        "status_column_header": "סטטוס",
+        "removed_from_cart_notice": "הסירו מהעגלה",
+        "sold_out_label": "חסר במלאי",
+        "continue_shopping_button_label": "המשיכו",
+        "go_back_to_cart_button_label": "חזרו לעגלת הקניות",
+        "remove": "הסר",
+        "return_to_store_label": "חזרו לחנות",
+        "continue_cta_label": "המשיכו לחנות",
+        "empty_cart_label": "העגלה שלך ריקה"
       }
     }
   }
