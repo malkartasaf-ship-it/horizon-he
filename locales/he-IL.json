@@ -406,13 +406,15 @@
       },
       "field_errors": {
         "address_address1_blank": "הכנס כתובת",
-        "address_last_name_blank": "הזן שם משפחה"
+        "address_last_name_blank": "הזן שם משפחה",
+        "address_city_blank": "הזן עיר "
       },
       "wallets": {
         "errors": {
           "missing": {
             "address1": "הכנס כתובת",
-            "last_name": "הזן שם משפחה"
+            "last_name": "הזן שם משפחה",
+            "city": "הזן עיר "
           }
         }
       }
