@@ -181,7 +181,12 @@
       },
       "contact": {
         "title": "פרטי המזמין",
-        "contact_method_title": "פרטי המזמין"
+        "contact_method_title": "פרטי המזמין",
+        "email_label": "כתובת מייל",
+        "email_rollup_accessibility_label": "כתובת מייל",
+        "email_placeholder": "כתובת מייל",
+        "email_or_phone_label": "כתובת מייל או מס׳ נייד ",
+        "email_or_phone_placeholder": "כתובת מייל או מס׳ נייד "
       },
       "review": {
         "blocks": {
