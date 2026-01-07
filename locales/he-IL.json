@@ -304,7 +304,9 @@
         "subtotal_label": "סה״כ",
         "shipping_label": "משלוח",
         "estimated_taxes_label": "מיסים",
-        "estimated_taxes_finalization_tooltip_content": "המס הסופי והסכום הכולל יאושרו באמצעות דוא\"ל או הודעת טקסט לאחר מכן"
+        "estimated_taxes_finalization_tooltip_content": "המס הסופי והסכום הכולל יאושרו באמצעות דוא\"ל או הודעת טקסט לאחר מכן",
+        "free_total_label": "חינם ",
+        "free_shipping_total_label": "חינם"
       },
       "shipping": {
         "title": "משלוח",
