@@ -192,7 +192,11 @@
         "email_or_phone_label": "כתובת מייל או מס׳ נייד ",
         "email_or_phone_placeholder": "כתובת מייל או מס׳ נייד ",
         "delivery_option_title": "פרטי משלוח",
-        "country_label": "מדינה"
+        "country_label": "מדינה",
+        "first_name_label": "שם פרטי ",
+        "optional_first_name_label": "שם פרטי ",
+        "last_name_label": "שם משפחה",
+        "optional_last_name_label": "שם משפחה "
       },
       "review": {
         "blocks": {
