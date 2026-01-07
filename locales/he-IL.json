@@ -147,6 +147,10 @@
     "blog_post_description": "תקציר הפוסט"
   },
 
+  "fields": {
+    "separator": "-"
+  },
+
   "content": {
     "your_cart_is_empty": "הסל שלך ריק",
     "no_products_found": "לא נמצאו מוצרים",
@@ -170,7 +174,8 @@
     "discount": "קוד קופון",
     "discount_code": "קוד קופון",
     "cart_estimated_total": "₪  סה״כ ",
-    "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "מיסים ומשלוח יחושבו בצ׳קאאוט"
+    "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "מיסים ומשלוח יחושבו בצ׳קאאוט",
+    "price_filter_html": "סינון לפי מחיר"
   },
 
   "shopify": {
