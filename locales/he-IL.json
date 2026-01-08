@@ -179,7 +179,8 @@
         "discount_code_aria_text": " הוסף קוד קופון ",
         "free_shipping_discount_label": "משלוח חינם",
         "free_total_label": "חינם",
-        "free_shipping_total_label": "חינם"
+        "free_shipping_total_label": "חינם",
+        "subtotal_label": "סך הכל"
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
@@ -262,7 +263,8 @@
       "shipping": {
         "free": "חינם",
         "free_shipping_discount": "חינם"
-      }
+      },
+      "subtotal": "סך הכל"
     },
     "payment_methods": {
       "card_fields": {
