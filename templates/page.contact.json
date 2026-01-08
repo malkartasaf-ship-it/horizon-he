@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "main": {
       "type": "main-page",
@@ -62,11 +63,38 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "text_yPdbbj": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>ימי העסקים הם א׳ - ה׳, למעט שישי שבת, וחגים</p><p>מהשעה 09:00 ועד 17:00 בערב</p><p>הזמנות שייכנסו אחרי השעה 17:00 ייחשבו ביום שלמחרת </p><p>זמינים בשבילכם</p><p>בימים א׳-ה׳ בין השעות 9:00-17:00</p><p>זמינים בוואטצאפ : <a href=\"tel:055-9699005\">055-9699005</a></p><p>כתובת : חריש, רובין 19 </p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "title",
-        "content"
+        "content",
+        "text_yPdbbj"
       ],
       "settings": {
         "content_direction": "column",
