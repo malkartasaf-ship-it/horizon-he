@@ -14,7 +14,7 @@
     "footer_m9NzUG": {
       "type": "footer",
       "blocks": {
-        "email_signup_ndNJHJ": {
+        "email_signup_7xYrdE": {
           "type": "email-signup",
           "name": "t:names.email_signup",
           "settings": {
@@ -22,7 +22,7 @@
             "custom_width": 100,
             "inherit_color_scheme": true,
             "color_scheme": "",
-            "heading": "קבלו קוד קופון של 10% הנחה על ההזמנה הראשונה",
+            "heading": "",
             "heading_preset": "h3",
             "border_style": "all",
             "border_width": 1,
@@ -30,7 +30,7 @@
             "input_type_preset": "paragraph",
             "style_class": "button",
             "display_type": "text",
-            "label": "הירשמו",
+            "label": "Sign up",
             "integrated_button": false,
             "button_type_preset": "paragraph",
             "padding-block-start": 0,
@@ -42,7 +42,12 @@
         }
       },
       "block_order": [
-        "email_signup_ndNJHJ"
+        "email_signup_7xYrdE"
+      ],
+      "custom_css": [
+        "input[type=\"email\"]{padding:8px;border-radius:4px;border:1px solid #ccc;width:65%}",
+        "button{padding:8px;background:#28a745;color:#fff;border:none;border-radius:0 4px 4px 0;cursor:pointer}",
+        "button:hover{background:#218838}"
       ],
       "name": "t:names.footer",
       "settings": {
