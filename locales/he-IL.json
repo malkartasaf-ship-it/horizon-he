@@ -193,7 +193,8 @@
         "address1_label": "רחוב ומס׳ דירה ",
         "city_label": "עיר ",
         "postcode_label": "מיקוד ",
-        "optional_postcode_label": "מיקוד ( לא חובה ) "
+        "optional_postcode_label": "מיקוד ( לא חובה ) ",
+        "postcode_placeholder": "מיקוד ( לא חובה ) "
       },
       "review": {
         "blocks": {
@@ -206,6 +207,9 @@
       "shipping": {
         "delivery_title": "פרטים נוספים "
       }
+    },
+    "addresses": {
+      "postcode": "מיקוד ( לא חובה ) "
     }
   },
   "customer_accounts": {
