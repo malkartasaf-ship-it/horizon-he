@@ -188,6 +188,10 @@
         "total_savings": "סה״כ נחסך בהזמנה ",
         "discount_discovery": {
           "add_code": "הוסף קוד קופון "
+        },
+        "subtotal_label_with_quantity": {
+          "one": "סך הכל",
+          "other": "סך הכל"
         }
       },
       "general": {
