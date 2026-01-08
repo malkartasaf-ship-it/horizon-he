@@ -211,6 +211,9 @@
       },
       "shipping": {
         "delivery_title": "פרטים נוספים "
+      },
+      "customer_account": {
+        "save_my_information_label": "שמור מידע זה לפעם הבאה"
       }
     },
     "addresses": {
