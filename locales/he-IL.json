@@ -176,7 +176,10 @@
   "shopify": {
     "checkout": {
       "order_summary": {
-        "discount_code_aria_text": " הוסף קוד קופון "
+        "discount_code_aria_text": " הוסף קוד קופון ",
+        "free_shipping_discount_label": "משלוח חינם",
+        "free_total_label": "חינם",
+        "free_shipping_total_label": "חינם"
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
@@ -212,10 +215,18 @@
       },
       "shipping": {
         "delivery_title": "פרטים נוספים ",
-        "shipping_method_title": "איך מקבלים את האיור "
+        "shipping_method_title": "איך מקבלים את האיור ",
+        "free_rate_label": "חינם",
+        "split_shipping_option_free": "חינם"
       },
       "customer_account": {
         "save_my_information_label": "שמור מידע זה לפעם הבאה"
+      },
+      "delivery_options": {
+        "free_total_label": "חינם"
+      },
+      "payment_summary": {
+        "free_label": "חינם"
       }
     },
     "addresses": {
@@ -224,7 +235,11 @@
   },
   "customer_accounts": {
     "order_details": {
-      "contact": "פרטי המזמין"
+      "contact": "פרטי המזמין",
+      "shipping": {
+        "free": "חינם",
+        "free_shipping_discount": "חינם"
+      }
     }
   }
 }
