@@ -182,8 +182,22 @@
         "complete_purchase_button_label": "השלימו את ההזמנה"
       },
       "contact": {
-        "title": "פרטי המזמין"
+        "title": "פרטי המזמין",
+        "contact_method_title": "פרטי המזמין"
+      },
+      "review": {
+        "blocks": {
+          "contact_method_title": "פרטי המזמין"
+        }
+      },
+      "shop_policies": {
+        "contact_information": "פרטי המזמין"
       }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "contact": "פרטי המזמין"
     }
   }
 }
