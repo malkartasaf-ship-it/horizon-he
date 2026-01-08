@@ -194,7 +194,10 @@
         "city_label": "עיר ",
         "postcode_label": "מיקוד ",
         "optional_postcode_label": "מיקוד ( לא חובה ) ",
-        "postcode_placeholder": "מיקוד ( לא חובה ) "
+        "postcode_placeholder": "מיקוד ( לא חובה ) ",
+        "postal_code_label": "מיקוד ( לא חובה ) ",
+        "optional_postal_code_label": "מיקוד ( לא חובה ) ",
+        "postal_code_placeholder": "מיקוד ( לא חובה ) "
       },
       "review": {
         "blocks": {
