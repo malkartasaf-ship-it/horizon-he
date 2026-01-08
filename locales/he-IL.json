@@ -184,7 +184,8 @@
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
         "choose_shipping_method": "בחרו איך לקבל את האיור ",
-        "choose_billing_address": "כתובת לחיוב"
+        "choose_billing_address": "כתובת לחיוב",
+        "pay_now_button_label": "בחרו אמצעי תשלום"
       },
       "contact": {
         "title": "פרטי המזמין",
@@ -218,7 +219,10 @@
         "delivery_title": "פרטים נוספים ",
         "shipping_method_title": "איך מקבלים את האיור ",
         "free_rate_label": "חינם",
-        "split_shipping_option_free": "חינם"
+        "split_shipping_option_free": "חינם",
+        "duties_and_taxes_options": {
+          "ddp_title": "בחרו אמצעי תשלום"
+        }
       },
       "customer_account": {
         "save_my_information_label": "שמור מידע זה לפעם הבאה"
@@ -243,6 +247,9 @@
       },
       "billing": {
         "same_as_shipping": "זהה לכתובת המשלוח"
+      },
+      "order_payment_collection": {
+        "pay_now": "בחרו אמצעי תשלום"
       }
     },
     "addresses": {
