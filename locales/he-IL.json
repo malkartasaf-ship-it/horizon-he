@@ -229,7 +229,8 @@
         "free_label": "חינם"
       },
       "payment": {
-        "title": "תשלום"
+        "title": "תשלום",
+        "card_security_notice": "כל העסקאות מאובטחות ומוצפנות. פרטי כרטיס אשראי לעולם אינם נשמרים."
       }
     },
     "addresses": {
@@ -242,6 +243,13 @@
       "shipping": {
         "free": "חינם",
         "free_shipping_discount": "חינם"
+      }
+    },
+    "payment_methods": {
+      "card_fields": {
+        "tooltip": {
+          "card_security_notice": "כל העסקאות מאובטחות ומוצפנות. פרטי כרטיס אשראי לעולם אינם נשמרים."
+        }
       }
     }
   }
