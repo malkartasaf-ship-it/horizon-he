@@ -227,12 +227,17 @@
         "free_total_label": "חינם"
       },
       "payment_summary": {
-        "free_label": "חינם"
+        "free_label": "חינם",
+        "billing_address_title": "כתובת לחיוב"
       },
       "payment": {
         "title": "תשלום",
         "card_security_notice": "כל העסקאות מאובטחות ומוצפנות. פרטי כרטיס אשראי לעולם אינם נשמרים.",
-        "offsite_gateway_redirect_hint": "ניתן לשלם דרך ויזה | bit | פייבוקס | apple google pay | "
+        "offsite_gateway_redirect_hint": "ניתן לשלם דרך ויזה | bit | פייבוקס | apple google pay | ",
+        "billing_address_title": "כתובת לחיוב"
+      },
+      "thank_you": {
+        "billing_address_title": "כתובת לחיוב"
       }
     },
     "addresses": {
