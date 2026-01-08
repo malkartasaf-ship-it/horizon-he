@@ -52,7 +52,7 @@
         "vertical_alignment_flex_direction_column": "flex-end",
         "gap": 0,
         "section_width": "full-width",
-        "section_height": "auto",
+        "section_height": "large",
         "section_height_custom": 38,
         "color_scheme": "scheme-6",
         "toggle_overlay": false,
@@ -62,7 +62,7 @@
         "blurred_reflection": false,
         "reflection_opacity": 75,
         "padding-block-start": 100,
-        "padding-block-end": 72
+        "padding-block-end": 100
       }
     },
     "product_list_fa6P9H": {
