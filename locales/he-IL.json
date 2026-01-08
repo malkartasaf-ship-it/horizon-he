@@ -228,7 +228,8 @@
         "split_shipping_option_free": "חינם",
         "duties_and_taxes_options": {
           "ddp_title": "בחרו אמצעי תשלום"
-        }
+        },
+        "split_shipping_more_shipping_options": "אפשרות משלוח נוספת"
       },
       "customer_account": {
         "save_my_information_label": "שמור מידע זה לפעם הבאה"
