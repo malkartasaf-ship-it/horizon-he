@@ -238,9 +238,9 @@
           "ddp_title": "בחרו אמצעי תשלום"
         },
         "split_shipping_more_shipping_options": "אפשרות משלוח נוספת",
-        "split_shipping_shipment_notice": "אפשרות משלוח",
-        "split_shipping_multiple_shipment_notice": "אפשרות משלוח",
-        "split_shipping_multiple_shipment_notice_one_time_purchase": "אפשרות משלוח"
+        "split_shipping_shipment_notice": "משלוח",
+        "split_shipping_multiple_shipment_notice": "משלוח",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "משלוח"
       },
       "customer_account": {
         "save_my_information_label": "שמור מידע זה לפעם הבאה"
