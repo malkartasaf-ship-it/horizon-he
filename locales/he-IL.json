@@ -302,6 +302,12 @@
           "apply": "הפעל"
         }
       }
+    },
+    "addresses": {
+      "save_new_address_accessibility_label": "שמור "
+    },
+    "address_form": {
+      "save_accessibility_label": "שמור"
     }
   }
 }
