@@ -192,7 +192,8 @@
         "subtotal_label_with_quantity": {
           "one": "סך הכל",
           "other": "סך הכל"
-        }
+        },
+        "title": "סיכום הזמנה"
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
@@ -294,7 +295,8 @@
         "free": "חינם",
         "free_shipping_discount": "חינם"
       },
-      "subtotal": "סך הכל"
+      "subtotal": "סך הכל",
+      "summary_title": "סיכום הזמנה"
     },
     "payment_methods": {
       "card_fields": {
