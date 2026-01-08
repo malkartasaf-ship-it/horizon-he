@@ -185,7 +185,10 @@
         "title": "פרטי המזמין",
         "contact_method_title": "פרטי המזמין",
         "delivery_option_title": "פרטים נוספים ",
-        "country_label": "מדינה "
+        "country_label": "מדינה ",
+        "first_name_label": "שם פרטי ",
+        "optional_first_name_label": "שם פרטי ",
+        "last_name_label": "שם משפחה "
       },
       "review": {
         "blocks": {
