@@ -261,13 +261,15 @@
         "email_or_phone_blank": "הזן אימייל",
         "email_blank": "הזן אימייל",
         "address_last_name_blank": "הזן שם משפחה",
-        "address_address1_blank": "הזן כתובת"
+        "address_address1_blank": "הזן כתובת",
+        "address_city_blank": "הזן עיר"
       },
       "wallets": {
         "errors": {
           "missing": {
             "last_name": "הזן שם משפחה",
-            "address1": "הזן כתובת"
+            "address1": "הזן כתובת",
+            "city": "הזן עיר"
           }
         }
       }
