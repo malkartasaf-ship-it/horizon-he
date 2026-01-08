@@ -191,7 +191,9 @@
         "last_name_label": "שם משפחה ",
         "address_title": "רחוב ומס׳ דירה ",
         "address1_label": "רחוב ומס׳ דירה ",
-        "city_label": "עיר "
+        "city_label": "עיר ",
+        "postcode_label": "מיקוד ",
+        "optional_postcode_label": "מיקוד ( לא חובה ) "
       },
       "review": {
         "blocks": {
