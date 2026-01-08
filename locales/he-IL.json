@@ -185,7 +185,10 @@
         "total_label": "סה״כ",
         "discount_label": "קוד קופון",
         "apply_discount_button_label": "הפעל",
-        "total_savings": "סה״כ נחסך בהזמנה "
+        "total_savings": "סה״כ נחסך בהזמנה ",
+        "discount_discovery": {
+          "add_code": "הוסף קוד קופון "
+        }
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
