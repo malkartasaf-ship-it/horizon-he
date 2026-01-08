@@ -9,6 +9,62 @@
  */
 {
   "sections": {
+    "hero_jVaWmY": {
+      "type": "hero",
+      "blocks": {
+        "button_H9gpTf": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "הזמינו עכשיו",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "custom",
+            "custom_width": 28,
+            "width_mobile": "custom",
+            "custom_width_mobile": 42
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "button_H9gpTf"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/3__1600x500_47fcdf54-6c34-4011-baf1-eb62510ef736.jpg",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": true,
+        "media_type_1_mobile": "image",
+        "image_1_mobile": "shopify://shop_images/685521C8-BC19-45D7-A48A-DA3301DD47F2.jpg",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": false,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "center",
+        "align_baseline": true,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "flex-end",
+        "gap": 0,
+        "section_width": "full-width",
+        "section_height": "large",
+        "section_height_custom": 38,
+        "color_scheme": "scheme-6",
+        "toggle_overlay": false,
+        "overlay_color": "#12121266",
+        "overlay_style": "solid",
+        "gradient_direction": "to bottom",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 100,
+        "padding-block-end": 100
+      }
+    },
     "product_list_fa6P9H": {
       "type": "product-list",
       "blocks": {
@@ -1000,6 +1056,7 @@
     }
   },
   "order": [
+    "hero_jVaWmY",
     "product_list_fa6P9H",
     "product_list_PgPP9Y",
     "divider_tYGzgM",
