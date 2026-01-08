@@ -60,7 +60,7 @@
     "add": "הוסף",
     "add_to_cart": "הוספה לסל",
     "added": "נוסף",
-    "apply": "החל",
+    "apply": "הפעל",
     "back": "חזור",
     "choose": "בחר",
     "clear": "נקה",
@@ -183,7 +183,8 @@
         "subtotal_label": "סך הכל",
         "shipping_label": "משלוח",
         "total_label": "סה״כ",
-        "discount_label": "קוד קופון"
+        "discount_label": "קוד קופון",
+        "apply_discount_button_label": "הפעל"
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
@@ -244,7 +245,8 @@
         "offsite_gateway_redirect_hint": "ניתן לשלם דרך ויזה | bit | פייבוקס | apple google pay | ",
         "billing_address_title": "כתובת לחיוב",
         "same_billing_address_label": "זהה לכתובת המשלוח",
-        "different_billing_address_label": "השתמש בכתובת חיוב שונה"
+        "different_billing_address_label": "השתמש בכתובת חיוב שונה",
+        "apply_gift_card_button_label": "הפעל"
       },
       "thank_you": {
         "billing_address_title": "כתובת לחיוב"
@@ -273,6 +275,13 @@
       "card_fields": {
         "tooltip": {
           "card_security_notice": "כל העסקאות מאובטחות ומוצפנות. פרטי כרטיס אשראי לעולם אינם נשמרים."
+        }
+      }
+    },
+    "orders": {
+      "order_list": {
+        "filter": {
+          "apply": "הפעל"
         }
       }
     }
