@@ -285,6 +285,18 @@
             "city": "הזן עיר"
           }
         }
+      },
+      "remote_merchandise_only": {
+        "detail_item_label": {
+          "one": "פריט ",
+          "other": "פריט"
+        }
+      },
+      "stock": {
+        "item_label": {
+          "one": "פריט",
+          "other": "פריט"
+        }
       }
     },
     "addresses": {
