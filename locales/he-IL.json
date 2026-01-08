@@ -184,7 +184,8 @@
         "shipping_label": "משלוח",
         "total_label": "סה״כ",
         "discount_label": "קוד קופון",
-        "apply_discount_button_label": "הפעל"
+        "apply_discount_button_label": "הפעל",
+        "total_savings": "סה״כ נחסך בהזמנה "
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
