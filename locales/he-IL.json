@@ -179,7 +179,8 @@
         "discount_code_aria_text": " הוסף קוד קופון "
       },
       "general": {
-        "complete_purchase_button_label": "השלימו את ההזמנה"
+        "complete_purchase_button_label": "השלימו את ההזמנה",
+        "choose_shipping_method": "בחרו איך לקבל את האיור "
       },
       "contact": {
         "title": "פרטי המזמין",
@@ -210,7 +211,8 @@
         "contact_information": "פרטי המזמין"
       },
       "shipping": {
-        "delivery_title": "פרטים נוספים "
+        "delivery_title": "פרטים נוספים ",
+        "shipping_method_title": "איך מקבלים את האיור "
       },
       "customer_account": {
         "save_my_information_label": "שמור מידע זה לפעם הבאה"
