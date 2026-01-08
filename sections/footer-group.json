@@ -14,6 +14,32 @@
     "footer_m9NzUG": {
       "type": "footer",
       "blocks": {
+        "text_pw8e9D": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>קבלו קוד קופון של 10% הנחה במייל להזמנה הראשונה שלכם </p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "email_signup_7xYrdE": {
           "type": "email-signup",
           "name": "t:names.email_signup",
@@ -22,7 +48,7 @@
             "custom_width": 100,
             "inherit_color_scheme": true,
             "color_scheme": "",
-            "heading": "קבלו קוד קופון של 10% הנחה במייל",
+            "heading": "",
             "heading_preset": "h5",
             "border_style": "all",
             "border_width": 1,
@@ -42,12 +68,13 @@
         }
       },
       "block_order": [
+        "text_pw8e9D",
         "email_signup_7xYrdE"
       ],
       "custom_css": [
-        "input[type=\"email\"]{padding:10px;border-radius:20px;border:1px solid #ccc;width:65%;direction:rtl;text-align:right}",
-        "button{padding:10px 20px;background:#28a745;color:#fff;border:none;border-radius:20px;cursor:pointer;transition:0.3s}",
-        "button:hover{background:#218838}"
+        "input[type=\"email\"] {padding: 10px; border-radius: 20px; border: 1px solid #ccc; width: 65%; direction: rtl; text-align: right;}",
+        "button {padding: 10px 20px; background: #28a745; color: #fff; border: none; border-radius: 20px; cursor: pointer; transition: 0.3s;}",
+        "button:hover {background: #218838;}"
       ],
       "name": "t:names.footer",
       "settings": {
