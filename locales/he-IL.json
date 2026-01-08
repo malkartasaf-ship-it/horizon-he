@@ -183,7 +183,8 @@
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
-        "choose_shipping_method": "בחרו איך לקבל את האיור "
+        "choose_shipping_method": "בחרו איך לקבל את האיור ",
+        "choose_billing_address": "כתובת לחיוב"
       },
       "contact": {
         "title": "פרטי המזמין",
