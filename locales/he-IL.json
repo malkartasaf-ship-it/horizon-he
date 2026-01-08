@@ -193,6 +193,9 @@
       },
       "shop_policies": {
         "contact_information": "פרטי המזמין"
+      },
+      "shipping": {
+        "delivery_title": "פרטים נוספים "
       }
     }
   },
