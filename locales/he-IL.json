@@ -180,7 +180,8 @@
         "free_shipping_discount_label": "משלוח חינם",
         "free_total_label": "חינם",
         "free_shipping_total_label": "חינם",
-        "subtotal_label": "סך הכל"
+        "subtotal_label": "סך הכל",
+        "shipping_label": "משלוח"
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
