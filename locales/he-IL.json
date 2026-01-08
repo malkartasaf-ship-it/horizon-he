@@ -197,7 +197,9 @@
         "postcode_placeholder": "מיקוד ( לא חובה ) ",
         "postal_code_label": "מיקוד ( לא חובה ) ",
         "optional_postal_code_label": "מיקוד ( לא חובה ) ",
-        "postal_code_placeholder": "מיקוד ( לא חובה ) "
+        "postal_code_placeholder": "מיקוד ( לא חובה ) ",
+        "email_label": "כתובת מייל",
+        "email_placeholder": "כתובת מייל"
       },
       "review": {
         "blocks": {
