@@ -256,6 +256,10 @@
       },
       "order_payment_collection": {
         "pay_now": "בחרו אמצעי תשלום"
+      },
+      "field_errors": {
+        "email_or_phone_blank": "הזן אימייל",
+        "email_blank": "הזן אימייל"
       }
     },
     "addresses": {
