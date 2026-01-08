@@ -188,7 +188,8 @@
         "country_label": "מדינה ",
         "first_name_label": "שם פרטי ",
         "optional_first_name_label": "שם פרטי ",
-        "last_name_label": "שם משפחה "
+        "last_name_label": "שם משפחה ",
+        "address_title": "כתובת"
       },
       "review": {
         "blocks": {
