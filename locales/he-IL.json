@@ -190,7 +190,8 @@
         "optional_first_name_label": "שם פרטי ",
         "last_name_label": "שם משפחה ",
         "address_title": "רחוב ומס׳ דירה ",
-        "address1_label": "רחוב ומס׳ דירה "
+        "address1_label": "רחוב ומס׳ דירה ",
+        "city_label": "עיר "
       },
       "review": {
         "blocks": {
