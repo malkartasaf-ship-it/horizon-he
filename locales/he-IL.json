@@ -262,7 +262,23 @@
         "apply_gift_card_button_label": "הפעל"
       },
       "thank_you": {
-        "billing_address_title": "כתובת לחיוב"
+        "billing_address_title": "כתובת לחיוב",
+        "title": "תודה שרכשתם ",
+        "return_to_store_link_label": "המשיכו לקנות",
+        "print_link_label": "הדפיסו קבלה",
+        "payment_information_title": "פרטי תשלום",
+        "shipping_information_title": "פרטי משלוח",
+        "page_title_no_name": "תודה לכם",
+        "cancelled_page_title": "הזמנה בוטלה",
+        "customer_information_title": "פרטי ההזמנה",
+        "contact_information_title": "פרטי יצירת קשר",
+        "shipping_address_title": "כתובת משלוח",
+        "payment_method_title": "אמצעי תשלום",
+        "payment_method_not_charged": "לא חויב ",
+        "shipping_method_title": "אמצעי משלוח ",
+        "tracking_number": "מס׳ מעקב ",
+        "re-order": "הזמן אותה הזמנה שוב",
+        "confirmed": "אשר"
       },
       "billing": {
         "same_as_shipping": "זהה לכתובת המשלוח"
@@ -297,6 +313,9 @@
           "one": "פריט",
           "other": "פריט"
         }
+      },
+      "processing": {
+        "your_order_has_been_received_title": "תודה שרכשתם "
       }
     },
     "addresses": {
