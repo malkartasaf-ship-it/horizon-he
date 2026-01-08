@@ -182,7 +182,8 @@
         "free_shipping_total_label": "חינם",
         "subtotal_label": "סך הכל",
         "shipping_label": "משלוח",
-        "total_label": "סה״כ"
+        "total_label": "סה״כ",
+        "discount_label": "קוד קופון"
       },
       "general": {
         "complete_purchase_button_label": "השלימו את ההזמנה",
