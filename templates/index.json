@@ -668,7 +668,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "הזמינו עכשיו",
-                    "link": "shopify://collections/all",
+                    "link": "shopify://collections/איור-קובץ-במייל-בלבד",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
                     "width": "fit-content",
