@@ -227,6 +227,9 @@
       },
       "payment_summary": {
         "free_label": "חינם"
+      },
+      "payment": {
+        "title": "תשלום"
       }
     },
     "addresses": {
