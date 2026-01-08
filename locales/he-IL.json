@@ -183,7 +183,8 @@
       },
       "contact": {
         "title": "פרטי המזמין",
-        "contact_method_title": "פרטי המזמין"
+        "contact_method_title": "פרטי המזמין",
+        "delivery_option_title": "פרטים נוספים "
       },
       "review": {
         "blocks": {
