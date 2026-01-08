@@ -173,7 +173,7 @@
     "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "מיסים ומשלוח יחושבו בצ׳קאאוט",
     "price_filter_html": "סינון לפי מחיר"
   },
-  "shopify": { 
+  "shopify": {
     "checkout": {
       "order_summary": {
         "discount_code_aria_text": " הוסף קוד קופון "
