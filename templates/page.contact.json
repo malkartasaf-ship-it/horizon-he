@@ -89,12 +89,28 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "button_McwUqC": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "למעבר לוואטצאפ שלנו",
+            "link": "https://wa.link/iw6d2e",
+            "open_in_new_tab": true,
+            "style_class": "button",
+            "width": "custom",
+            "custom_width": 100,
+            "width_mobile": "custom",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "title",
         "content",
-        "text_yPdbbj"
+        "text_yPdbbj",
+        "button_McwUqC"
       ],
       "settings": {
         "content_direction": "column",
