@@ -259,7 +259,15 @@
       },
       "field_errors": {
         "email_or_phone_blank": "הזן אימייל",
-        "email_blank": "הזן אימייל"
+        "email_blank": "הזן אימייל",
+        "address_last_name_blank": "הזן שם משפחה"
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "last_name": "הזן שם משפחה"
+          }
+        }
       }
     },
     "addresses": {
