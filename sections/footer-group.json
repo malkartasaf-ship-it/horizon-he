@@ -65,11 +65,33 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "menu_4hmJWq": {
+          "type": "menu",
+          "name": "t:names.menu",
+          "settings": {
+            "menu": "main-menu",
+            "heading": "",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "plus",
+            "accordion_dividers": false,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-5",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "text_pw8e9D",
-        "email_signup_7xYrdE"
+        "email_signup_7xYrdE",
+        "menu_4hmJWq"
       ],
       "custom_css": [
         "input[type=\"email\"] {padding: 10px; border-radius: 20px; border: 1px solid #ccc; width: 65%; direction: rtl; text-align: right;}",
