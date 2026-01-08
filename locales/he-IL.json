@@ -184,7 +184,8 @@
       "contact": {
         "title": "פרטי המזמין",
         "contact_method_title": "פרטי המזמין",
-        "delivery_option_title": "פרטים נוספים "
+        "delivery_option_title": "פרטים נוספים ",
+        "country_label": "מדינה "
       },
       "review": {
         "blocks": {
