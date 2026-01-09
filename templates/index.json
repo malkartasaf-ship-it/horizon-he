@@ -68,6 +68,47 @@
     "product_list_fa6P9H": {
       "type": "product-list",
       "blocks": {
+        "text_ey6qbg": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>(: שלחו לנו תמונה להתייעצות</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_hpMBV3": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "עברו לוואטצאפ שלנו להתייעצות",
+            "link": "https://wa.link/iw6d2e",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "custom",
+            "custom_width": 100,
+            "width_mobile": "custom",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        },
         "static-header": {
           "type": "_product-list-content",
           "name": "t:names.header",
@@ -238,6 +279,10 @@
           ]
         }
       },
+      "block_order": [
+        "text_ey6qbg",
+        "button_hpMBV3"
+      ],
       "name": "Featured collection",
       "settings": {
         "collection": "all",
