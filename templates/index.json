@@ -106,7 +106,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h1>: איור דיגיטלי ממוסגר </h1>",
+                "text": "<h1>איור דיגיטלי מתנה מקורית</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -240,7 +240,7 @@
       },
       "name": "Featured collection",
       "settings": {
-        "collection": "frontpage",
+        "collection": "all",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 8,
