@@ -689,6 +689,15 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "/* הפיכת האתר כולו ל-RTL */html, body {direction: rtl !important; /* מימין לשמאל */ text-align: right !important; /* מיישר את כל הטקסט לימין */}",
+      "/* כל אלמנטי הטקסט */* {text-align: right !important; direction: rtl !important;}",
+      "/* רשימות */ul, ol, li {direction: rtl !important; text-align: right !important;}",
+      "/* טבלאות */table, th, td {direction: rtl !important; text-align: right !important;}",
+      "/* כפתורים */button, input, select, textarea {direction: rtl !important; text-align: right !important;}",
+      "/* תפריטים ראשיים ותפריטים נפתחים */nav, nav ul, nav li, .site-nav, .mobile-nav__menu, .mobile-menu {direction: rtl !important; text-align: right !important;}",
+      "nav li ul, .dropdown, .dropdown-menu {right: 0 !important; left: auto !important;}",
+      "/* תמיכה במובייל */@media only screen and (max-width: 1024px) {nav, nav ul, nav li, .site-nav, .mobile-nav__menu, .mobile-menu {direction: rtl !important; text-align: right !important; } nav li ul, .dropdown, .dropdown-menu {right: 0 !important; left: auto !important; }}"
+    ]
   }
 }

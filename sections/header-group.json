@@ -79,9 +79,7 @@
           "blocks": {}
         }
       },
-      "custom_css": [
-        "/* יישור תפריט למובייל בלבד */@media only screen and (max-width: 768px) {/* מיישר את כל התפריט הראשי למובייל לימין */ nav, nav * {text-align: right !important; } /* מיישר רשימות ותפריטים נפתחים */ nav ul, nav li {float: right !important; direction: rtl !important; } /* מוודא שהתפריטים הנפתחים מופיעים מימין */ nav li ul {right: 0 !important; left: auto !important; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "left",
         "menu_position": "right",
