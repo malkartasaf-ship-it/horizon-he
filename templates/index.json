@@ -218,7 +218,7 @@
         "full_frame_on_mobile": false,
         "slideshow_gap": 18,
         "corner_radius": 20,
-        "slide_height": "auto",
+        "slide_height": "medium",
         "content_position": "below-media",
         "color_scheme": "scheme-4",
         "icons_style": "none",
