@@ -220,13 +220,13 @@
         "corner_radius": 20,
         "slide_height": "medium",
         "content_position": "below-media",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "icons_style": "arrows_large",
-        "icons_shape": "none",
+        "icons_shape": "circle",
         "slideshow_controls_style": "none",
         "autoplay": false,
         "autoplay_speed": 4,
-        "padding-block-start": 0,
+        "padding-block-start": 48,
         "padding-block-end": 0
       }
     },
