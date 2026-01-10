@@ -689,6 +689,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "@media (max-width: 768px) {/* כפתור סגירה מיני עגלה – מנסה את כל האפשרויות הנפוצות */ .cart-drawer__close, .drawer--cart .drawer__close, .cartDrawer .drawer__close, .mini-cart__close, .drawer-close {right: 10px !important; /* ימין */ left: auto !important; /* ביטול שמאל */ }}"
+    ]
   }
 }
