@@ -83,9 +83,9 @@
         "@media (max-width: 768px) {header, .header {direction: rtl; text-align: right; } .header__inline-menu, .header__menu, .header__icons {justify-content: flex-end; } .header__heading, .header__heading-link {margin-right: 0; margin-left: auto; }}"
       ],
       "settings": {
-        "logo_position": "left",
-        "menu_position": "right",
-        "menu_row": "bottom",
+        "logo_position": "center",
+        "menu_position": "left",
+        "menu_row": "top",
         "show_search": false,
         "search_position": "right",
         "search_row": "top",
