@@ -80,7 +80,7 @@
         }
       },
       "custom_css": [
-        "@media (max-width: 768px) {header, .header {direction: rtl; /* שומר RTL למבנה, אפשר גם להוריד אם רוצים LTR */ text-align: center; /* מרכוז הטקסט */ } .header__inline-menu, .header__menu, .header__icons {justify-content: center; /* מרכוז אייקונים ותפריטים */ } .header__heading, .header__heading-link {margin: 0 auto; /* מרכוז הכותרת */ }}"
+        "@media(max-width:768px){header,.header{text-align:center}.header__icons,.header__inline-menu,.header__menu{justify-content:center}.header__heading,.header__heading-link,.cart-drawer__heading,.mini-cart__heading{margin:0 auto;text-align:center}.menu-drawer{right:0;left:auto;transform:translateX(100%)}.menu-drawer[open]{transform:translateX(0)}.cart-drawer,.drawer--cart{left:0;right:auto;transform:translateX(-100%)}.cart-drawer[open],.drawer--cart[open]{transform:translateX(0)}}"
       ],
       "settings": {
         "logo_position": "center",
