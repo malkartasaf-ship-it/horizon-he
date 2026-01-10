@@ -80,7 +80,7 @@
         }
       },
       "custom_css": [
-        "@media (max-width: 768px) {/* HEADER */ header, .header {direction: rtl; text-align: right; } .header__icons, .header__inline-menu {justify-content: flex-end; } /* MENU DRAWER – מימין */ .menu-drawer {right: 0; left: auto; transform: translateX(100%); direction: rtl; text-align: right; } .menu-drawer[open] {transform: translateX(0); } /* CART DRAWER – משמאל */ .cart-drawer, .drawer--cart {left: 0; right: auto; transform: translateX(-100%); direction: rtl; text-align: right; } .cart-drawer[open], .drawer--cart[open] {transform: translateX(0); }}"
+        "@media (max-width: 768px) {header, .header {direction: rtl; text-align: right; } .header__inline-menu, .header__menu, .header__icons {justify-content: flex-end; } .header__heading, .header__heading-link {margin-right: 0; margin-left: auto; }}"
       ],
       "settings": {
         "logo_position": "left",
