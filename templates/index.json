@@ -1731,6 +1731,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/IMG_4082_1024x1024_6446c917-1ee2-44b8-9993-19d5fb4c817c.jpg",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "fill",
@@ -1796,7 +1797,7 @@
                     "border": "none",
                     "border_width": 1,
                     "border_opacity": 100,
-                    "border_radius": 82,
+                    "border_radius": 26,
                     "padding-block-start": 0,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
