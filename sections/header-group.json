@@ -80,7 +80,7 @@
         }
       },
       "custom_css": [
-        "@media (max-width: 768px) {header, .header {direction: rtl; text-align: right; } .header__inline-menu, .header__menu, .header__icons {justify-content: flex-end; } .header__heading, .header__heading-link {margin-right: 0; margin-left: auto; }}"
+        "/* יישור תפריט למובייל בלבד */@media only screen and (max-width: 768px) {/* התאמה לתפריט הראשי במובייל */ .site-nav, /* ברירת מחדל של נביגציה בשופיפי */ .mobile-nav__menu, /* אפשרות אחרת בתבניות מסוימות */ .mobile-menu {/* תבניות אחרות */ text-align: right; /* מיישר את הטקסט לימין */ } /* אם יש תפריט עם רשימה */ .mobile-nav__item {float: right; /* מיישר את הפריטים לימין */ } /* אופציונלי: התאמת תפריט נפתח */ .mobile-nav__dropdown {right: 0; /* מוודא שהתפריט הנפתח יתחיל מהצד הימני */ left: auto; text-align: right; }}"
       ],
       "settings": {
         "logo_position": "left",
