@@ -1787,6 +1787,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/IMG_4079_1024x1024_9ee37ea4-ac0c-442f-8015-2f5c1a5ee12f.jpg",
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "fill",
