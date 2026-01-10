@@ -1805,10 +1805,34 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "image_9VULwR": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "image": "shopify://shop_images/IMG_4079_1024x1024_9ee37ea4-ac0c-442f-8015-2f5c1a5ee12f.jpg",
+                    "link": "",
+                    "image_ratio": "square",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 26,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "image_TMjHXJ"
+                "image_TMjHXJ",
+                "image_9VULwR"
               ]
             }
           },
@@ -1822,7 +1846,7 @@
       },
       "name": "t:names.carousel",
       "settings": {
-        "columns": 3,
+        "columns": 8,
         "mobile_columns": "1",
         "section_width": "page-width",
         "columns_gap": 12,
