@@ -221,7 +221,7 @@
                 "label": "<< שלחו לנו תמונה וכיתוב",
                 "link": "https://wa.link/y1ndky",
                 "open_in_new_tab": true,
-                "style_class": "button",
+                "style_class": "button-secondary",
                 "width": "custom",
                 "custom_width": 100,
                 "width_mobile": "custom",
