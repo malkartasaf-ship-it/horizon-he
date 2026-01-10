@@ -80,7 +80,8 @@
         }
       },
       "custom_css": [
-        "@media (max-width: 768px) {header, .header {direction: rtl; text-align: right; } .header__inline-menu, .header__menu, .header__icons {justify-content: flex-end; } .header__heading, .header__heading-link {margin-right: 0; margin-left: auto; }}"
+        "@media (max-width: 768px) {header, .header {direction: rtl; text-align: right; } .header__inline-menu, .header__menu, .header__icons {justify-content: flex-end; } .header__heading, .header__heading-link {margin-right: 0; margin-left: auto; }}",
+        "@media (max-width: 768px) {/* מיקום כפתור סגירה במיני עגלה */ .cart-drawer__close, .drawer--cart .drawer__close {right: 10px; /* צד ימין */ left: auto; /* ביטול צד שמאל */ }}"
       ],
       "settings": {
         "logo_position": "center",
