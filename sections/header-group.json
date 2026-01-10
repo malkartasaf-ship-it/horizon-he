@@ -80,12 +80,12 @@
         }
       },
       "custom_css": [
-        "@media (max-width: 768px) {/* Drawer של התפריט */ .menu-drawer {right: 0; left: auto; transform: translateX(100%); } .menu-drawer[open] {transform: translateX(0); } /* תוכן התפריט מיושר לימין */ .menu-drawer .header__menu, .menu-drawer .header__inline-menu {text-align: right; justify-content: flex-end; }}"
+        "@media (max-width: 768px) {header, .header {direction: rtl; text-align: right; } .header__inline-menu, .header__menu, .header__icons {justify-content: flex-end; } .header__heading, .header__heading-link {margin-right: 0; margin-left: auto; }}"
       ],
       "settings": {
         "logo_position": "left",
         "menu_position": "left",
-        "menu_row": "top",
+        "menu_row": "bottom",
         "show_search": false,
         "search_position": "right",
         "search_row": "top",
