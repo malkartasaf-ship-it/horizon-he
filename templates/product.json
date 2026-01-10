@@ -214,12 +214,20 @@
               },
               "blocks": {}
             },
-            "upload_lift_app_block_DqaBxF": {
-              "type": "shopify://apps/upload-lift/blocks/app-block/3c98bdcb-7587-4ade-bfe4-7d8af00d05ca",
+            "button_t4RqBH": {
+              "type": "button",
+              "name": "t:names.button",
               "settings": {
-                "product": "{{closest.product}}",
-                "field": ""
-              }
+                "label": "<< שלחו לנו תמונה וכיתוב",
+                "link": "https://wa.link/y1ndky",
+                "open_in_new_tab": true,
+                "style_class": "button",
+                "width": "custom",
+                "custom_width": 100,
+                "width_mobile": "custom",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
@@ -261,7 +269,7 @@
             "group_icgrde",
             "divider_VJhene",
             "variant_picker_R3rGDr",
-            "upload_lift_app_block_DqaBxF",
+            "button_t4RqBH",
             "buy_buttons_eYQEYi"
           ]
         }
