@@ -1805,48 +1805,55 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "image_9VULwR": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/IMG_4079_1024x1024_9ee37ea4-ac0c-442f-8015-2f5c1a5ee12f.jpg",
-                    "link": "",
-                    "image_ratio": "square",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 26,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
-                "image_TMjHXJ",
-                "image_9VULwR"
+                "image_TMjHXJ"
               ]
+            },
+            "card_67cWMF": {
+              "type": "_card",
+              "name": "t:names.card",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "image",
+                "background_image": "shopify://shop_images/IMG_4077_1024x1024_cc5503c6-ae56-472d-9f1b-121cf2d66e99.jpg",
+                "aspect_ratio": "square",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "card_F7fW8H",
             "card_tX46QB",
             "card_GVdBpd",
-            "card_n7N4mP"
+            "card_n7N4mP",
+            "card_67cWMF"
           ]
         }
       },
       "name": "t:names.carousel",
       "settings": {
-        "columns": 8,
+        "columns": 3,
         "mobile_columns": "1",
         "section_width": "page-width",
         "columns_gap": 12,
