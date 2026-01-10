@@ -80,7 +80,7 @@
         }
       },
       "custom_css": [
-        "@media(max-width:768px){.menu-drawer, .header__menu, .header__inline-menu{text-align:right; justify-content:flex-end; } .menu-drawer[open]{transform:translateX(0);} .menu-drawer{right:0;left:auto;transform:translateX(100%);}}"
+        "@media (max-width: 768px) {/* Drawer של התפריט */ .menu-drawer {right: 0; left: auto; transform: translateX(100%); } .menu-drawer[open] {transform: translateX(0); } /* תוכן התפריט מיושר לימין */ .menu-drawer .header__menu, .menu-drawer .header__inline-menu {text-align: right; justify-content: flex-end; }}"
       ],
       "settings": {
         "logo_position": "left",
