@@ -170,7 +170,7 @@
         "text_qkRWR6": {
           "type": "text",
           "settings": {
-            "text": "<p>! כל האתר במבצע ל24 שעות ! אל תפספסו </p>",
+            "text": "<p>! כל האתר במבצע ל-24 שעות ! אל תפספסו </p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
