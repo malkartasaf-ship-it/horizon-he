@@ -123,26 +123,11 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "button_QzP7MQ": {
-              "type": "button",
-              "settings": {
-                "label": "לכל המוצרים שלנו",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "custom",
-                "custom_width": 100,
-                "width_mobile": "custom",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "text_aw8GmY",
-            "text_XdYEbb",
-            "button_QzP7MQ"
+            "text_XdYEbb"
           ]
         }
       },
@@ -282,25 +267,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "product_list_button_MWeP9V": {
-              "type": "_product-list-button",
-              "name": "t:names.product_list_button",
-              "settings": {
-                "label": "View all",
-                "open_in_new_tab": false,
-                "style_class": "link",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "product_list_text_YFtzcL",
-            "product_list_button_MWeP9V"
+            "product_list_text_YFtzcL"
           ]
         },
         "static-product-card": {
@@ -1019,7 +989,7 @@
                   "type": "text",
                   "name": "t:names.subheading",
                   "settings": {
-                    "text": "<h2>סגנון קווי / צבעוני </h2>",
+                    "text": "<h2>מוכן תוך 48 שעות במייל </h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1258,7 +1228,7 @@
                 "text_JbiPjk": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>בוחרים סוג מוצר : קובץ במייל / מודפס עם משלוח, בוחרים מס׳ דמויות וסגנון קווי/צבעוני, מעלים תמונה ומוסיפים לסל, שם יש אפשרות לבחור ״ הוספת כיתוב ״ ועוברים לתשלום דרך ויזה,ביט,אפל פיי, גוגל פיי, ופייבוקס. </p>",
+                    "text": "<p>בוחרים סוג מוצר : קובץ במייל / מודפס עם משלוח, בוחרים מס׳ דמויות, מעלים תמונה ומוסיפים לסל, שם יש אפשרות לבחור ״ הוספת כיתוב ״ ועוברים לתשלום דרך ויזה,ביט,אפל פיי, גוגל פיי, ופייבוקס. </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
