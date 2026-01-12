@@ -88,10 +88,13 @@
     "variant_button_width": "equal-width-buttons",
     "content_for_index": [],
     "blocks": {
-      "15132424025755801183": {
-        "type": "shopify://apps/upload-lift/blocks/app-embed/3c98bdcb-7587-4ade-bfe4-7d8af00d05ca",
+      "4912811683585195618": {
+        "type": "shopify://apps/squirai-promotion-popup/blocks/app-embed/6b7effb0-33e7-433c-acc7-0a98ef2f9da6",
         "disabled": false,
-        "settings": {}
+        "settings": {
+          "popups": "{}",
+          "filter": "{}"
+        }
       }
     },
     "color_schemes": {
