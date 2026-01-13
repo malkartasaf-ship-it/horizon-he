@@ -2147,7 +2147,24 @@
       "no_data_provided_accessibility_label": "שם {{fieldName}} ריק",
       "not_applicable": "לא רלוונטי",
       "paid_amount": "בתשלום",
-      "partially_refunded_label": "החזר חלקי"
+      "partially_refunded_label": "החזר חלקי",
+      "log_in": "כניסה",
+      "logged_in_account_no_permission_to_order": "אתה מחובר בשם {{email}} . לחשבון זה אין הרשאה לנהל הזמנה זו.",
+      "log_in_to_a_different_account": "היכנס לחשבון אחר",
+      "fees": {
+        "restocking_fee": "דמי חידוש מלאי",
+        "return_shipping_fee": "משלוח חזרה"
+      },
+      "vat_invoices": {
+        "title": "חשבוניות מע\"מ"
+      },
+      "link_sent": "קישור נשלח",
+      "cash_rounding": "עיגול מזומן",
+      "adjusted_payment": "תשלום מותאם",
+      "adjusted_total": "סך הכל מותאם",
+      "due_on_date": "תאריך יעד {{date}}",
+      "due_on_fulfillment": "מועד הגשמה",
+      "due_on_receipt": "מועד קבלה"
     },
     "payment_methods": {
       "store_credit": {
@@ -2491,7 +2508,26 @@
         "tax_exemptions_modal_close": "לִסְגוֹר",
         "taxes_none": "אַף לֹא אֶחָד",
         "tax_exemption_not_applicable": "לא רלוונטי",
-        "tax_exemptions_modal_button_accessibility_label": "הצג את כל הפטורים ממס"
+        "tax_exemptions_modal_button_accessibility_label": "הצג את כל הפטורים ממס",
+        "contact_email": "אֶלֶקטרוֹנִי",
+        "contact_list_title": "אֲנָשִׁים",
+        "contact_name": "שֵׁם",
+        "contact_permissions": "הרשאות",
+        "contact_phone_number": "מספר טלפון",
+        "location_picker_label": "שם המיקום",
+        "location_picker_accessibility_label": "שם המיקום: {{locationName}}",
+        "net_payment_terms_description": "{{name}} : תשלומים יש לשלם תוך {{numberOfDays}} ימים",
+        "deposit_percentage": "הפקדה של {{percentage}}",
+        "own_role_contact_name": "אַתָה",
+        "pagination": {
+          "load_more": "טען עוד",
+          "load_more_accessibility_label": "טען מיקומים נוספים"
+        },
+        "payment_details_title": "פרטי תשלום",
+        "payment_terms": "תנאי תשלום",
+        "permissions_label": "ההרשאות שלך",
+        "permissions_title": "הרשאות",
+        "section_title": "מִקוּם"
       },
       "location_selection": {
         "continue_to_store": "המשך לאחסן",
@@ -2619,6 +2655,10 @@
             "description_full_refund": "קיבלת החזר כספי מלא עבור הזמנה זו."
           }
         }
+      },
+      "account_information": {
+        "company_card_name_label": "שם החברה",
+        "company_card_section_accessibility_label": "חֶברָה"
       }
     },
     "payment_method_brands": {
@@ -2806,6 +2846,92 @@
         }
       },
       "add_button": "לְהוֹסִיף"
+    },
+    "addresses": {
+      "add_button": "הוסף כתובת",
+      "add_button_text": "לְהוֹסִיף",
+      "add_button_accessibility_label": "הוסף כתובת",
+      "back_button": "בְּחֲזָרָה",
+      "back_button_accessibility_label": "חזרה לעריכת כתובת {{address}}",
+      "add_address_banner": "הוסף כתובות לשימוש בקופה",
+      "no_addresses_banner": "לא נוספו כתובות",
+      "address_deleted_notification": "הכתובת נמחקה",
+      "cancel_adding_address_accessibility_label": "ביטול הוספת כתובת",
+      "cancel_deletion_button": "לְבַטֵל",
+      "cancel_deletion_button_accessibility_label": "ביטול מחיקת {{address}}",
+      "default_address": {
+        "title": "כתובת ברירת מחדל",
+        "title_accessibility_label": "כתובת ברירת מחדל: {{address}}"
+      },
+      "delete_button": "לִמְחוֹק",
+      "delete_button_accessibility_label": "מחק את {{address}}",
+      "delete_confirmation_button": "מחיקת כתובת",
+      "delete_confirmation_button_accessibility_label": "מחק את {{address}}",
+      "delete_confirmation_message": "למחוק כתובת? הזמנות קיימות אינן מושפעות.",
+      "delete_confirmation_title": "למחוק כתובת?",
+      "delete_confirmation_description": "הזמנות קיימות אינן מושפעות.",
+      "edit_button": "לַעֲרוֹך",
+      "edit_button_accessibility_label": "עריכת {{address}}",
+      "edit_section_accessibility_label": "עריכת {{address}}",
+      "edit_modal_title": {
+        "default": "עריכת כתובת",
+        "billing": "עריכת כתובת לחיוב",
+        "shipping": "עריכת כתובת למשלוח"
+      },
+      "loading_accessibility_message": "טוען כתובת",
+      "loading_addresses_accessibility_message": "טוען כתובות",
+      "loading_billing_accessibility_message": "טוען כתובת לחיוב",
+      "loading_finished_accessibility_message": "דף כתובות חדש נטען",
+      "loading_shipping_accessibility_message": "טוען כתובת למשלוח",
+      "pagination": {
+        "load_more": "טען עוד",
+        "load_more_accessibility_label": "טען כתובות נוספות"
+      },
+      "save_new_address_accessibility_label": "שמור כתובת",
+      "title": "כתובות",
+      "billing_address_dropdown_placeholder": "כתובת לחיוב"
+    },
+    "address_form": {
+      "attention": "תְשׁוּמַת לֵב",
+      "attention_company": "חברה/תשומת לב",
+      "attention_help_text": "שם של אדם או מחלקה",
+      "auto_complete_close_accessibility_label": "סגור הצעות",
+      "auto_complete_title": "הצעות",
+      "billing_address": "השתמש ככתובת לחיוב",
+      "cancel": "לְבַטֵל",
+      "cancel_accessibility_label": "ביטול עריכת כתובת {{address}}",
+      "creation_success_notification": "כתובת שנוספה",
+      "default_address": "זוהי כתובת ברירת המחדל שלי",
+      "default_address_creation_success_notification": "כתובת ברירת מחדל נוספה",
+      "default_address_update_success_notification": "כתובת ברירת המחדל עודכנה",
+      "loading_add_form_accessibility_message": "טוען טופס כתובת חדש",
+      "loading_edit_form_accessibility_message": "טוען את טופס עריכת הכתובת",
+      "loading_form_accessibility_message": "טוען את טופס הכתובת",
+      "loading_finished_accessibility_message": "טופס הכתובת נטען",
+      "save": "לְהַצִיל",
+      "save_accessibility_label": "שמור כתובת {{address}}",
+      "section_title_accessibility_label": "הוסף כתובת",
+      "update_success_notification": "הכתובת עודכנה"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "sheet_title": "התחבר או צור חשבון",
+        "section_divider": "דרכים נוספות להתחברות",
+        "alternate_divider": "אוֹ",
+        "email_field_label": "אֶלֶקטרוֹנִי",
+        "orders_button": "הזמנות",
+        "profile_button": "פּרוֹפִיל"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "היי, {{first_name}}",
+        "greeting_without_name": "חֶשְׁבּוֹן",
+        "orders_button": "הזמנות",
+        "profile_button": "פּרוֹפִיל"
+      },
+      "location_picker": {
+        "sheet_title": "מיקומים",
+        "search_field_placeholder": "לְחַפֵּשׂ"
+      }
     }
   }
 }
