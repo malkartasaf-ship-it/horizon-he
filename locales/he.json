@@ -1127,7 +1127,8 @@
           "try_again_later": "בדוק את החיבור שלך או סגור חלון זה ונסה שוב בעוד מספר רגעים.",
           "checkout_has_expired": "תוקף התשלום פג. סגור חלון זה ונסה לבצע תשלום שוב מ {{shopName}} ."
         },
-        "return_to_store": "חזור אל {{shopName}}"
+        "return_to_store": "חזור אל {{shopName}}",
+        "return_to_store_simple": "חזור לחנות"
       },
       "vaulted": {
         "change_button": "לְשַׁנוֹת"
@@ -1719,6 +1720,144 @@
         },
         "checkout_on_shop_label": "ניתן לשלם ב-%{shop_name}",
         "single_shop_transition": "מפנה אותך אל %{advertiser} כדי להשלים את הרכישה."
+      },
+      "wallets": {
+        "return_to_store": "חזור לחנות",
+        "return_to_checkout": "חזרה לקופה",
+        "redirect_hint": "תתבקש להתחבר באמצעות {{walletName}} .",
+        "logged_in": "מחובר ל {{email}}",
+        "shipping_line_label": "מִשׁלוֹחַ",
+        "payment_in_progress_title": "התשלום בתהליך",
+        "payment_in_progress_body": "התשלום שלך מעובד. ההזמנה שלך תושלם בקרוב.",
+        "call_to_action": "שלם באמצעות {{walletName}}",
+        "redirection_notice": "לאחר לחיצה על \" {{buttonLabel}} \", תועברו אל {{walletName}} כדי להשלים את הרכישה בצורה מאובטחת.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} אינו זמין",
+            "description": "{{walletName}} לא היה זמין. השתמש באמצעי תשלום אחר או נסה שוב מאוחר יותר.",
+            "instructions": "הייתה בעיה עם {{walletName}} . חזור לחנות כדי לנסות שוב או בצע תשלום בדרך אחרת.",
+            "unavailable_for_country": "{{walletName}} אינו זמין ב {{countryName}} . בחר אמצעי תשלום אחר כדי להשלים את הרכישה."
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} אינו זמין כעת עבור ההזמנה שלך. כדי להמשיך ברכישה, בחר שיטת תשלום אחרת."
+          },
+          "generic": "הייתה בעיה עם {{walletName}} . נסה שוב או השתמש באמצעי תשלום אחר.",
+          "discount_code": "לא ניתן להחיל את קוד ההנחה הזה. אנא בדוק את הקוד ונסה שוב.",
+          "terminal": "הייתה בעיה עם {{walletName}} . אנא השתמש באמצעי תשלום אחר.",
+          "detour": {
+            "stock_problems": "חלק מהפריטים אינם זמינים עוד. סגור {{walletName}} ונסה שוב.",
+            "price_change": "מחירי חלק מהפריטים השתנו. סגור את {{walletName}} כדי לבדוק את ההזמנה שלך ונסה שוב.",
+            "queue": "הוצבת בתור לקופה. סגור {{walletName}} כדי להמשיך.",
+            "currency_change": "לא ניתן להשתמש בכתובת אחרת עם {{walletName}} . השתמש בכתובת המקורית, או נסה אמצעי תשלום אחר."
+          },
+          "unsupported": {
+            "address": "הסוחר לא יכול לספק לכתובת זו",
+            "wallet_is_unavailable": "לא ניתן להשתמש ב {{walletName}} עם כתובת זו. בחר כתובת אחרת או סגור את {{walletName}} כדי להשלים את הרכישה.",
+            "postal_code": "מיקום זה אינו נתמך"
+          },
+          "outdated": {
+            "shipping_method": "אפשרויות המשלוח השתנו עבור ההזמנה שלך. בדוק את הבחירה שלך.",
+            "payment_terms": "תנאי התשלום השתנו. אנא בדוק את ההזמנה שלך."
+          },
+          "invalid": {
+            "shipping_address": "הזן כתובת משלוח תקפה",
+            "billing_address": "הזן כתובת חיוב חוקית",
+            "shipping_option": "בחר אפשרות משלוח תקפה",
+            "email": "הזן כתובת דוא\"ל חוקית",
+            "zone": "הזן מדינה/מחוז תקפים",
+            "billing_zone": "הזן כתובת חיוב חוקית במדינה/מחוז",
+            "emirate": "הזן אמירויות תקפות",
+            "postal_code": "הזן מיקוד תקף",
+            "phone": "הזן מספר טלפון תקין",
+            "billing_phone": "הזן מספר טלפון חוקי של כתובת חיוב",
+            "reduction_code": "הזן קוד הנחה או כרטיס מתנה תקף",
+            "billing_must_match_shipping": "חייב להתאים לכתובת המשלוח",
+            "billing_zip": "הזן כתובת לחיוב חוקית ומיקוד"
+          },
+          "missing": {
+            "first_name": "הזן שם פרטי",
+            "billing_first_name": "הזן שם פרטי של כתובת לחיוב",
+            "last_name": "הזן שם משפחה",
+            "address1": "הזן כתובת",
+            "billing_address1": "הזן כתובת לחיוב",
+            "address2": "כניסה לדירה, סוויטה וכו'.",
+            "billing_address2": "הזן כתובת לחיוב דירה, סוויטה וכו'.",
+            "city": "הזן עיר",
+            "billing_city": "הזן עיר של כתובת לחיוב",
+            "province": "בחר מדינה / מחוז",
+            "billing_province": "בחר כתובת לחיוב מדינה/מחוז",
+            "country": "בחר מדינה/אזור",
+            "zip": "הזן מיקוד",
+            "billing_zip": "הזן כתובת לחיוב ומיקוד",
+            "phone": "הזן מספר טלפון",
+            "contact_info": "הזן פרטי קשר"
+          },
+          "formatting": {
+            "name_contains_emojis": "מחיקת אימוג'י מהשם שלך",
+            "postal_code_contains_emoji": "מחיקת אימוג'י מהמיקוד שלך",
+            "first_name_too_long": "שם פרטי מכיל יותר מדי אותיות",
+            "last_name_too_long": "שם המשפחה מכיל יותר מדי אותיות",
+            "address_too_long": "שורת הכתובת ארוכה מדי"
+          },
+          "select_different_shipping_address_to_resolve_errors": "כתובת המשלוח שלך אינה חוקית. בחר כתובת אחרת או השתמש בחדשה."
+        },
+        "scrim": {
+          "continue_purchase_in_window": "המשך את הרכישה שלך בחלון {{walletName}}",
+          "and_return_to_checkout": "ולחזור לקופה",
+          "cancel": "לְבַטֵל"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "יש להקטין את גודל ההערה ל-5000 תווים או פחות."
+      },
+      "offsite_payment_failed": {
+        "title": "תשלום מחוץ לאתר נכשל",
+        "payment_not_processed_title": "התשלום נכשל",
+        "payment_not_processed_text": "נסה לסרוק שוב את קוד ה-QR. אם זה עדיין לא עובד, הודע לצוות שלנו ונסה אמצעי תשלום אחר.",
+        "payment_link_expired_title": "קישור התשלום פג תוקפו",
+        "payment_link_expired_text": "נסה לסרוק שוב את קוד ה-QR."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "מחיר כרטיס המתנה חייב להיות גדול מ-0.",
+            "gift_card_price_must_not_exceed_limit": "מחיר כרטיס המתנה לא יעלה על %{gift_card_limit}.",
+            "subtotal_limit_reached": "הערך המקסימלי של פריטי שורה הושג.",
+            "signature_mismatch": "אי התאמה בחתימת הסחורה עבור שורה %{stable_id}."
+          }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "התשלום מכיל רק סחורה מרוחקת. נדרשת הפניה לחנות מרוחקת כדי להשלים את התשלום.",
+          "currency_mismatch": "לא ניתן להוסיף פריט זה לעגלת הקניות שלך מכיוון שהוא מחנות המשתמשת במטבע אחר.",
+          "currency_mismatch_removal": "פריט הוסר מעגלת הקניות שלך מכיוון שהוא מחנות המשתמשת במטבע אחר.",
+          "max_remote_shops_exceeded": "לא ניתן להוסיף מוצר זה מכיוון שעגלת הקניות שלך כבר מכילה את הסכום המקסימלי מחנויות אחרות."
+        }
+      },
+      "units": {
+        "milligram": "מ\"ג",
+        "kilogram": "ק\"ג",
+        "milliliter": "מ\"ל",
+        "centiliter": "קל",
+        "cubic_meter": "מ\"ק",
+        "millimeter": "מ\"מ",
+        "centimeter": "ס\"מ",
+        "square_meter": "מ\"ר",
+        "ounce": "עוז",
+        "pound": "ליברה",
+        "fluid_ounce": "אונקיות נוזל",
+        "quart": "קוורט",
+        "gallon": "בחורה",
+        "inch": "ב",
+        "foot": "רגל",
+        "yard": "יארד",
+        "square_foot": "רגל²",
+        "item": "פָּרִיט"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "הכתובת אינה נתמכת עבור החברות הנוכחית.",
+        "items_split_across_locations_unsupported": "משלוח ראשי אינו זמין עבור ההזמנה שלך. אפשרויות המשלוח שלך עודכנו."
       }
     }
   },
