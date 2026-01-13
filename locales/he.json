@@ -716,7 +716,45 @@
         "thank_you_confirmed_order_with_email_and_phone": "תקבלו בקרוב אימייל אישור עם מספר ההזמנה שלכם.",
         "thank_you_confirmed_orders_with_email": "בקרוב תקבלו הודעות אישור נפרדות עם מספרי ההזמנה שלכם",
         "thank_you_confirmed_orders_with_phone": "בקרוב תקבלו הודעות אישור נפרדות עם מספרי ההזמנה שלכם",
-        "thank_you_confirmed_orders_with_email_and_phone": "בקרוב תקבלו הודעות אישור נפרדות עם מספרי ההזמנה שלכם"
+        "thank_you_confirmed_orders_with_email_and_phone": "בקרוב תקבלו הודעות אישור נפרדות עם מספרי ההזמנה שלכם",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "תקבלו הודעת טקסט עם כרטיס המתנה שלכם תוך מספר דקות.",
+          "other": "תקבלו הודעת טקסט עם כרטיסי המתנה שלכם תוך מספר דקות."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "תקבלו אימייל עם כרטיס המתנה שלכם תוך מספר דקות.",
+          "other": "תקבלו אימייל עם כרטיסי המתנה שלכם תוך מספר דקות."
+        },
+        "gift_card_email_title": {
+          "one": "כרטיס מתנה נשלח במייל",
+          "other": "כרטיסי מתנה נשלחו במייל"
+        },
+        "gift_card_text_title": {
+          "one": "כרטיס מתנה נשלח בהודעת טקסט",
+          "other": "כרטיסי מתנה נשלחו באמצעות הודעת טקסט"
+        },
+        "resend_gift_cards_by_email": "שלח שוב אימייל",
+        "resend_gift_cards_by_text": "שלח שוב הודעת טקסט",
+        "gift_card_resent_confirmation": {
+          "one": "כרטיס מתנה נשלח מחדש.",
+          "other": "כרטיסי מתנה נשלחו מחדש."
+        },
+        "gift_card_resend_failure": {
+          "one": "הייתה בעיה בשליחת כרטיס המתנה שלך מחדש. נסה שוב או צור איתנו קשר.",
+          "other": "הייתה בעיה בשליחת כרטיסי המתנה שלך מחדש. נסה שוב או צור איתנו קשר."
+        },
+        "vat_invoices": {
+          "title": "חשבוניות מע\"מ"
+        },
+        "verify_shop_account_title": "אימות חשבון החנות שלך",
+        "verify_shop_account_message": "המידע שלך נשמר באמצעות Shop, אמת את חשבונך כדי להשתמש בו אוטומטית במיליוני חנויות.",
+        "verify_shop_account_cta": "אימות החשבון שלך",
+        "verify_shop_account_confirmation": "פרטי התשלום נשמרו",
+        "announcement": {
+          "close": "לִסְגוֹר",
+          "expand": "לְהַרְחִיב",
+          "collapse": "הִתמוֹטְטוּת"
+        }
       },
       "pickup_point": {
         "paginator": {
@@ -883,6 +921,118 @@
           "checkout_has_expired": "תוקף התשלום פג. סגור חלון זה ונסה לבצע תשלום שוב מ {{shopName}} ."
         },
         "return_to_store": "חזור אל {{shopName}}"
+      },
+      "vaulted": {
+        "change_button": "לְשַׁנוֹת"
+      },
+      "review": {
+        "title": "סְקִירָה",
+        "review_title": "השלם את ההזמנה שלך",
+        "review_and_confirm_title": "סקירה ואישור",
+        "checkout_as_guest": "צ'ק אאוט כאורח",
+        "account_more_actions": "פעולות נוספות עבור חשבון זה",
+        "checkout_a_different_way": "בדוק דרך אחרת",
+        "blocks": {
+          "contact_method_title": "מַגָע",
+          "billing_address_title": "חיוב",
+          "shipping_address_title": "לשלוח אל",
+          "shipping_method_title": "שיטת משלוח",
+          "payment_method_title": "אמצעי תשלום",
+          "change_link_label": "לְשַׁנוֹת",
+          "change_contact_method_link_label": "שינוי פרטי קשר",
+          "change_billing_address_link_label": "שינוי כתובת לחיוב",
+          "change_company_location_link_label": "שינוי מיקום החברה",
+          "change_shipping_address_link_label": "שינוי כתובת משלוח",
+          "change_shipping_method_link_label": "שנה את שיטת המשלוח",
+          "change_payment_method_link_label": "שנה אמצעי תשלום",
+          "pick_up_in_store_shipping_method_html": "איסוף בחנות · %{location_name}",
+          "purchase_order_number_title": "מספר הזמנת רכש",
+          "change_purchase_order_number_label": "שינוי מספר הזמנת רכש",
+          "change_delivery_method_link_label": "שנה שיטת משלוח",
+          "no_address": "(אין כתובת)",
+          "no_purchase_order_number": "(אין מספר הזמנת רכש)",
+          "due_after_order_reviewed_html": "מועד אחרון לביצוע לאחר בדיקת ההזמנה",
+          "review_title_free_order": "סקור והשלם את ההזמנה שלך",
+          "payment_method_saved_company_location": "שמור כרטיס עבור מיקום זה",
+          "company_location": "מיקום החברה"
+        },
+        "block_title": "בדוק את המידע שלך",
+        "item_header": {
+          "change_value": "שינוי ערך",
+          "section": "סָעִיף",
+          "value": "עֵרֶך"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "שלח לי אימייל עם חדשות והצעות",
+        "post_accept_marketing_checkbox_label": "הנך רשום/ה לקבלת חדשות והצעות בדוא\"ל",
+        "pending_accept_marketing_checkbox_label": "בדוק את האימייל שלך כדי לאשר את הרשמתך לחדשות ומבצעים",
+        "accept_sms_checkbox_label": "שלח לי הודעה עם חדשות והצעות",
+        "disclaimer": {
+          "privacy_policy": "מדיניות פרטיות",
+          "terms_of_service": "תנאי השירות"
+        },
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "מדיניות פרטיות",
+            "terms_of_service": "תנאי השירות",
+            "description_html": "על ידי הרשמה באמצעות הודעת טקסט, הנך מסכים לקבל הודעות שיווק אוטומטיות חוזרות, כולל תזכורות לעגלת קניות, למספר הטלפון שסופק. הסכמה אינה תנאי לרכישה. השב ל-STOP כדי לבטל את המנוי. השב ל-HELP לקבלת עזרה. תדירות ההודעות משתנה. ייתכן שיחולו חיובים על הודעות ונתונים. עיין ב-%{privacy_policy_link} וב-%{terms_of_service_link} שלנו.",
+            "description_transactional_html": "ייתכן שתקבלו הודעות טקסט הקשורות לאישור הזמנה ועדכוני משלוח. השב ל-STOP כדי לבטל את המנוי. השב ל-HELP לקבלת עזרה. תדירות ההודעות משתנה. ייתכן שיחולו חיובים על הודעות ונתונים. עיינו ב-%{privacy_policy_modal_link} וב-%{terms_of_service_modal_link} שלנו."
+          },
+          "mobile_phone_number": "מספר טלפון נייד",
+          "get_offers_by_text": "קבל הצעות באמצעות הודעת טקסט"
+        },
+        "unsubscribe": {
+          "title": "ביטלת את המנוי",
+          "description": "לא תקבלו מאיתנו תזכורות נוספות לעגלת קניות."
+        },
+        "accept_shop_pay_marketing_checkbox_label": "הירשמו אותי לחדשות ומבצעים מהחנות הזו"
+      },
+      "shop_policies": {
+        "policy_label": "מְדִינִיוּת",
+        "policies_label": "מדיניות",
+        "select_policy_label": "בחר מדיניות",
+        "refund_policy": "מדיניות החזרים",
+        "privacy_policy": "מדיניות הפרטיות",
+        "terms_of_service": "תנאי השירות",
+        "legal_notice": "הודעה משפטית",
+        "shipping_policy": "מִשׁלוֹחַ",
+        "terms_of_sale": "תנאי המכירה",
+        "subscription_policy": "ביטולים",
+        "purchase_options_policy": "מדיניות אפשרויות רכישה",
+        "contact_information": "מַגָע",
+        "purchase_options_cancellation_policy": "ביטולים",
+        "cookie_preferences": "עוגיות"
+      },
+      "remote_policies": {
+        "unavailable_policy": "לא סופק %{policy_name} עבור חנות זו. למידע נוסף, אנא צרו קשר ישירות עם %{shop_name}."
+      },
+      "mor_policies": {
+        "terms_and_conditions": "תנאים והגבלות של סוחר רשומות",
+        "privacy_policy": "מדיניות הפרטיות של סוחר הרשומות"
+      },
+      "markets": {
+        "invalid_market_manager_error": "בדוק את פרטי הקשר שלך לפני השלמת התשלום"
+      },
+      "notifications": {
+        "title": "התראות"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "סכום לתשלום עבור הזמנה %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "נוסף",
+            "other": "נוסף %{count}"
+          },
+          "removed": "הוסר",
+          "subtracted": "הוסר %{count}",
+          "returned": "הוחזר %{count}",
+          "return_line_item_removed": "הוסר %{count} מההחזרה"
+        },
+        "additional_payment_requested": "נדרש תשלום של %{total_outstanding}",
+        "checkout_review_and_pay": "ההזמנה שלך %{order_name} עודכנה. בדוק את השינויים הללו ולאחר מכן שלם כדי לאשר את ההזמנה.",
+        "order_updated_on": "ההזמנה שלך עודכנה בתאריך %{last_edited_at}.",
+        "order_review_and_pay": "ההזמנה שלך עודכנה. בדוק ושלם כדי לאשר את ההזמנה."
       }
     }
   },
@@ -1284,6 +1434,148 @@
       "manage_accessiblity_label": "ניהול הזמנה {{orderId}}",
       "group_title_label": "חלק מ: {{groupTitle}}",
       "group_title_label_with_parent": "עבור: {{groupTitle}}"
+    },
+    "B2B": {
+      "locations": {
+        "shipping_address_required": "הוסף כתובת למשלוח למיקום זה כדי להתחיל לבצע הזמנות.",
+        "staff_and_permissions_title": "צוות והרשאות",
+        "tax_details_title": "פרטי מס",
+        "tax_id": "מספר זיהוי מס",
+        "tax_exemptions": "פטורים ממס",
+        "multiple_tax_exemptions": "עוד {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "ו",
+        "tax_exemptions_modal_close": "לִסְגוֹר",
+        "taxes_none": "אַף לֹא אֶחָד",
+        "tax_exemption_not_applicable": "לא רלוונטי",
+        "tax_exemptions_modal_button_accessibility_label": "הצג את כל הפטורים ממס"
+      },
+      "location_selection": {
+        "continue_to_store": "המשך לאחסן",
+        "description": "אם כבר יש לך פריטים בעגלת הקניות שלך, שינוי מיקומים עשוי להשפיע על מחירי העגלה והכמויות.",
+        "description_switch_later": "תמיד אפשר להחליף מאוחר יותר",
+        "list_accessibility_label": "רשימת מיקומים",
+        "list_item_without_address_accessibility_label": "{{name}} : אין כתובת",
+        "list_loading_accessibility_message": "טוען רשימת מיקומים",
+        "list_loading_address_accessibility_message": "טוען כתובת עבור {{locationName}}",
+        "list_loading_finished_accessibility_message": "רשימת המיקומים נטענה",
+        "loading_store_accessibility_message": "הולך לחנות",
+        "no_location_title": "הזמנות אישיות בלבד",
+        "no_location_description": "אין לך עוד הרשאה לבצע הזמנות עבור {{company}} . אתה עדיין יכול לבצע הזמנות אישיות.",
+        "no_locations_found": "לא נמצאו מיקומים",
+        "search": "חיפוש מיקומים",
+        "search_location_title": "בחר מיקום",
+        "selection_cancel_button": "לְבַטֵל",
+        "selection_confirmation_button": "בחר מיקום",
+        "selection_continue_button": "לְהַמשִׁיך",
+        "title": "לאיזה מיקום אתה קונה?",
+        "title_choose_location": "בחר מיקום",
+        "clear_search": "נקה חיפוש",
+        "try_new_search": "נסה חיפוש חדש"
+      },
+      "addresses": {
+        "add_billing_address_button": "הוסף כתובת לחיוב",
+        "add_billing_address_section_accessibility_label": "הוסף כתובת לחיוב",
+        "add_shipping_address_button": "הוסף כתובת למשלוח",
+        "add_shipping_address_section_accessibility_label": "הוסף כתובת למשלוח",
+        "billing_address_card_title": "כתובת לחיוב",
+        "cancel_adding_billing_address_accessibility_label": "ביטול הוספת כתובת לחיוב",
+        "cancel_adding_shipping_address_accessibility_label": "ביטול הוספת כתובת למשלוח",
+        "save_new_billing_address_accessibility_label": "שמור כתובת לחיוב",
+        "save_new_shipping_address_accessibility_label": "שמור כתובת למשלוח",
+        "shipping_address_card_title": "כתובת למשלוח"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "הסתר הכל",
+          "show_all": "הצג הכל",
+          "hide_all_accessibility_label": "הסתר את כל ההזמנות הנמצאות בבדיקה",
+          "show_all_accessibility_label": "הצג את כל ההזמנות הנמצאות בבדיקה",
+          "show_all_orders_in_review": "הצג את כל ההזמנות הנמצאות בבדיקה",
+          "show_less_orders_in_review": "הצג פחות הזמנות בבדיקה",
+          "title": "תָלוּי וְעוֹמֵד",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "אין לך הזמנות ממתינות",
+            "pending_orders": {
+              "one": "יש לך הזמנה ממתינה {{count}}",
+              "other": "יש לך {{count}} הזמנות ממתינות"
+            },
+            "more_than_pagination_length": "יש לך יותר מ- {{count}} הזמנות ממתינות"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "כפתורי ניווט להזמנות בבדיקה"
+          }
+        },
+        "order_list_column_headers_location": "מִקוּם",
+        "order_list_column_headers_contact": "מַגָע",
+        "order_list_column_headers_status": "סטָטוּס",
+        "removed_company_contact_tooltip": "הוסר מהחברה"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "אושר בתאריך {{date}} מההזמנה {{draftOrderName}}",
+        "loading": "טוען את פרטי ההזמנה",
+        "loading_finished_accessibility_message": "פרטי ההזמנה נטענו",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "התשלום שלך איחר ב {{count}} יום",
+              "other": "התשלום שלך איחר ב {{count}} ימים"
+            },
+            "banner_due": {
+              "one": "התשלום שלך אמור להתבצע תוך יום {{count}}",
+              "other": "התשלום שלך אמור להתבצע בעוד {{count}} ימים"
+            },
+            "banner_due_today": "התשלום שלך אמור להתבצע היום",
+            "title": "תשלום עד מועד התשלום",
+            "title_with_date": "מועד התשלום: {{date}}",
+            "title_due_on_receipt": "התשלום טרם הגיע",
+            "title_due_on_fulfillment": "תשלום בעת ביצוע",
+            "description_overdue": "התשלום שלך איחר.",
+            "description_partially_paid": "הזמנה זו שולמה באופן חלקי. נותרה לך יתרה.",
+            "description_authorized": "אמצעי התשלום שלך יחויב בתאריך היעד, או שתוכל לשלם עכשיו.",
+            "description_waiting_for_manual_payment": "להזמנה זו יש תשלום ממתין. היתרה תעודכן עם קבלת התשלום.",
+            "description_due_on_receipt": "תקבל חשבונית כשיגיע הזמן לתשלום.",
+            "description_due_on_receipt_partially_paid": "הזמנה זו שולמה באופן חלקי. נותרה לך יתרה. תקבל חשבונית כשיגיע מועד התשלום.",
+            "description_due_on_fulfillment": "התשלום יבוצע לאחר מילוי כל הפריטים בהזמנה זו.",
+            "description_due_on_fulfillment_partially_paid": "הזמנה זו שולמה באופן חלקי. נותרה לך יתרה. התשלום יבוצע לאחר שכל הפריטים בהזמנה זו ימומשו."
+          },
+          "draft": {
+            "description": "פרטי התשלום נקבעים עם אישור ההזמנה.",
+            "title": "התשלום טרם הגיע",
+            "in_review": {
+              "description": "פרטי התשלום נקבעים עם אישור ההזמנה.",
+              "title": "התשלום טרם הגיע"
+            },
+            "submitted": {
+              "description": "שלח תשלום כדי לאשר הזמנה זו.",
+              "title": "שלם כדי לאשר",
+              "deposit": {
+                "title": "התשלום אמור להתבצע",
+                "due_later": "היתרה היא בתנאי {{translatedName}} ויש לתשלום בתאריך {{dueDate}} .",
+                "due_on_fulfillment": "היתרה תשולם לאחר שכל הפריטים בהזמנה זו ימולאו.",
+                "due_on_receipt": "תקבלו חשבונית עבור היתרה הנותרת.",
+                "due_on_date": "היתרה מועד פירעון בתאריך {{dueDate}} ."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} יבוצע לאחר אישור ההזמנה. היתרה תהיה בתנאי {{translatedName}} .",
+              "due_on_fulfillment": "סכום {{depositAmount}} יחול לאחר אישור ההזמנה. היתרה תחול לאחר ביצוע ההזמנה.",
+              "due_on_receipt": "סכום {{depositAmount}} יבוצע לאחר אישור ההזמנה. היתרה תשולם בהמשך.",
+              "due_on_date": "סכום {{depositAmount}} יבוצע לאחר אישור הזמנתך. היתרה תשולם בתאריך {{dueDate}} ."
+            }
+          },
+          "paid": {
+            "title": "בתשלום",
+            "title_with_date": "שולם בתאריך {{date}}",
+            "description": "ההזמנה שלך שולמה במלואה."
+          },
+          "refund": {
+            "title": "החזר כספי",
+            "title_with_date": "הוחזר {{date}}",
+            "description_full_refund": "קיבלת החזר כספי מלא עבור הזמנה זו."
+          }
+        }
+      }
     }
   }
 }
