@@ -341,6 +341,18 @@
     "checkout": {
       "general": {
         "pay_now_button_label": "בחרו אמצעי תשלום"
+      },
+      "payment": {
+        "card_security_notice": "כל העסקאות מאובטחות ומוצפנות."
+      }
+    }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "card_fields": {
+        "tooltip": {
+          "card_security_notice": "כל העסקאות מאובטחות ומוצפנות."
+        }
       }
     }
   }
