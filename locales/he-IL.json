@@ -344,7 +344,8 @@
         "page_title": "עמוד תשלום"
       },
       "payment": {
-        "card_security_notice": "כל העסקאות מאובטחות ומוצפנות."
+        "card_security_notice": "כל העסקאות מאובטחות ומוצפנות.",
+        "title": "תשלום"
       },
       "delivery_options": {
         "free_total_label": "חינם",
