@@ -1862,7 +1862,9 @@
     },
     "email_marketing": {
       "unsubscribed": {
-        "preview": "אתה מציג תצוגה מקדימה של מה שלקוחות יראו כשהם יבטל את המנוי."
+        "preview": "אתה מציג תצוגה מקדימה של מה שלקוחות יראו כשהם יבטל את המנוי.",
+        "confirmation": "ביטלת את המנוי שלך לרשימת התפוצה שלנו.",
+        "disclaimer": "לא תקבלו מאיתנו עדכונים שיווקיים נוספים. תוכלו להירשם שוב בכל עת."
       },
       "open_tracking": {
         "opt_in": {
@@ -1890,6 +1892,11 @@
           "visibility": "עדכנו את המדיניות שלנו, וכעת אנו עוקבים אחר פתיחות אימיילים. שיעורי פתיחת אימיילים ידווחו באופן אנונימי. נראה רק אם פתחת אימייל כחלק משיעור הפתיחה הכולל של האימייל.",
           "opt_out_html": "אם אינך מעוניין לשתף מידע זה, תוכל <a style=\"text-decoration:underline;\" href=\"%{link}\">לבטל את המנוי.</a>"
         }
+      },
+      "subscribed": {
+        "confirmation": "תודה שנרשמת לרשימת התפוצה שלנו.",
+        "disclaimer": "ניתן לבטל את המנוי בכל עת.",
+        "unsubscribe": "ביטול מנוי"
       }
     },
     "filters": {
@@ -1962,6 +1969,141 @@
       "buyer_consent_product": "פריט זה הוא רכישה חוזרת או נדחית. על ידי המשך הרכישה, אני מסכים ל-%{cancellationPolicyLink} ומאשר לך לחייב את אמצעי התשלום שלי במחירים, בתדירות ובתאריכים המפורטים בדף זה עד לביצוע ההזמנה שלי או עד שאבטל, אם ירשו לי.",
       "buyer_consent_cart": "אחד או יותר מהפריטים בעגלת הקניות שלך הוא רכישה חוזרת או נדחית. על ידי המשך השימוש, אני מסכים ל-%{cancellationPolicyLink} ומאשר לך לחייב את אמצעי התשלום שלי במחירים, בתדירות ובתאריכים המפורטים בדף זה עד לביצוע ההזמנה שלי או עד שאבטל, אם ירשו לי.",
       "cancellation_policy": "מדיניות ביטול"
+    },
+    "errors": {
+      "shop_404": {
+        "ctas": {
+          "open_a_store": {
+            "caption": "התחל תקופת ניסיון בחינם ל-3 ימים, ולאחר מכן המשך תמורת דולר אחד לחודש למשך 3 החודשים הבאים.",
+            "link_text": "הירשמו עכשיו"
+          },
+          "editions": {
+            "header": "בדקו את מהדורות Shopify",
+            "caption": "עם יותר מ-100 עדכוני מוצרים, תוכלו להיות פרודוקטיביים, יצירתיים וחזקים יותר במסחר ממה שאי פעם דמיינתם.",
+            "link_text": "גלה את המהדורות האחרונות"
+          },
+          "store_owner": {
+            "header": "האם אתה בעל החנות?",
+            "caption": "האם אתה מתקשה להיכנס לחנות שלך? נסה את התכונה %{forgot_your_store_link}. אם ברצונך להפעיל מחדש את החנות שלך, צור קשר עם %{shopify_support_link}.",
+            "shopify_support_link_text": "תמיכת Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "שגיאת איפוס סיסמה",
+        "subscribe_error": "שגיאת הרשמה",
+        "unsubscribe_error": "שגיאת ביטול מנוי",
+        "no_account_found": "לא נמצא חשבון עם כתובת האימייל הזו.",
+        "invalid_credentials": "כתובת דוא\"ל או סיסמה שגויים.",
+        "denylisted_reset_password": "לא ניתן היה לגשת לחשבונך מכיוון שהסיסמה הנוכחית אינה מאובטחת. תקבל אימייל לעדכון הסיסמה.",
+        "signup_disabled": "יצירת חשבון לקוח הושבתה."
+      },
+      "address": {
+        "updated": "הכתובת עודכנה בהצלחה.",
+        "error_updating": "שגיאה בעדכון הכתובת",
+        "created": "הכתובת נוצרה בהצלחה",
+        "error_creating": "שגיאה ביצירת כתובת.",
+        "deleted": "הכתובת נמחקה בהצלחה",
+        "error_deleting": "שגיאה במחיקת כתובת."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "נוסף %{delta}",
+          "increment_item": "נוסף %{delta}",
+          "decrement_item": "הוסר %{delta} מתוך %{total}",
+          "decrement_fulfilled_line_item": "הוחזר %{delta} מתוך %{total}",
+          "decrement_return_line_item": "הוסר %{delta} מההחזרה"
+        }
+      },
+      "order": {
+        "not_available": "הזמנה זו אינה זמינה",
+        "financial_status": {
+          "authorized": "מוּסמָך",
+          "pending": "תָלוּי וְעוֹמֵד",
+          "paid": "בתשלום",
+          "unpaid": "לא שולם",
+          "voided": "בוטל",
+          "partially_paid": "שולם חלקית",
+          "partially_refunded": "החזר חלקי",
+          "refunded": "החזר כספי",
+          "expired": "פג תוקף"
+        },
+        "fulfillment_status": {
+          "fulfilled": "הוגש",
+          "complete": "לְהַשְׁלִים",
+          "partial": "חֶלקִי",
+          "unfulfilled": "לא מומש",
+          "restocked": "מלאי מחדש"
+        },
+        "transaction_status": {
+          "success": "הַצלָחָה",
+          "pending": "תָלוּי וְעוֹמֵד",
+          "failure": "כֶּשֶׁל",
+          "error": "שְׁגִיאָה"
+        },
+        "cancel_reason": {
+          "declined": "התשלום נדחה",
+          "inventory": "פריטים לא זמינים",
+          "fraud": "הזמנה הונאה",
+          "customer": "לקוח שינה/ביטל הזמנה",
+          "staff": "שגיאת צוות",
+          "other": "אַחֵר"
+        },
+        "cash_on_delivery": "תשלום במזומן במשלוח (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "ניתן להוסיף רק %{count} %{name} לעגלה.",
+        "too_many_items_in_cart": "לא ניתן להוסיף %{name} נוספים לעגלה.",
+        "only_one_added_to_cart": "רק פריט אחד נוסף לעגלת הקניות שלך עקב זמינות.",
+        "only_n_added_to_cart": "רק %{quantity} פריטים נוספו לעגלת הקניות שלך עקב זמינות.",
+        "maximum_available_quantity_reached": "הכמות המקסימלית של פריט זה כבר נמצאת בעגלת הקניות שלך.",
+        "less_than_minimum": "לפריט זה יש מינימום של %{min}.",
+        "more_than_maximum": "לפריט זה יש מקסימום של %{max}.",
+        "not_respect_step": "ניתן להוסיף פריט זה רק במרווחים של %{step}.",
+        "all_items_in_cart": "כל %{count} %{name} נמצאים בעגלת הקניות שלך.",
+        "empty_update": "לא ניתן לעדכן עגלה ריקה",
+        "missing_parameters": "אין מזהה או פרמטר שורה תקף",
+        "generic_error": "שגיאת עגלה",
+        "invalid_input": "הפרמטר %{parameter} אינו חוקי.",
+        "product_not_available": "המוצר אינו זמין",
+        "too_many_line_items_error": "העגלה שלך לא יכולה להכיל יותר מ-%{max} פריטים.",
+        "link_expired": "פג תוקף הקישור",
+        "link_no_longer_exists": "הקישור כבר לא קיים.",
+        "stock_problems_html": "פריט אחד או יותר אינם זמינים עוד. סיפקנו <a href=\"%{link}\">עגלת קניות מעודכנת</a> .",
+        "changed": "עגלת הקניות השתנתה",
+        "items_changed": "פריט אחד או יותר השתנו.",
+        "product_sold_out": "המוצר '%{name}' כבר אזל.",
+        "variant_not_found": "לא ניתן למצוא גרסה",
+        "variant_requires_selling_plan": "ניתן לרכוש וריאנט רק עם תוכנית מכירה.",
+        "selling_plan_not_available_for_company_locations": "רכישה חד פעמית בלבד זמינה עבור הזמנות B2B",
+        "digital_product_not_available_for_company_locations": "לא ניתן להוסיף פריט זה להזמנה B2B",
+        "buyer_cannot_purchase_for_company_locations": "לא ניתן לרכוש עבור מיקום זה",
+        "selling_plan_not_applicable": "לא ניתן להחיל תוכנית מכירה על גרסה",
+        "shipping_address_not_required": "עגלה זו אינה דורשת משלוח",
+        "shipping_address_invalid": "אירעה בעיה בחישוב תעריפי המשלוח. המשך בתהליך התשלום כדי לבחור תעריף משלוח לפני שתשלים את ההזמנה.",
+        "bundle_requires_components": "לא ניתן להוסיף את מוצר החבילה '%{name}' לעגלת הקניות.",
+        "gift_card_with_components_not_supported": "לא ניתן להוסיף את מוצר החבילה '%{name}' לעגלת הקניות.",
+        "gift_card_price_must_be_greater_than_zero": "לא ניתן להוסיף את מוצר החבילה '%{name}' לעגלת הקניות.",
+        "gift_card_recipient_validation_error": "מקבל כרטיס המתנה שצוין אינו חוקי",
+        "view_lines_limit_reached": "שורות חייבות להיות קטנות או שוות ל-%{limit}",
+        "cart_too_large": "העגלה גדולה מדי.",
+        "cart_attributes_error": "מאפייני עגלת הקניות מכילים נתונים לא חוקיים.",
+        "merchandise_line_transformers": {
+          "run_error": "אירעה שגיאה בעגלת הקניות שלך."
+        },
+        "merchandise_not_applicable": "לא ניתן לרכוש את הפריט כפי שהוגדר."
+      },
+      "storefront": {
+        "invalid_password": "הסיסמה שגויה, אנא נסה שוב."
+      },
+      "tags": {
+        "add_articles": "צמצם את החיפוש למאמרים שגם כוללים את התגית %{tag}",
+        "add_products": "צמצם את הבחירה למוצרים התואמים לתג %{tag}",
+        "remove_articles": "הרחב את החיפוש למאמרים שאינם מתויגים %{tag}",
+        "remove_products": "הסר את התגית %{tag}"
+      }
     }
   },
   "customer_accounts": {
