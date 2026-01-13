@@ -346,12 +346,14 @@
         "card_security_notice": "כל העסקאות מאובטחות ומוצפנות."
       },
       "delivery_options": {
-        "free_total_label": "חינם"
+        "free_total_label": "חינם",
+        "shipping_address": "כתובת למשלוח"
       },
       "order_summary": {
         "free_shipping_discount_label": "משלוח חינם",
         "free_total_label": "חינם",
-        "free_shipping_total_label": "חינם"
+        "free_shipping_total_label": "חינם",
+        "shipping_label": "משלוח"
       },
       "shipping": {
         "free_rate_label": "חינם",
