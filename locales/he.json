@@ -336,5 +336,258 @@
       "default_title": "כותרת ברירת מחדל",
       "sticky_add_to_cart": "סרגל הוספה מהירה לעגלה"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "apply_discount_button_label": "לִפְנוֹת",
+        "applied_discount_message": "%{amount} הנחה על מחיר ההזמנה הכולל",
+        "discount_has_been_applied": "ההנחה יושמה",
+        "discount_has_been_removed": "ההנחה הוסרה",
+        "gift_card_has_been_applied": "כרטיס מתנה הוחל",
+        "gift_card_has_been_removed": "כרטיס המתנה הוסר",
+        "gift_card_subscriptions_notice": "כרטיסי מתנה יחולו רק על התשלום הראשון שלך",
+        "discount_already_applied": "הנחה הוחלה על הזמנה זו. לא ניתן להוסיף הנחה נוספת.",
+        "cart_does_not_meet_discount_requirements_notice": "קוד ההנחה <strong style=\"text-transform:uppercase\">%{code}</strong> אינו תקף לפריטים בעגלת הקניות שלך",
+        "discount_requires_customer_notice": "הזן את פרטי המשלוח שלך כדי להחיל את קוד ההנחה <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "קוד ההנחה <strong style=\"text-transform:uppercase\">%{code}</strong> אינו זמין עבורך כרגע",
+        "eligible_customer_missing_notice": "קוד הנחה <strong style=\"text-transform:uppercase\">%{code}</strong> דורש לקוחות זכאים",
+        "shipping_information_does_not_meet_discount_requirements_notice": "קוד ההנחה <strong style=\"text-transform:uppercase\">%{code}</strong> אינו זמין עבור כתובת המשלוח שלך",
+        "customer_already_used_once_per_customer_discount_notice": "קוד ההנחה <strong style=\"text-transform:uppercase\">%{code}</strong> כבר נוצל",
+        "subtotal_label": "סכום ביניים",
+        "subtotal_label_with_quantity": {
+          "one": "סכום ביניים · %{count} פריט",
+          "other": "סכום ביניים · %{count} פריטים"
+        },
+        "shipping_label": "מִשׁלוֹחַ",
+        "pickup_label": "איסוף בחנות",
+        "no_pickup_location": "אין נקודות איסוף זמינות.",
+        "pickup_unavailable_banner_title": {
+          "one": "אין חנויות זמינות עם הפריט שלך",
+          "other": "אין חנויות זמינות עם הפריטים שלך"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "אין חנויות זמינות ב-%{country} עם הפריט שלך",
+          "other": "אין חנויות זמינות ב-%{country} עם הפריטים שלך"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "לשלוח לכתובת",
+          "ship_to_address_instead_html": "%{link} במקום זאת"
+        },
+        "tip_label": "עֵצָה",
+        "unconfirmed_label": "לא אושר",
+        "calculating_shipping": "מחשב...",
+        "calculating": "מחשב...",
+        "shipping_default_value": "מחושב בשלב הבא",
+        "shipping_discount_title": "הנחת משלוח",
+        "shipping_pending_message": "עדיין לא זמין",
+        "shipping_policy_link": "עלויות משלוח",
+        "taxes_label": "מיסים",
+        "estimated_taxes_label": "מיסים משוערים",
+        "estimated_taxes_label_short": "מְשׁוֹעָר",
+        "information_estimated_taxes_label": "מיסים (משוערים)",
+        "estimated_taxes_finalization_tooltip_content": "המס הסופי והסכום הכולל יאושרו באמצעות דוא\"ל או הודעת טקסט לאחר ביצוע ההזמנה.",
+        "estimated_taxes_finalization_tooltip_content_short": "מס סוכם לאחר התשלום",
+        "order_total_label": "סה\"כ הזמנה",
+        "price_before_discount_aria_text": "מחיר מקורי",
+        "price_after_discount_aria_text": "מחיר מוזל",
+        "discount_code_aria_text": "קוד הנחה",
+        "total_savings": "סך החיסכון",
+        "total_label": "סַך הַכֹּל",
+        "total_due_label": "סכום לתשלום",
+        "total_paid_label": "סך הכל ששולם",
+        "total_price_label": "מחיר כולל",
+        "total_outstanding_label": "סכום לתשלום",
+        "deposit_label": "לְהַפְקִיד",
+        "total_due_today_label": "סכום לתשלום היום",
+        "total_due_later_label": "סכום לתשלום מאוחר יותר",
+        "partial_total_label": "סַך הַכֹּל",
+        "free_total_label": "לְשַׁחְרֵר",
+        "free_shipping_total_label": "לְשַׁחְרֵר",
+        "paid_label": "בתשלום",
+        "payment_due_label": "תשלום עד מועד התשלום",
+        "vat_label_html": "כולל %{amount} במסים",
+        "duties_included_label": "הסכום כולל מיסים ומכסים. אין חיובים נוספים במשלוח.",
+        "discount_and_gift_card_savings_notice": "לאחר %{discount_amount} בהנחות ו-%{gift_card_amount} בכרטיסי מתנה",
+        "discount_savings_notice": "לאחר הנחות של %{discount_amount}",
+        "gift_card_savings_notice": "לאחר %{gift_card_amount} בכרטיסי מתנה",
+        "cost_table_title": "סיכום עלויות",
+        "cost_table_item_column_header": "פָּרִיט",
+        "cost_table_value_column_header": "עֵרֶך",
+        "description_label": "תֵאוּר",
+        "price_label": "מְחִיר",
+        "price_per_item": {
+          "accessibility_label": "%{price} לפריט",
+          "label": "%{מחיר}/ליחידה"
+        },
+        "quantity_label": "כַּמוּת",
+        "product_change_label": "לְשַׁנוֹת",
+        "product_image_label": "תמונת מוצר",
+        "product_image_quantity_label": "כַּמוּת",
+        "scroll_order_summary": "גלול לפריטים נוספים",
+        "expand_order_summary_short": "לְהַצִיג",
+        "collapse_order_summary_short": "לְהַסתִיר",
+        "expand_order_summary": "הצג סיכום הזמנה",
+        "collapse_order_summary": "הסתר את סיכום ההזמנה",
+        "original_price": "מחיר מקורי",
+        "sale_price": "מחיר מכירה",
+        "total_updated_label": "מחיר כולל מעודכן:",
+        "order_total_updated_label": "סכום מעודכן",
+        "total_already_paid_label": "בתשלום",
+        "unit_price": {
+          "accessible_separator": "לְכָל",
+          "per_item": {
+            "single": "%{price} ליחידה",
+            "one": "%{price} לכל %{count} פריט",
+            "other": "%{price} לכל %{count} פריטים"
+          },
+          "per_unit": {
+            "single": "מחיר %/יחידה %"
+          }
+        },
+        "gift_card_ending": "כרטיס מתנה שמסתיים ב-%{last_characters}",
+        "estimated_tax_label": "מס משוער",
+        "multiple_shipping_lines_label": "סה\"כ משלוח",
+        "recurring_subtotal_label": "סכום ביניים חוזר",
+        "recurring_total_label": "סכום חוזר",
+        "recurring_total_tooltip": "לא כולל משלוח, מס, מכסים או כל הנחה רלוונטית.",
+        "confirmation_number_label": "אישור #%{confirmation_number}",
+        "higher_value_discount_applied": "לא ניתן היה להשתמש ב <strong style=\"text-transform:uppercase\">-%{code}</strong> עם ההנחות הקיימות שלך.",
+        "percent_off_shipping": "%{percent}% הנחה על משלוח",
+        "amount_off_shipping": "%{amount} הנחה על משלוח",
+        "deferred_payment_info": {
+          "title": "תשלום של %{amount_due} מועד אחרון לתאריך %{due_at}",
+          "description_html": "לשאלות בנוגע להזמנה שלך, %{contact_us}.",
+          "paid_today": "סך הכל ששולם היום",
+          "paid_today_next": "שולם היום",
+          "due_on_fulfillment_title": "תשלום של %{amount_due} יבוצע עם מימוש העסקה",
+          "due_on_receipt_title": "תשלום של %{amount_due} יבוצע עם קבלתו"
+        },
+        "deferred_balance_info": {
+          "title": "יתרת התשלום בסך {{amount_due}} מועד התשלום הוא בתאריך {{due_at}}",
+          "due_on_fulfillment_title": "יתרת התשלום בסך {{amount_due}} תישלח עם מימוש התשלום"
+        },
+        "payment_terms_totals": {
+          "due_today": "סכום לתשלום היום",
+          "due_today_next": "מועד אחרון להיום",
+          "due_later": "סך הכל לתשלום %{due_at}",
+          "due_on_fulfillment": "סה\"כ לתשלום בעת ביצוע",
+          "due_on_fulfillment_next": "מועד הגשמה",
+          "due_on_receipt": "סכום לתשלום עם הקבלה",
+          "due_later_checkout_to_draft": "סכום לתשלום מאוחר יותר",
+          "total_paid": "סך הכל ששולם"
+        },
+        "maximum_discount_code_limit_reached": "הגעת למספר המקסימלי של קודי הנחה. הסר קוד קיים כדי להשתמש ב <strong style=\"text-transform:uppercase\">-%{code}</strong> .",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> לא עובד כרגע. צור קשר לקבלת עזרה.",
+        "due_on_fulfillment": "מועד הגשמה",
+        "gift_card_masked": "•••• %{תווים_אחרונים}",
+        "subscriptions": "מנויים",
+        "duties_label": "חובות",
+        "duties_and_taxes_label": "חובות ומסים",
+        "error_duties_tooltip": "הזמנה זו נשלחת ממדינה אחרת, לכן ייתכן שייגבו מכסים ומסים בעת המשלוח.",
+        "may_be_charged_on_delivery": "ייתכן חיוב בעת המשלוח",
+        "total_updated_label_with_price": "מחיר כולל מעודכן: %{totalPrice}",
+        "updated_shipping_method": "שיטת משלוח מעודכנת: %{shipping_method}",
+        "recurring_payments": "תשלומים חוזרים",
+        "recurring_total_multiple_label": "להזמנה זו יש חיוב חוזר עבור מספר פריטים.",
+        "deferred_total_due_date_label": "סכום לתשלום {{date}}",
+        "deferred_total_due_date_label_next": "תאריך יעד %{date}",
+        "full_price": "מחיר מלא: %{price}",
+        "custom_discount": "הנחה בהתאמה אישית",
+        "expand_component_information": {
+          "one": "הצג פריט %{count}",
+          "other": "הצג %{count} פריטים"
+        },
+        "collapse_component_information": {
+          "one": "הסתר פריט %{count}",
+          "other": "הסתר %{count} פריטים"
+        },
+        "discount_discovery": {
+          "add_code": "הוסף הנחה",
+          "merchandise_quantity_label": {
+            "one": "פריט %{count}",
+            "other": "%{count} פריטים"
+          }
+        },
+        "alternative_payment_currency_total": "חויב כ-%{amount_due}",
+        "discount_applies_to_subscription_items_only": "הנחה זו תקפה רק לפריטים המנויים"
+      },
+      "shipping": {
+        "title": "מִשׁלוֹחַ",
+        "delivery_title": "מְסִירָה",
+        "shipping_method_title": "שיטת משלוח",
+        "shipping_method_rollup_accessibility_label": "אפשרויות שיטות משלוח",
+        "shipping_method_one_time_purchase_group_title": "רכישה חד פעמית",
+        "shipping_method_first_shipment_group_title": {
+          "one": "משלוח ראשון",
+          "other": "משלוחים ראשונים"
+        },
+        "shipping_method_subscription_group_title": "מִנוּי",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "משלוח חוזר",
+          "other": "משלוחים חוזרים"
+        },
+        "subscription_shipping": "משלוח מנוי",
+        "subscription_local_delivery": "משלוח מקומי במנוי",
+        "subscription_pickup": "איסוף מנוי",
+        "waiting_on_rate_notice": "מקבל תעריפי משלוח זמינים...",
+        "waiting_on_pickup_location_notice": "מציאת נקודות איסוף זמינות...",
+        "no_rates_for_cart_or_destination_notice": "אין שיטות משלוח זמינות לעגלת הקניות או הכתובת שלך",
+        "no_pickup_location_notice": "לפחות אחד מהמוצרים שלך אינו זמין לאיסוף",
+        "no_rates_for_country_notice": "לא נמצאו תעריפי משלוח עבור כתובת זו.",
+        "no_rates_contact_notice": "צרו קשר לקבלת מידע נוסף",
+        "free_rate_label": "לְשַׁחְרֵר",
+        "cheapest_rate_label": "הזול ביותר",
+        "please_enter_your_shipping_information_notice": "אנא הזן את פרטי המשלוח שלך.",
+        "estimated_delivery_date": {
+          "one": "יום עסקים %{count}",
+          "other": "ימי עסקים"
+        },
+        "estimated_delivery_date_range": "%{minimum} עד %{maximum} ימי עסקים",
+        "delivery_date_range": "%{זמן_מינימום}–%{זמן_מקסימום}",
+        "estimated_delivery_time": "זמן אספקה ​​משוער %{time}",
+        "estimated_delivery_time_range": "זמן אספקה ​​משוער %{min_time}–%{max_time}",
+        "delivery_today": "משלוח באותו היום %{time}",
+        "delivery_tomorrow": "משלוח למחרת %{time}",
+        "two_day_delivery": "משלוח תוך יומיים %{time}",
+        "delivery": "%{time} משלוח",
+        "arrives_time": "מגיע %{time}",
+        "arrives_time_range": "מגיע %{min_time}–%{max_time}",
+        "estimated_time": "זמן משוער %{time}",
+        "estimated_time_range": "זמן משוער %{min_time}–%{max_time}",
+        "default_description": "נשלח תוך יום עסקים אחד",
+        "unbranded_default_description": "מוכן למשלוח",
+        "shipping_line_phone_label": "מספר טלפון נייד (נדרש)",
+        "shipping_line_phone": "ייתכן שחברת השליחויות שלך תשתמש במספר זה כדי ליצור איתך קשר.",
+        "shipping_line_delivery_phone_label": "מספר טלפון נייד",
+        "shipping_line_delivery_phone": "ייתכן שתיצור איתך קשר עם עדכונים בנוגע למשלוח שלך.",
+        "optional_shipping_line_delivery_instructions_label": "הוראות משלוח (אופציונלי)",
+        "shipping_line_delivery_instructions": "הזן מידע נחוץ כמו קודי דלת או הוראות הורדה.",
+        "other_method": {
+          "zero": "אין שיטות אחרות זמינות",
+          "one": "%{count} שיטה אחרת זמינה ב",
+          "other": "%{count} שיטות נוספות זמינות החל מ-"
+        },
+        "shipping_rate_discounted_amount": "היה: %{original_amount}. כעת: %{amount}",
+        "local_delivery": "משלוח מקומי",
+        "prime_not_available": {
+          "default": "משלוח ראשי אינו זמין עבור ההזמנה שלך. אפשרויות המשלוח שלך עודכנו."
+        },
+        "subscription_delivery_description": {
+          "free_shipping_cycles": {
+            "one": "משלוח חינם עבור %{count} נוספים",
+            "other": "משלוח חינם עבור %{count} משלוחים נוספים"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "משלוח חינם עבור %{count} משלוחים",
+            "other": "משלוח חינם עבור %{count} משלוחים"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "משלוח חינם עבור %{count} משלוח נוסף, מאשר %{recurring_order_shipping_price}",
+            "other": "משלוח חינם עבור %{count} משלוחים נוספים, לאחר %{recurring_order_shipping_price}"
+          }
+        }
+      }
+    }
   }
 }
