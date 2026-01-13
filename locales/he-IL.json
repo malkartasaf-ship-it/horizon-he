@@ -364,7 +364,7 @@
         "delivery_title": "פרטי המזמין"
       },
       "contact": {
-        "title": "הזינו כתובת מייל"
+        "address_title": "הזינו כתובת מייל"
       }
     }
   },
