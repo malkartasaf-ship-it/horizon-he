@@ -170,7 +170,7 @@
         "text_qkRWR6": {
           "type": "text",
           "settings": {
-            "text": "<p>! כל האתר במבצע ל-24 שעות ! אל תפספסו </p>",
+            "text": "<p>כל האתר במבצע ל-24 שעות ! אל תפספסו !</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -212,7 +212,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>(: שלחו לנו תמונה להתייעצות</h2>",
+            "text": "<h2>שלחו לנו תמונה להתייעצות :)</h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -892,7 +892,7 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
+        "horizontal_alignment": "center",
         "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
@@ -1216,7 +1216,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>: שאלות נפוצות </h3>",
+            "text": "<h3>שאלות נפוצות :</h3>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "right",
@@ -1552,7 +1552,7 @@
               "type": "text",
               "name": "t:names.header",
               "settings": {
-                "text": "<p>: לקוחות ממליצים</p>",
+                "text": "<p>לקוחות ממליצים :</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
