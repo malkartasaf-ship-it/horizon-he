@@ -355,7 +355,10 @@
         "free_shipping_discount_label": "משלוח חינם",
         "free_total_label": "חינם",
         "free_shipping_total_label": "חינם",
-        "shipping_label": "משלוח"
+        "shipping_label": "משלוח",
+        "discount_discovery": {
+          "add_code": "הוסף קוד קופון"
+        }
       },
       "shipping": {
         "free_rate_label": "חינם",
