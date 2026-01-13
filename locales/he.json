@@ -1196,6 +1196,140 @@
       },
       "artifact_errors": {
         "artifact_dissatisfaction_without_violation": "הייתה בעיה בעיבוד ההזמנה שלך. נסה שוב בעוד מספר דקות."
+      },
+      "general": {
+        "errors": {
+          "captcha": {
+            "token_not_valid_for_session": "לא ניתן להשתמש ב-captcha שסופק עם תשלום זה."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "הסכום שהתקבל חייב להיות במטבע החנות."
+          },
+          "checkout_source": {
+            "revoked": "קופה זו אינה זמינה עוד."
+          }
+        },
+        "full_price": "מחיר מלא:",
+        "title": "תשלום - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - תשלום",
+        "loading": "טְעִינָה…",
+        "loading_title": "תשלום - {{shopName}}",
+        "google_map_title": "מפת גוגל",
+        "confirm_order_button_label": "אישור הזמנה",
+        "submit_order_button_label": "שלח הזמנה",
+        "submit_for_review_button_label": "שלח לבדיקה",
+        "submit_for_review_notice_label": "התשלום לא יבוצע עד לבדיקת ההזמנה שלך",
+        "continue_to_payment_plans_button_label": "המשך לתוכניות התשלום",
+        "back_button_label": "לַחֲזוֹר",
+        "choose_delivery_strategy": "בחר שיטת משלוח",
+        "autocomplete_zero_item": "אין פריטים זמינים",
+        "autocomplete_powered_by_google": "מופעל על ידי {{brandName}}",
+        "submit": "לְהַגִישׁ",
+        "processing": "עיבוד...",
+        "stepper": {
+          "increase": "הגדלת {{type}}",
+          "decrease": "הקטן {{type}}",
+          "minimum_reached": "מינימום של {{value}} הושג",
+          "maximum_reached": "הגעת למקסימום של {{value}}"
+        },
+        "remove_chip": "הסר פריט",
+        "remove_item": "הסר את %{label}",
+        "remove_tag": "הסר תגית",
+        "dates": {
+          "weekdays": {
+            "monday": "יוֹם שֵׁנִי",
+            "tuesday": "יוֹם שְׁלִישִׁי",
+            "wednesday": "יוֹם רְבִיעִי",
+            "thursday": "יוֹם חֲמִישִׁי",
+            "friday": "יוֹם שִׁישִׁי",
+            "saturday": "שַׁבָּת",
+            "sunday": "יוֹם רִאשׁוֹן"
+          },
+          "weekdays_abbreviation": {
+            "monday": "מו",
+            "tuesday": "טו",
+            "wednesday": "אָנוּ",
+            "thursday": "ה'",
+            "friday": "פר",
+            "saturday": "סא",
+            "sunday": "סו"
+          },
+          "months": {
+            "january": "יָנוּאָר",
+            "february": "פֶבּרוּאָר",
+            "march": "מַרס",
+            "april": "אַפּרִיל",
+            "may": "מַאִי",
+            "june": "יוּנִי",
+            "july": "יוּלִי",
+            "august": "אוֹגוּסט",
+            "september": "סֶפּטֶמבֶּר",
+            "october": "אוֹקְטוֹבֶּר",
+            "november": "נוֹבֶמבֶּר",
+            "december": "דֵצֶמבֶּר"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "הצג את החודש הקודם, {{month}} {{year}}",
+          "show_next_month": "הצג בחודש הבא, {{month}} {{year}}",
+          "range_start": "תחילת טווח",
+          "in_range": "בטווח",
+          "range_end": "סוף טווח"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "אשכול של סמן {{number}}",
+            "other": "אשכול של סמנים {{number}}"
+          }
+        },
+        "sheet": {
+          "expand": "לְהַרְחִיב"
+        },
+        "dropzone": {
+          "add_file": "הוסף קובץ",
+          "invalid_file_type": "סוג הקובץ אינו נתמך",
+          "dragged_over": "שחררו קובץ להעלאה"
+        }
+      },
+      "payment_collection": {
+        "cancelled": "תשלום זה אינו נדרש עוד. בקר בדף ההזמנה לקבלת פרטים.",
+        "paid": "תשלום זה כבר הוגשה. בקר בדף ההזמנה לקבלת פרטים."
+      },
+      "contact": {
+        "title": "מֵידָע",
+        "address_title": "כְּתוֹבֶת",
+        "shipping_used_as_billing_notice": "כתובת זו תשמש גם ככתובת החיוב שלך עבור הזמנה זו.",
+        "delivery_option_title": "שיטת משלוח",
+        "contact_method_title": "מַגָע",
+        "email_label": "אֶלֶקטרוֹנִי",
+        "email_rollup_accessibility_label": "אפשרויות דוא\"ל",
+        "email_placeholder": "אֶלֶקטרוֹנִי",
+        "email_or_phone_label": "דוא\"ל או מספר טלפון נייד",
+        "email_or_phone_placeholder": "דוא\"ל או מספר טלפון נייד",
+        "stored_addresses_label": "כתובות שנשמרו",
+        "available_addresses_label": "כתובות זמינות",
+        "new_address_label": "השתמש בכתובת חדשה",
+        "first_name_label": "שֵׁם פְּרַטִי",
+        "optional_first_name_label": "שם פרטי (אופציונלי)",
+        "last_name_label": "שֵׁם מִשׁפָּחָה",
+        "company_label": "חֶברָה",
+        "storefront_link": "אתר האינטרנט של הסוחר",
+        "company_attention_label": "חברה/תשומת לב",
+        "optional_company_attention_label": "חברה/תשומת לב (אופציונלי)",
+        "optional_company_label": "חברה (אופציונלי)",
+        "address1_label": "כְּתוֹבֶת",
+        "address2_label": "דירה, סוויטה וכו'.",
+        "optional_address2_label": "דירה, סוויטה וכו' (אופציונלי)",
+        "city_label": "עִיר",
+        "country_label": "מדינה/אזור",
+        "country_code": "קוד מדינה/אזור",
+        "province_label": "מָחוֹז",
+        "province_placeholder": "מָחוֹז",
+        "county_label": "מָחוֹז",
+        "county_placeholder": "מָחוֹז",
+        "state_label": "מְדִינָה",
+        "state_placeholder": "מְדִינָה",
+        "region_label": "אֵזוֹר"
       }
     }
   },
