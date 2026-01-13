@@ -340,7 +340,8 @@
   "shopify": {
     "checkout": {
       "general": {
-        "pay_now_button_label": "בחרו אמצעי תשלום"
+        "pay_now_button_label": "בחרו אמצעי תשלום",
+        "page_title": "עמוד תשלום"
       },
       "payment": {
         "card_security_notice": "כל העסקאות מאובטחות ומוצפנות."
