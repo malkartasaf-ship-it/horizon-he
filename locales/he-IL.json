@@ -362,6 +362,9 @@
         "split_shipping_option_free": "משלוח בחינם",
         "title": "פרטי המזמין",
         "delivery_title": "פרטי המזמין"
+      },
+      "contact": {
+        "title": "הזינו כתובת מייל"
       }
     }
   },
