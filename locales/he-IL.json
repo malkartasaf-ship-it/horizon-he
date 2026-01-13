@@ -336,5 +336,12 @@
       "default_title": "כותרת ברירת מחדל",
       "sticky_add_to_cart": "סרגל הוספה מהירה לעגלה"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "pay_now_button_label": "בחרו אמצעי תשלום"
+      }
+    }
   }
 }
