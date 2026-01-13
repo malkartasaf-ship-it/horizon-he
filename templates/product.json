@@ -218,7 +218,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "<< שלחו לנו תמונה וכיתוב",
+                "label": "שלחו לנו תמונה וכיתוב >>",
                 "link": "https://wa.link/y1ndky",
                 "open_in_new_tab": true,
                 "style_class": "button",
