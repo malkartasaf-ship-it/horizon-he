@@ -358,7 +358,8 @@
         "shipping_label": "משלוח",
         "discount_discovery": {
           "add_code": "הוסף קוד קופון"
-        }
+        },
+        "apply_discount_button_label": "אשר"
       },
       "shipping": {
         "free_rate_label": "חינם",
