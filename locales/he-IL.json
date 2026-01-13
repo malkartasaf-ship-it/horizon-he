@@ -360,7 +360,8 @@
       "shipping": {
         "free_rate_label": "חינם",
         "split_shipping_option_free": "משלוח בחינם",
-        "title": "פרטי המזמין"
+        "title": "פרטי המזמין",
+        "delivery_title": "פרטי המזמין"
       }
     }
   },
