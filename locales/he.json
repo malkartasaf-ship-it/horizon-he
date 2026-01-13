@@ -2725,7 +2725,29 @@
       "saturdayAbbreviation": "סא",
       "sundayAbbreviation": "סו",
       "showNextMonth": "הצג בחודש הבא, {{month}} {{year}}",
-      "showPreviousMonth": "הצג את החודש הקודם, {{month}} {{year}}"
+      "showPreviousMonth": "הצג את החודש הקודם, {{month}} {{year}}",
+      "rangeStart": "תחילת טווח",
+      "inRange": "בטווח",
+      "rangeEnd": "סוף טווח",
+      "autocompleteOptionsAvailable": {
+        "one": "פריט {{count}} זמין",
+        "other": "{{count}} זמינים"
+      },
+      "removeItem": "הסר את {{label}}",
+      "removeTag": "הסר תגית",
+      "month": {
+        "one": "חוֹדֶשׁ",
+        "other": "חודשים"
+      },
+      "mapClusterTitle": {
+        "one": "אשכול של סמן {{number}}",
+        "other": "אשכול של סמנים {{number}}"
+      },
+      "expandSheet": "לְהַרְחִיב",
+      "qrCode": "קוד QR",
+      "addFile": "הוסף קובץ",
+      "dropzoneInvalidFileType": "סוג הקובץ אינו נתמך",
+      "dropzoneDraggedOver": "שחררו קובץ להעלאה"
     },
     "callback": {
       "try_again": "נסה שוב"
@@ -2931,6 +2953,132 @@
       "location_picker": {
         "sheet_title": "מיקומים",
         "search_field_placeholder": "לְחַפֵּשׂ"
+      }
+    },
+    "profile_preview_bar": {
+      "customize_button": "התאמה אישית",
+      "hide_bar": "הסתר סרגל",
+      "navigate_to_admin": "נווט אל מנהל המערכת",
+      "close_preview": "סגור את התצוגה המקדימה",
+      "previewing": "אתה מציג תצוגה מקדימה של:",
+      "saved_at": "נשמר בתאריך {{date}} בשעה {{time}}",
+      "viewing": "אתה צופה ב:",
+      "not_available": "נתוני הפרופיל אינם זמינים",
+      "actions_button": "פעולות"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "בחר את ההרחבה בשם {{extensionName}}",
+        "unselect": "בטל את הבחירה של ההרחבה בשם {{extensionName}}",
+        "move_down": "הזז את ההרחבה למיקום הבא",
+        "move_up": "העברת ההרחבה למיקום הקודם",
+        "remove": "הסר את התוסף",
+        "move_down_tooltip": "מעבר למיקום הבא",
+        "move_up_tooltip": "מעבר למיקום הקודם",
+        "remove_tooltip": "לְהַסִיר"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "לא ניתן לפתוח קישור זה בתוך העורך. הוא ייפתח בחלון חדש ( {{resolved_to_link}} ). לחץ על אישור כדי להמשיך."
+    },
+    "settings": {
+      "title": "הגדרות",
+      "loading_accessibility_message": "טוען את דף ההגדרות",
+      "log_out_everywhere": {
+        "title": "התנתק מכל מקום",
+        "description": "אם איבדתם מכשיר או שיש לכם חששות אבטחה, התנתקו מכל מקום כדי להבטיח את אבטחת חשבונכם.",
+        "button": "התנתק מכל מקום",
+        "warning_message": "גם תותק מהמכשיר הזה."
+      }
+    },
+    "shop_ads": {
+      "title": "מוצרים נוספים שאולי תאהבו",
+      "subtitle": "זמין לזמן מוגבל",
+      "button": "גלה בחנות",
+      "previous_button": "קוֹדֵם",
+      "next_button": "הַבָּא"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "לקוחות יכולים לבקש ולנהל החזרות בעצמם.",
+        "disabled": "על הלקוחות ליצור קשר עם הסוחר כדי לבקש החזרה."
+      }
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "החלפת אמצעי תשלום",
+        "loading": "טוען אמצעי תשלום",
+        "no_payment_methods_available": "אין אמצעי תשלום זמינים",
+        "select_new_payment_method": "בחר אמצעי תשלום חדש",
+        "current_method": "נוֹכְחִי",
+        "cancel": "לְבַטֵל",
+        "save": "לְהַצִיל",
+        "success": "אמצעי התשלום עודכן",
+        "use_new_payment_method": "+ השתמש באמצעי תשלום חדש"
+      },
+      "subscription_contracts": {
+        "title": "השתמשו באמצעי תשלום עבור הזמנות חוזרות",
+        "more_items": {
+          "one": "עוד {{count}} מוצר",
+          "other": "עוד {{count}} מוצרים"
+        },
+        "product_count": {
+          "one": "מוצר {{count}}",
+          "other": "{{count}}"
+        },
+        "subscription_contracts_updated": "עודכן {{succeeded}} מתוך {{total}} מנויים",
+        "product_details": "פרטי מוצר",
+        "load_more": "טען עוד"
+      },
+      "updating_contracts": {
+        "one": "מעדכן חוזה מנוי {{count}} ...",
+        "other": "מעדכן את חוזי המנוי של {{count}} ..."
+      },
+      "contracts_updated": {
+        "one": "חוזה מנוי של {{count}} עודכן בהצלחה",
+        "other": "עודכנו בהצלחה {{count}} חוזי מנוי"
+      },
+      "contracts_update_failed": "נכשל עדכון חלק מחוזי המנוי",
+      "invalid_wallet_type_error": "סוג ארנק לא חוקי."
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "card_number": "מספר כרטיס",
+        "title": "החלפת אמצעי תשלום",
+        "replace_with": "החלף עם",
+        "add_new_payment_method": "הוסף אמצעי תשלום חדש",
+        "save_button": "לְהַצִיל",
+        "close_button": "לִסְגוֹר",
+        "loading": "טוען את אמצעי התשלום המודאלי החלופי",
+        "success": "אמצעי התשלום עודכן",
+        "invalid_subscription_contract": "לא ניתן למצוא את המנוי"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "לוגו %{shop_name}",
+      "processing": "עיבוד...",
+      "step_one": {
+        "page_title": "כניסה - %{shop_name}",
+        "heading": "כניסה",
+        "subheading": "הזן את כתובת האימייל שלך ונשלח לך קוד אימות",
+        "subheading_with_sign_in_options": "היכנס או צור חשבון",
+        "input_field_label": "אֶלֶקטרוֹנִי",
+        "button": "לְהַמשִׁיך",
+        "or": "אוֹ"
+      },
+      "step_two": {
+        "page_title": "הזן את הקוד - %{shop_name}",
+        "heading": "הזן קוד",
+        "subheading": "נשלח אל %{email}",
+        "restart_link": "היכנס עם כתובת דוא\"ל שונה",
+        "input_field_label": "קוד בן 6 ספרות",
+        "button": "לְהַגִישׁ"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "הזן כתובת דוא\"ל חוקית",
+          "invalid_code": "הזן את הקוד בן 6 הספרות הנכון"
+        }
       }
     }
   }
