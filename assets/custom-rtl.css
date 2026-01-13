@@ -1,0 +1,12 @@
+/* RTL מינימלי ובטוח */
+body.rtl p,
+body.rtl h1, body.rtl h2, body.rtl h3, body.rtl h4, body.rtl h5, body.rtl h6,
+body.rtl li,
+body.rtl span,
+body.rtl label,
+body.rtl a,
+body.rtl input,
+body.rtl textarea,
+body.rtl select {
+  direction: rtl;
+}
