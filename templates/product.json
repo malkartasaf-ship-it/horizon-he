@@ -789,7 +789,7 @@
           "type": "text",
           "name": "t:names.header",
           "settings": {
-            "text": "<h3>: מוצרים נוספים </h3>",
+            "text": "<h3>מוצרים נוספים :</h3>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
