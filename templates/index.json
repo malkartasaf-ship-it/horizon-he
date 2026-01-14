@@ -336,11 +336,11 @@
               "type": "_product-card-gallery",
               "name": "t:names.product_card_media",
               "settings": {
-                "image_ratio": "adapt",
+                "image_ratio": "portrait",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 0,
+                "border_radius": 11,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -423,7 +423,7 @@
         "icons_shape": "circle",
         "section_width": "page-width",
         "horizontal_alignment": "center",
-        "gap": 28,
+        "gap": 37,
         "color_scheme": "scheme-1",
         "padding-block-start": 48,
         "padding-block-end": 48
