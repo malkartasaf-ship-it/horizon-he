@@ -589,7 +589,7 @@
       },
       "name": "Featured collection",
       "settings": {
-        "collection": "איור-קובץ-במייל-בלבד",
+        "collection": "קובץ-ממוסגר",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 4,
