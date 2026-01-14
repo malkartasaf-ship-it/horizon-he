@@ -294,7 +294,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>: שאלות נפוצות </h3>",
+            "text": "<h3>שאלות נפוצות :</h3>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "right",
