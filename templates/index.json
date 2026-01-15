@@ -208,47 +208,6 @@
     "product_list_fa6P9H": {
       "type": "product-list",
       "blocks": {
-        "text_ey6qbg": {
-          "type": "text",
-          "name": "t:names.heading",
-          "settings": {
-            "text": "<h2>שלחו לנו תמונה להתייעצות :)</h2>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h4",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "button_hpMBV3": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "עברו לוואטצאפ שלנו להתייעצות",
-            "link": "https://wa.link/iw6d2e",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "custom",
-            "custom_width": 100,
-            "width_mobile": "custom",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
-        },
         "static-header": {
           "type": "_product-list-content",
           "name": "t:names.header",
@@ -404,10 +363,6 @@
           ]
         }
       },
-      "block_order": [
-        "text_ey6qbg",
-        "button_hpMBV3"
-      ],
       "name": "Featured collection",
       "settings": {
         "collection": "איור-קובץ-במייל-בלבד",
@@ -606,6 +561,84 @@
         "color_scheme": "scheme-1",
         "padding-block-start": 16,
         "padding-block-end": 48
+      }
+    },
+    "section_8MhWwd": {
+      "type": "section",
+      "blocks": {
+        "text_QdXeT3": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>שלחו לנו תמונה להתייעצות :)</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_7VDdLM": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "עברו לוואטצאפ שלנו להתייעצות",
+            "link": "https://wa.link/iw6d2e",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "custom",
+            "custom_width": 100,
+            "width_mobile": "custom",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_QdXeT3",
+        "button_7VDdLM"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "section_height": "custom",
+        "section_height_custom": 25,
+        "color_scheme": "scheme-2bee23f9-c392-42cd-8cf6-c5359e6f24e7",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "section_LxxAm8": {
@@ -2153,6 +2186,7 @@
     "marquee_wykDgY",
     "product_list_fa6P9H",
     "product_list_accA7F",
+    "section_8MhWwd",
     "section_LxxAm8",
     "section_CAKGxW",
     "section_nCMcrE",
