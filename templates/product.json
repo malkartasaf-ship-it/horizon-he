@@ -53,8 +53,8 @@
             "details_position": "flex-start",
             "gap": 28,
             "sticky_details_desktop": true,
-            "inherit_color_scheme": true,
-            "color_scheme": "scheme-1",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-red-buttons",
             "background_media": "none",
             "video_position": "cover",
             "background_image_position": "cover",
@@ -251,12 +251,13 @@
                   "type": "add-to-cart",
                   "static": true,
                   "settings": {
-                    "style_class": "button"
+                    "style_class": "button-secondary"
                   },
                   "blocks": {}
                 },
                 "accelerated-checkout": {
                   "type": "accelerated-checkout",
+                  "disabled": true,
                   "static": true,
                   "settings": {},
                   "blocks": {}
