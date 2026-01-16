@@ -373,12 +373,14 @@
         "contact_method_title": "יצירת קשר"
       },
       "field_errors": {
-        "address_first_name_blank": "הזן שם פרטי"
+        "address_first_name_blank": "הזן שם פרטי",
+        "address_last_name_blank": "הזן שם משפחה"
       },
       "wallets": {
         "errors": {
           "missing": {
-            "first_name": "הזן שם פרטי"
+            "first_name": "הזן שם פרטי",
+            "last_name": "הזן שם משפחה"
           }
         }
       }
