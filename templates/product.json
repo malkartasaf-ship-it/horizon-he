@@ -238,7 +238,7 @@
                 "show_tax_info": false,
                 "type_preset": "",
                 "width": "100%",
-                "alignment": "center",
+                "alignment": "right",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
