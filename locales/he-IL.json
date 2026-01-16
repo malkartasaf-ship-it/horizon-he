@@ -371,6 +371,16 @@
         "address_title": "הזינו כתובת מייל",
         "email_label": "הזינו כתובת מייל",
         "contact_method_title": "יצירת קשר"
+      },
+      "field_errors": {
+        "address_first_name_blank": "הזן שם פרטי"
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "first_name": "הזן שם פרטי"
+          }
+        }
       }
     }
   },
