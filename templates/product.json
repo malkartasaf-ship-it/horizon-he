@@ -204,7 +204,7 @@
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
-                "variant_style": "buttons",
+                "variant_style": "dropdowns",
                 "show_swatches": false,
                 "alignment": "right",
                 "padding-block-start": 0,
