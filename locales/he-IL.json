@@ -375,14 +375,16 @@
       "field_errors": {
         "address_first_name_blank": "הזן שם פרטי",
         "address_last_name_blank": "הזן שם משפחה",
-        "address_address1_blank": "הכנס כתובת"
+        "address_address1_blank": "הכנס כתובת",
+        "address_city_blank": "הזן עיר"
       },
       "wallets": {
         "errors": {
           "missing": {
             "first_name": "הזן שם פרטי",
             "last_name": "הזן שם משפחה",
-            "address1": "הכנס כתובת"
+            "address1": "הכנס כתובת",
+            "city": "הזן עיר"
           }
         }
       }
