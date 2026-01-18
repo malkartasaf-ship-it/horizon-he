@@ -765,10 +765,10 @@
         "padding-block-end": 0
       }
     },
-    "section_JgVNBX": {
+    "section_hTJXQJ": {
       "type": "section",
       "blocks": {
-        "group_8VaUMD": {
+        "group_JRmEyf": {
           "type": "group",
           "settings": {
             "content_direction": "column",
@@ -807,7 +807,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "icon_diYfEr": {
+            "icon_pyz4Ad": {
               "type": "icon",
               "settings": {
                 "icon": "check_box",
@@ -817,7 +817,7 @@
               },
               "blocks": {}
             },
-            "group_pjiqcG": {
+            "group_CAHUKR": {
               "type": "group",
               "settings": {
                 "content_direction": "column",
@@ -856,10 +856,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_z4hd7G": {
+                "text_RBHBfK": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>מעלים תמונה וכיתוב באתר </h2>",
+                    "text": "<h2>שולחים לנו תמונה וכיתוב בקישור </h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -881,10 +881,10 @@
                   },
                   "blocks": {}
                 },
-                "text_cwQAiY": {
+                "text_DHfmnj": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>תמונה חצי גוף ברורה ומוארת </p>",
+                    "text": "<p>תמונה חצי גוף ברורה ומוארת + משפט</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -908,17 +908,17 @@
                 }
               },
               "block_order": [
-                "text_z4hd7G",
-                "text_cwQAiY"
+                "text_RBHBfK",
+                "text_DHfmnj"
               ]
             }
           },
           "block_order": [
-            "icon_diYfEr",
-            "group_pjiqcG"
+            "icon_pyz4Ad",
+            "group_CAHUKR"
           ]
         },
-        "group_qFftjm": {
+        "group_3PfFaH": {
           "type": "group",
           "settings": {
             "content_direction": "column",
@@ -957,7 +957,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "icon_EtGcmH": {
+            "icon_jiw4L4": {
               "type": "icon",
               "settings": {
                 "icon": "lock",
@@ -967,7 +967,7 @@
               },
               "blocks": {}
             },
-            "group_EPEgnm": {
+            "group_EKGtMG": {
               "type": "group",
               "settings": {
                 "content_direction": "column",
@@ -1006,7 +1006,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_Dk6UeM": {
+                "text_BXCaNy": {
                   "type": "text",
                   "settings": {
                     "text": "<h2>מוסיפים לסל ומשלמים </h2>",
@@ -1031,7 +1031,7 @@
                   },
                   "blocks": {}
                 },
-                "text_bnDyNA": {
+                "text_P7ayPX": {
                   "type": "text",
                   "settings": {
                     "text": "<p>דרך ויזה / ביט / פייבוקס / apple pay / google pay </p>",
@@ -1058,17 +1058,17 @@
                 }
               },
               "block_order": [
-                "text_Dk6UeM",
-                "text_bnDyNA"
+                "text_BXCaNy",
+                "text_P7ayPX"
               ]
             }
           },
           "block_order": [
-            "icon_EtGcmH",
-            "group_EPEgnm"
+            "icon_jiw4L4",
+            "group_EKGtMG"
           ]
         },
-        "group_4GDkHE": {
+        "group_XMx7Gf": {
           "type": "group",
           "settings": {
             "content_direction": "column",
@@ -1107,17 +1107,17 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "icon_KkfH7L": {
+            "icon_jRQyRn": {
               "type": "icon",
               "settings": {
-                "icon": "truck",
+                "icon": "whatsapp",
                 "width": 32,
                 "link": "",
                 "open_in_new_tab": false
               },
               "blocks": {}
             },
-            "group_VqYVFd": {
+            "group_4dXPyB": {
               "type": "group",
               "settings": {
                 "content_direction": "column",
@@ -1156,10 +1156,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_rd8MP9": {
+                "text_PMxnKk": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>ומקבלים את האיור </h2>",
+                    "text": "<h2>מקבלים את האיור לאישור</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1181,7 +1181,7 @@
                   },
                   "blocks": {}
                 },
-                "text_X3tD8j": {
+                "text_tiVwHb": {
                   "type": "text",
                   "settings": {
                     "text": "<p> עד 2 ימי עסקים במייל </p>",
@@ -1208,21 +1208,172 @@
                 }
               },
               "block_order": [
-                "text_rd8MP9",
-                "text_X3tD8j"
+                "text_PMxnKk",
+                "text_tiVwHb"
               ]
             }
           },
           "block_order": [
-            "icon_KkfH7L",
-            "group_VqYVFd"
+            "icon_jRQyRn",
+            "group_4dXPyB"
+          ]
+        },
+        "group_GiXDFw": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "icon_8bKdND": {
+              "type": "icon",
+              "settings": {
+                "icon": "heart",
+                "width": 32,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
+            "group_Qke3nU": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_8r74nz": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h2>ומדפיסים איפה שרוצים</h2>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h4",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_ByLU4F": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>בכל גודל ובכל מקום באיכות שיא</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_8r74nz",
+                "text_ByLU4F"
+              ]
+            }
+          },
+          "block_order": [
+            "icon_8bKdND",
+            "group_Qke3nU"
           ]
         }
       },
       "block_order": [
-        "group_8VaUMD",
-        "group_qFftjm",
-        "group_4GDkHE"
+        "group_JRmEyf",
+        "group_3PfFaH",
+        "group_XMx7Gf",
+        "group_GiXDFw"
       ],
       "name": "t:names.icons_with_text",
       "settings": {
@@ -1863,7 +2014,7 @@
     "main",
     "section_tx3TUi",
     "section_CqVegJ",
-    "section_JgVNBX",
+    "section_hTJXQJ",
     "carousel_H98RWW",
     "product_recommendations_qggXJq"
   ]
