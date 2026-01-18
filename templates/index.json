@@ -384,185 +384,6 @@
         "padding-block-end": 48
       }
     },
-    "product_list_accA7F": {
-      "type": "product-list",
-      "blocks": {
-        "static-header": {
-          "type": "_product-list-content",
-          "name": "t:names.header",
-          "static": true,
-          "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": false,
-            "horizontal_alignment": "center",
-            "vertical_alignment": "center",
-            "align_baseline": true,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_list_text_LtnKFq": {
-              "type": "_product-list-text",
-              "name": "t:names.collection_title",
-              "settings": {
-                "text": "<h1>מודפס עם משלוח | מסגרת A4</h1>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "custom",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "balance",
-                "color": "var(--color-foreground-heading)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_list_text_LtnKFq"
-          ]
-        },
-        "static-product-card": {
-          "type": "_product-card",
-          "name": "t:names.product_card",
-          "static": true,
-          "settings": {
-            "product_card_gap": 4,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_iPV33m": {
-              "type": "_product-card-gallery",
-              "name": "t:names.product_card_media",
-              "settings": {
-                "image_ratio": "portrait",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 11,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "product_title_AbLNdD": {
-              "type": "product-title",
-              "name": "t:names.product_title",
-              "settings": {
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 4,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "price_NWtiej": {
-              "type": "price",
-              "name": "t:names.product_price",
-              "settings": {
-                "show_sale_price_first": true,
-                "show_installments": false,
-                "show_tax_info": false,
-                "type_preset": "h6",
-                "width": "100%",
-                "alignment": "center",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "color": "var(--color-foreground)",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_iPV33m",
-            "product_title_AbLNdD",
-            "price_NWtiej"
-          ]
-        }
-      },
-      "name": "Featured collection",
-      "settings": {
-        "collection": "קובץ-ממוסגר",
-        "layout_type": "grid",
-        "carousel_on_mobile": false,
-        "max_products": 4,
-        "columns": 4,
-        "mobile_columns": "2",
-        "mobile_card_size": "44cqw",
-        "columns_gap": 37,
-        "rows_gap": 24,
-        "icons_style": "arrow",
-        "icons_shape": "circle",
-        "section_width": "page-width",
-        "horizontal_alignment": "center",
-        "gap": 37,
-        "color_scheme": "scheme-2",
-        "padding-block-start": 16,
-        "padding-block-end": 48
-      }
-    },
     "section_8MhWwd": {
       "type": "section",
       "blocks": {
@@ -1060,7 +881,7 @@
                 "text_RVKNCn": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>קובץ במייל : 48 שעות / מודפס + משלוח : עד 10 ימי עסקים</p>",
+                    "text": "<p> עד 2 ימי עסקים במייל </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1481,7 +1302,7 @@
                 "text_JbiPjk": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>בוחרים סוג מוצר : קובץ במייל / מודפס עם משלוח, בוחרים מס׳ דמויות, מעלים תמונה ומוסיפים לסל, שם יש אפשרות לבחור ״ הוספת כיתוב ״ ועוברים לתשלום דרך ויזה,ביט,אפל פיי, גוגל פיי, ופייבוקס. </p>",
+                    "text": "<p>בוחרים סגנון : צבעוני / קווי, בוחרים מס׳ דמויות, שולחים לנו בקישור תמונה וכיתוב, מוסיפים לסל הקניות, ועוברים לתשלום דרך ויזה,ביט,אפל פיי, גוגל פיי, ופייבוקס. </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1547,47 +1368,6 @@
                 "text_CMWrzx"
               ]
             },
-            "accordion_row_FtnY4D": {
-              "type": "_accordion-row",
-              "name": "t:names.accordion_row",
-              "settings": {
-                "heading": "משלוחים לכל הארץ !",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 20
-              },
-              "blocks": {
-                "text_VF3PzX": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>יש אפשרות לבחור לקבל את האיור מודפס עם משלוח לנקודת איסוף / שליח עד הבית. למוצרים עם מסגרת. עד 10 ימי עסקים.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_VF3PzX"
-              ]
-            },
             "accordion_row_wDWABE": {
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
@@ -1602,7 +1382,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>ניתן להוסיף תמונה בעמוד מוצר, בוחרים תמונה חצי גוף, ברורה ואיכותית, שרואים תווי פנים בבירור. כיתוב אפשר להוסיף בעגלת קניות. </p>",
+                    "text": "<p>ניתן להוסיף תמונה בעמוד מוצר בקישור דרך הוואטצאפ שלנו, בוחרים תמונה חצי גוף, ברורה ואיכותית, שרואים תווי פנים בבירור. </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1643,7 +1423,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>קובץ במייל בלבד. : עד 48 שעות בוואטצאפ ובמייל.</p><p>מודפס עם משלוח : עד 10 ימי עסקים לנקודת איסוף בעיר / שליח עד הבית . </p>",
+                    "text": "<p>עד 2 ימי עסקים בוואטצאפ ובמייל.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1674,7 +1454,6 @@
           "block_order": [
             "accordion_row_prMqcc",
             "accordion_row_4eXirH",
-            "accordion_row_FtnY4D",
             "accordion_row_wDWABE",
             "accordion_row_zJmpi3"
           ]
@@ -2185,7 +1964,6 @@
     "section_nxWVR4",
     "marquee_wykDgY",
     "product_list_fa6P9H",
-    "product_list_accA7F",
     "section_8MhWwd",
     "section_LxxAm8",
     "section_CAKGxW",

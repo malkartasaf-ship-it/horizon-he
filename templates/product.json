@@ -312,10 +312,10 @@
         "padding-block-end": 0
       }
     },
-    "section_8r6cnm": {
+    "section_tx3TUi": {
       "type": "section",
       "blocks": {
-        "text_CfHR7z": {
+        "text_Vwk6mP": {
           "type": "text",
           "name": "t:names.heading",
           "settings": {
@@ -341,7 +341,7 @@
           },
           "blocks": {}
         },
-        "accordion_b8zfMC": {
+        "accordion_MiXFPg": {
           "type": "accordion",
           "name": "t:names.accordion",
           "settings": {
@@ -360,7 +360,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "accordion_row_4itLei": {
+            "accordion_row_we8f38": {
               "type": "_accordion-row",
               "settings": {
                 "heading": "איך מזמינים ?",
@@ -369,10 +369,10 @@
                 "width": 20
               },
               "blocks": {
-                "text_XCEgQT": {
+                "text_GcwjGA": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>בוחרים סוג מוצר : קובץ במייל / מודפס עם משלוח, בוחרים מס׳ דמויות, מעלים תמונה ומוסיפים לסל, שם יש אפשרות לבחור ״ הוספת כיתוב ״ ועוברים לתשלום דרך ויזה,ביט,אפל פיי, גוגל פיי, ופייבוקס. </p>",
+                    "text": "<p>בוחרים סגנון : צבעוני / קווי, בוחרים מס׳ דמויות, שולחים לנו בקישור תמונה וכיתוב, מוסיפים לסל הקניות, ועוברים לתשלום דרך ויזה,ביט,אפל פיי, גוגל פיי, ופייבוקס. </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -396,10 +396,10 @@
                 }
               },
               "block_order": [
-                "text_XCEgQT"
+                "text_GcwjGA"
               ]
             },
-            "accordion_row_dALH9L": {
+            "accordion_row_CEctiQ": {
               "type": "_accordion-row",
               "settings": {
                 "heading": "איך מקבלים את האיור ?",
@@ -408,7 +408,7 @@
                 "width": 20
               },
               "blocks": {
-                "text_nnPaR6": {
+                "text_fTrPPr": {
                   "type": "text",
                   "settings": {
                     "text": "<p>מחכים 48 שעות ומקבלים את האיור לאישור בוואטצאפ, יש סבב תיקונים ללא עלות, ומקבלים את האיור במייל באיכות גבוהה, מתאים להדפסה על כל גודל . </p>",
@@ -435,51 +435,10 @@
                 }
               },
               "block_order": [
-                "text_nnPaR6"
+                "text_fTrPPr"
               ]
             },
-            "accordion_row_pHEFKW": {
-              "type": "_accordion-row",
-              "name": "t:names.accordion_row",
-              "settings": {
-                "heading": "משלוחים לכל הארץ !",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 20
-              },
-              "blocks": {
-                "text_mtrW7G": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>יש אפשרות לבחור לקבל את האיור מודפס עם משלוח לנקודת איסוף / שליח עד הבית. למוצרים עם מסגרת/קנבס. עד 10 ימי עסקים.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_mtrW7G"
-              ]
-            },
-            "accordion_row_HhFxFp": {
+            "accordion_row_wVFYLe": {
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
@@ -489,11 +448,11 @@
                 "width": 20
               },
               "blocks": {
-                "text_nGMf4P": {
+                "text_fPMxaJ": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>ניתן להוסיף תמונה בעמוד מוצר, בוחרים תמונה חצי גוף, ברורה ואיכותית, שרואים תווי פנים בבירור. כיתוב אפשר להוסיף בעגלת קניות. </p>",
+                    "text": "<p>ניתן להוסיף תמונה בעמוד מוצר בקישור דרך הוואטצאפ שלנו, בוחרים תמונה חצי גוף, ברורה ואיכותית, שרואים תווי פנים בבירור. </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -517,10 +476,10 @@
                 }
               },
               "block_order": [
-                "text_nGMf4P"
+                "text_fPMxaJ"
               ]
             },
-            "accordion_row_xakCyA": {
+            "accordion_row_kWWgpg": {
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
@@ -530,11 +489,11 @@
                 "width": 20
               },
               "blocks": {
-                "text_YTeVqr": {
+                "text_8Hym7a": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>קובץ במייל בלבד. : עד 48 שעות בוואטצאפ ובמייל.</p><p>מודפס עם משלוח : עד 10 ימי עסקים לנקודת איסוף בעיר / שליח עד הבית . </p>",
+                    "text": "<p>עד 2 ימי עסקים בוואטצאפ ובמייל.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -558,22 +517,21 @@
                 }
               },
               "block_order": [
-                "text_YTeVqr"
+                "text_8Hym7a"
               ]
             }
           },
           "block_order": [
-            "accordion_row_4itLei",
-            "accordion_row_dALH9L",
-            "accordion_row_pHEFKW",
-            "accordion_row_HhFxFp",
-            "accordion_row_xakCyA"
+            "accordion_row_we8f38",
+            "accordion_row_CEctiQ",
+            "accordion_row_wVFYLe",
+            "accordion_row_kWWgpg"
           ]
         }
       },
       "block_order": [
-        "text_CfHR7z",
-        "accordion_b8zfMC"
+        "text_Vwk6mP",
+        "accordion_MiXFPg"
       ],
       "custom_css": [
         "/* FAQ Accordion בשופיפי */details,summary {direction: rtl; text-align: right;}"
@@ -1903,7 +1861,7 @@
   },
   "order": [
     "main",
-    "section_8r6cnm",
+    "section_tx3TUi",
     "section_CqVegJ",
     "section_hCRUBy",
     "carousel_H98RWW",
