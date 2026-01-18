@@ -765,10 +765,10 @@
         "padding-block-end": 0
       }
     },
-    "section_hCRUBy": {
+    "section_JgVNBX": {
       "type": "section",
       "blocks": {
-        "group_PdeKFJ": {
+        "group_8VaUMD": {
           "type": "group",
           "settings": {
             "content_direction": "column",
@@ -807,7 +807,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "icon_nt9nyF": {
+            "icon_diYfEr": {
               "type": "icon",
               "settings": {
                 "icon": "check_box",
@@ -817,7 +817,7 @@
               },
               "blocks": {}
             },
-            "group_DJnn7x": {
+            "group_pjiqcG": {
               "type": "group",
               "settings": {
                 "content_direction": "column",
@@ -856,10 +856,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_TLhJkP": {
+                "text_z4hd7G": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>שולחים לנו תמונה בקישור </h2>",
+                    "text": "<h2>מעלים תמונה וכיתוב באתר </h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -881,10 +881,10 @@
                   },
                   "blocks": {}
                 },
-                "text_tAhqgr": {
+                "text_cwQAiY": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>תמונה חצי גוף ברורה ומוארת + כיתוב אם יש </p>",
+                    "text": "<p>תמונה חצי גוף ברורה ומוארת </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -908,17 +908,17 @@
                 }
               },
               "block_order": [
-                "text_TLhJkP",
-                "text_tAhqgr"
+                "text_z4hd7G",
+                "text_cwQAiY"
               ]
             }
           },
           "block_order": [
-            "icon_nt9nyF",
-            "group_DJnn7x"
+            "icon_diYfEr",
+            "group_pjiqcG"
           ]
         },
-        "group_DepUpx": {
+        "group_qFftjm": {
           "type": "group",
           "settings": {
             "content_direction": "column",
@@ -957,7 +957,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "icon_J9gcdL": {
+            "icon_EtGcmH": {
               "type": "icon",
               "settings": {
                 "icon": "lock",
@@ -967,7 +967,7 @@
               },
               "blocks": {}
             },
-            "group_f6F6R8": {
+            "group_EPEgnm": {
               "type": "group",
               "settings": {
                 "content_direction": "column",
@@ -1006,7 +1006,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_jyJCnt": {
+                "text_Dk6UeM": {
                   "type": "text",
                   "settings": {
                     "text": "<h2>מוסיפים לסל ומשלמים </h2>",
@@ -1031,7 +1031,7 @@
                   },
                   "blocks": {}
                 },
-                "text_hxNDfM": {
+                "text_bnDyNA": {
                   "type": "text",
                   "settings": {
                     "text": "<p>דרך ויזה / ביט / פייבוקס / apple pay / google pay </p>",
@@ -1058,17 +1058,17 @@
                 }
               },
               "block_order": [
-                "text_jyJCnt",
-                "text_hxNDfM"
+                "text_Dk6UeM",
+                "text_bnDyNA"
               ]
             }
           },
           "block_order": [
-            "icon_J9gcdL",
-            "group_f6F6R8"
+            "icon_EtGcmH",
+            "group_EPEgnm"
           ]
         },
-        "group_nPgjkc": {
+        "group_4GDkHE": {
           "type": "group",
           "settings": {
             "content_direction": "column",
@@ -1107,7 +1107,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "icon_mdKyGJ": {
+            "icon_KkfH7L": {
               "type": "icon",
               "settings": {
                 "icon": "truck",
@@ -1117,7 +1117,7 @@
               },
               "blocks": {}
             },
-            "group_8nLt7R": {
+            "group_VqYVFd": {
               "type": "group",
               "settings": {
                 "content_direction": "column",
@@ -1156,7 +1156,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_YYBEYP": {
+                "text_rd8MP9": {
                   "type": "text",
                   "settings": {
                     "text": "<h2>ומקבלים את האיור </h2>",
@@ -1181,10 +1181,10 @@
                   },
                   "blocks": {}
                 },
-                "text_BxKpjp": {
+                "text_X3tD8j": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>קובץ במייל : 48 שעות / מודפס + משלוח : עד 10 ימי עסקים</p>",
+                    "text": "<p> עד 2 ימי עסקים במייל </p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1208,21 +1208,21 @@
                 }
               },
               "block_order": [
-                "text_YYBEYP",
-                "text_BxKpjp"
+                "text_rd8MP9",
+                "text_X3tD8j"
               ]
             }
           },
           "block_order": [
-            "icon_mdKyGJ",
-            "group_8nLt7R"
+            "icon_KkfH7L",
+            "group_VqYVFd"
           ]
         }
       },
       "block_order": [
-        "group_PdeKFJ",
-        "group_DepUpx",
-        "group_nPgjkc"
+        "group_8VaUMD",
+        "group_qFftjm",
+        "group_4GDkHE"
       ],
       "name": "t:names.icons_with_text",
       "settings": {
@@ -1863,7 +1863,7 @@
     "main",
     "section_tx3TUi",
     "section_CqVegJ",
-    "section_hCRUBy",
+    "section_JgVNBX",
     "carousel_H98RWW",
     "product_recommendations_qggXJq"
   ]
