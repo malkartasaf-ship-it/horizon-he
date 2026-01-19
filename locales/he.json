@@ -642,8 +642,28 @@
           "first_n_order_free_with_cycle": {
             "one": "משלוח חינם עבור %{count} משלוח נוסף, מאשר %{recurring_order_shipping_price}",
             "other": "משלוח חינם עבור %{count} משלוחים נוספים, לאחר %{recurring_order_shipping_price}"
-          }
-        }
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} משלוח נוסף תמורת %{shipping_price}"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "משלוח %{count} תמורת %{shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} עבור %{count} משלוח נוסף"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} עבור משלוח %{count}"
+          },
+          "recurring_order_shipping_price": "ואחריו %{recurring_order_shipping_price}"
+        },
+        "shipping_information_required_notice": "נדרש פרטי משלוח. {{link}}",
+        "address_form": {
+          "one_time_address_subtitle": "השתמש בכתובת חד פעמית עבור הזמנה זו"
+        },
+        "split_shipping_shipment_notice": "ההזמנה שלך תגיע בכמות של %{quantity_shipments}",
+        "split_shipping_multiple_shipment_notice": "ההזמנה שלך תגיע במספר משלוחים",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "ההזמנה שלך תגיע במשלוחים של %{quantity}"
       },
       "processing": {
         "wait": {
@@ -1523,7 +1543,10 @@
             "must_fulfill_from_same_location_constraint_not_satisfied": "אילוצי האספקה ​​אינם מתקיימים מכיוון שלא ניתן למלא פריטים מאותו מיקום.",
             "delivery_strategy_conditions_not_satisfied": "אסטרטגיות משלוח זמינות עבור מיקום זה, אך התנאים שלהן אינם מתקיימים.",
             "out_of_stock_at_origin_location": "אין מלאי במיקום המקור.",
-            "invalid_signature": "חתימת הנחה לא חוקית."
+            "invalid_signature": "חתימת הנחה לא חוקית.",
+            "only_one_delivery_line_allowed": "לעגלה חייב להיות קו משלוח אחד בלבד.",
+            "external_delivery_promise_error": "שגיאת אחזור של הבטחת מסירה חיצונית.",
+            "pickup_points_unavailable": "נקודות איסוף אינן זמינות כרגע."
           },
           "discount": {
             "discounts_not_allowed_for_b2b": "הנחות אינן מותרות בחנויות B2B.",
@@ -1626,6 +1649,22 @@
           "attribution": {
             "retail_attribution_not_allowed": "ייחוס קמעונאי אינו מותר עבור קופה זו.",
             "retail_attribution_required": "נדרש ייחוס קמעונאי עבור קופה זו."
+          },
+          "only_empty_terms_accepted": "מדיניות זו מקבלת רק מונחים ריקים.",
+          "merchandise": {
+            "merchandise_not_applicable": "לא ניתן לרכוש גרסת מוצר.",
+            "gift_card_not_supported": "כרטיסי מתנה אינם נתמכים בקופה זו.",
+            "inventory_not_found": "לא נמצא מלאי עבור סחורה זו.",
+            "product_not_published_in_buyer_location": "המוצר לא פורסם במיקום הקונה.",
+            "bundle_requires_components": "למוצרי חבילה זו אין רכיבים."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "לאיש הקשר של החברה אין גישה לחברה.",
+            "personal_order_not_allowed": "הזמנות אישיות אינן מותרות בחנות זו.",
+            "lost_access_to_company": "הלקוח איבד גישה לכל חברה.",
+            "email_domain_is_invalid": "לא ניתן לפענח את הדומיין שצוין.",
+            "checkout_completion_target_is_missing": "יעד השלמת התשלום חסר.",
+            "invalid_customer_profile": "סופק פרופיל לקוח לא חוקי."
           }
         },
         "full_price": "מחיר מלא:",
@@ -1708,6 +1747,9 @@
           "add_file": "הוסף קובץ",
           "invalid_file_type": "סוג הקובץ אינו נתמך",
           "dragged_over": "שחררו קובץ להעלאה"
+        },
+        "forwarding_indicator": {
+          "external_and_new_window": "פותח אתר חיצוני בחלון חדש."
         }
       },
       "payment_collection": {
@@ -2211,7 +2253,39 @@
         "purchase_options_agreement_label_html": "אני מבין/ה שאחד או יותר מהפריטים בעגלת הקניות שלי הם רכישה נדחית או חוזרת. בהמשך, אני מסכים/ה ל\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">מדיניות ביטול</a>\n ומאשר לך לחייב את אמצעי התשלום שלי במחירים, בתדירות ובתאריכים המפורטים בדף זה עד\n ההזמנה בוצעה או שאני מבטל, אם מותר.\n",
         "purchase_options_agreement_label_wallets": "על ידי המשך התשלום, הנך מסכים לחיובים העתידיים המפורטים בדף זה ולמדיניות הביטול.",
         "change_currency_section_description": "בחר אפשרות מטבע",
-        "no_real_orders_dev_store": "חנות זו אינה יכולה לקבל הזמנות אמיתיות או תשלומים אמיתיים."
+        "no_real_orders_dev_store": "חנות זו אינה יכולה לקבל הזמנות אמיתיות או תשלומים אמיתיים.",
+        "amazon_payments_login_hint": "תתבקשו להתחבר באמצעות אמזון.",
+        "discount_codes_removed_summary": {
+          "other": "%{count} קודי הנחה הוסרו"
+        },
+        "card_security_notice": "כל העסקאות מאובטחות ומוצפנות.",
+        "waiting_on_payment_methods": "מקבל אמצעי תשלום זמינים...",
+        "paypal": {
+          "connect": "לחץ כדי לחבר את חשבון ה-PayPal שלך"
+        },
+        "apple": {
+          "connect": "לחץ כדי לחבר את חשבון Apple Pay שלך"
+        },
+        "google": {
+          "connect": "לחץ כדי להתחבר לחשבון Google Pay שלך"
+        },
+        "pending_payment": {
+          "multibanco": {
+            "buyer_action_info": "התשלום שלך בסך %{amount_due} הגיע לפירעון."
+          }
+        },
+        "order_covered_by_store_credit_notice": "ההזמנה שלך מכוסה על ידי זיכוי החנות שלך.",
+        "store_credit": {
+          "buying_gift_card": "לא ניתן להשתמש באשראי בחנות כדי לקנות כרטיס מתנה"
+        },
+        "same_billing_address_checkbox_label": "השתמש בכתובת המשלוח ככתובת לחיוב",
+        "order_edit_banner_title": "נדרש תשלום של {{amount_owed}}",
+        "markets_pro_disclaimer_terms_and_conditions_title": "תנאים והגבלות של סוחר רשומות",
+        "alternative_payment_currency_total_notice": "הערה: תחויב בסכום של %{amount_due}.",
+        "alternative_payment_currency_total_manual_payment_notice": "הערה: הסכום המומר הוא %{amount_due}.",
+        "proposed_gateway_unavailable": "שער התשלום המוצע אינו זמין",
+        "payment_flexibility_terms_id_mismatch": "אי התאמה במזהה של תנאי גמישות התשלום",
+        "bank_account_generic_error": "לא ניתן היה להוסיף חשבון בנק. נסה שוב מאוחר יותר."
       },
       "field_errors": {
         "address_city_contains_mathematical_symbols": "עיר לא יכולה להכיל סמלים מתמטיים",
@@ -2293,7 +2367,12 @@
         "invalid_delivery_address_reference_handle": "לא ניתן היה להתאים את מספר כתובת המשלוח לכתובות המשלוח הזמינות.",
         "must_use_available_delivery_address": "יש לבחור את כתובת המשלוח מבין כתובות המשלוח הזמינות.",
         "must_use_available_shipping_rate": "יש לבחור את תעריף המשלוח מבין תעריפי המשלוח הזמינים.",
-        "split_by_delivery_method_not_allowed": "פיצול לפי שיטת משלוח אינו מותר עבור סשן או חנות זו."
+        "split_by_delivery_method_not_allowed": "פיצול לפי שיטת משלוח אינו מותר עבור סשן או חנות זו.",
+        "email_or_phone_invalid": "הזן כתובת דוא\"ל או מספר טלפון נייד תקינים",
+        "address_first_name_contains_html_tags": "שם פרטי לא יכול להכיל תגי HTML.",
+        "address_first_name_contains_mathematical_symbols": "שם פרטי אינו יכול להכיל סמלים מתמטיים",
+        "address_last_name_contains_mathematical_symbols": "שם משפחה לא יכול להכיל סמלים מתמטיים",
+        "address_city_too_long": "העיר ארוכה מדי (מקסימום 255 תווים)"
       },
       "store_credit_errors": {
         "generic_error": "הייתה בעיה עם זיכוי החנות שלך. נסה שוב או טען מחדש את הדף."
@@ -2422,6 +2501,34 @@
           "expand": "הצג עוד",
           "processing": "עיבוד...",
           "submit": "לְהַגִישׁ"
+        }
+      },
+      "taxes": {
+        "vat_number": {
+          "status": {
+            "invalid_format": {
+              "at": "מספרי מע\"מ אוסטריים מכילים AT ו-9 תווים",
+              "be": "מספרי מע\"מ בלגיים מכילים BE ו-10 תווים",
+              "cy": "מספרי מע\"מ בקפריסין מכילים CY ו-9 תווים",
+              "dk": "מספרי מע\"מ בדנמרק מכילים DK ו-8 תווים",
+              "ee": "מספרי מע\"מ באסטוניה מכילים EE ו-9 תווים",
+              "fi": "מספרי מע\"מ פינלנד מכילים FI ו-8 תווים",
+              "fr": "מספרי מע\"מ בצרפת מכילים FR ו-11 תווים",
+              "de": "מספרי מע\"מ בגרמניה מכילים DE ו-9 תווים",
+              "gr": "מספרי מע\"מ ביוון מכילים EL ו-9 תווים",
+              "hu": "מספרי מע\"מ בהונגריה מכילים HU ו-8 תווים",
+              "it": "מספרי מע\"מ באיטליה מכילים IT ו-11 תווים",
+              "lv": "מספרי מע\"מ בלטביה מכילים LV ו-11 תווים",
+              "mt": "מספרי מע\"מ של מלטה מכילים MT ו-8 תווים",
+              "pl": "מספרי מע\"מ בפולין מכילים PL ו-10 תווים",
+              "es": "מספרי מע\"מ בספרד מכילים ES ו-9 תווים",
+              "se": "מספרי מע\"מ בשוודיה מכילים SE ו-12 תווים"
+            },
+            "invalid_number": {
+              "nl": "הזן מספר מע\"מ הולנדי תקף",
+              "gb": "הזן מספר מע\"מ תקף בממלכה המאוחדת"
+            }
+          }
         }
       }
     },
@@ -2552,8 +2659,24 @@
             "caption": "האם אתה מתקשה להיכנס לחנות שלך? נסה את התכונה %{forgot_your_store_link}. אם ברצונך להפעיל מחדש את החנות שלך, צור קשר עם %{shopify_support_link}.",
             "shopify_support_link_text": "תמיכת Shopify"
           }
+        },
+        "heros": {
+          "store_unavailable": "מצטערים, חנות זו אינה זמינה כרגע.",
+          "no_storefront": "לחנות הזו עדיין אין אתר אינטרנט."
         }
-      }
+      },
+      "discount_limit_reached": "הנחה זו הגיעה למגבלת השימוש שלה",
+      "customer_already_used_once_per_customer_discount_notice": "הנחה זו הגיעה למגבלת השימוש שלה",
+      "gift_card_already_applied": "הקוד כבר הוחל בקופה שלך",
+      "gift_card_depleted": "לא נותרו כספים בכרטיס מתנה זה",
+      "too_short": "קצר מדי (המינימום הוא %{count} תווים)",
+      "too_long": "ארוך מדי (מקסימום %{count} תווים)",
+      "invalid_for_country_and_province": "אינו תקף עבור %{province} ו-%{country}",
+      "invalid_province_in_country": "אינו מחוז תקף ב-%{country}",
+      "less_than_or_equal_to": "חייב להיות קטן או שווה ל- %{count}",
+      "invalid_type": "מצטערים, איננו מקבלים כרטיסים מסוג זה",
+      "invalid_start_date_or_issue_number_for_debit": "נדרש תאריך התחלה או מספר הנפקה תקפים",
+      "product_not_available": "המוצר לא פורסם עבור לקוח זה."
     },
     "notices": {
       "customer": {
@@ -2669,6 +2792,9 @@
         "remove_articles": "הרחב את החיפוש למאמרים שאינם מתויגים %{tag}",
         "remove_products": "הסר את התגית %{tag}"
       }
+    },
+    "addresses": {
+      "confirm": "האם אתה בטוח שברצונך למחוק את הכתובת הזו?"
     }
   },
   "customer_accounts": {
@@ -3052,6 +3178,14 @@
       "three_d_secure": {
         "title": "מאובטח תלת-ממדי",
         "verification_failed": "לא ניתן היה לאמת את התשלום שלך. נסה שוב או השתמש באמצעי תשלום אחר."
+      },
+      "bank_account": {
+        "generic_error": "לא ניתן היה להוסיף חשבון בנק. נסה שוב מאוחר יותר."
+      },
+      "apple_pay": {
+        "errors": {
+          "not_available": "אפל פיי אינו זמין במכשיר זה."
+        }
       }
     },
     "orders": {
@@ -3131,7 +3265,17 @@
               "claim_shop_cash_description": "ניתן להשתמש ב-Shop Cash ברכישות עתידיות באפליקציית Shop."
             }
           }
-        }
+        },
+        "ready_for_pickup_location": "ההזמנה שלך מוכנה לאיסוף במקום",
+        "confirmed_description_gift_card_text": "תקבלו הודעת טקסט כאשר ההזמנה שלכם תהיה מוכנה.",
+        "confirmed_gift_card_additional_description": {
+          "one": "כרטיס מתנה יישלח במייל נפרד."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "כרטיס מתנה יישלח בהודעה נפרדת.",
+          "other": "כל כרטיס מתנה יישלח בהודעה נפרדת."
+        },
+        "no_tracking_number": "אין מספר מעקב למשלוח זה."
       },
       "status_mark_as_delivered": "סמן כמסופק",
       "fulfillment_status_title": "סטטוס אספקה: {{status}}",
@@ -3200,7 +3344,10 @@
           "previous": "קודם",
           "previous_accessibility_label": "הזמנות קודמות",
           "load_more": "טען עוד"
-        }
+        },
+        "sort_hide_options_accessibility_label": "הסתר אפשרויות מיון עבור הזמנות שאושרו.",
+        "sort_show_options_accessibility_label": "הצג אפשרויות מיון עבור הזמנות שאושרו.",
+        "show_order_actions_accessibility_label": "הצג פעולות הזמנה עבור הזמנה {{name}}"
       }
     },
     "B2B": {
@@ -3359,7 +3506,9 @@
           "refund": {
             "title": "החזר כספי",
             "title_with_date": "הוחזר {{date}}",
-            "description_full_refund": "קיבלת החזר כספי מלא עבור הזמנה זו."
+            "description_full_refund": "קיבלת החזר כספי מלא עבור הזמנה זו.",
+            "description_single_refund": "קיבלת החזר חלקי עבור הזמנה זו.",
+            "description_multiple_refunds": "קיבלת החזרים חלקיים עבור הזמנה זו."
           }
         }
       },
@@ -3786,6 +3935,14 @@
           "invalid_email": "הזן כתובת דוא\"ל חוקית",
           "invalid_code": "הזן את הקוד בן 6 הספרות הנכון"
         }
+      }
+    },
+    "errors": {
+      "no_access_to_locations": {
+        "description": "אין לך גישה לאף מיקום"
+      },
+      "not_found": {
+        "description": "בדוק את כתובת ה-URL או נסה שוב בעוד מספר דקות."
       }
     }
   }
