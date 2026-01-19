@@ -37,37 +37,10 @@
             "padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "text_yDtAwV": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>\" מָצָאתִי אֶת שֶׁאַהֲבָה נַפְשִׁי \"<br/>\" וְאֵיךְ שֶׁלֹּא אֶפְנֶה לִרְאוֹת אִתְּךָ תָּמִיד אַרְצָה לִהְיוֹת \"<br/>\" הִגַּעְתָּ בְּדִיּוּק כְּשֶׁהַלֵּב כְּבָר מוּכָן \"<br/>\" מִכָּל הָאֲהָבוֹת שֶׁיֵּשׁ לַחֲלֹם בִּקַּשְׁתִּי לִי אוֹתְךָ \"<br/>\" לֶאֱהֹב מִישֶׁהוּ פֵּרוּשׁוֹ לְהַכִּיר אוֹתוֹ הֵיטֵב וְלֶאֱהֹב אוֹתוֹ לַמְרוֹת זֹאת \"<br/>\" הַלֵּב יוֹדֵעַ בְּזֶה הַיּוֹם שֶׁהִיא תִּהְיֶה לוֹ עֵזֶר כְּנֶגְדּוֹ מִכָּאן וְעַד לְנַצֵּחַ ...\"<br/>\" וְכָל הַשָּׁנִים שֶׁעָבַרְנוּ, כַּמָּה בַּדֶּרֶךְ אָסַפְנוּ, הָפַכְנוּ לִהְיוֹת שְׁלֵמִים \"<br/>\" אִם יֵשׁ לִי אוֹתְךָ, אָז יֵשׁ לִי הַכֹּל \"<br/>\" אֲנִי אוֹהֵב אוֹתָךְ לֹא רַק בִּגְלַל מָה שֶׁאַתְּ , אֶלָּא גַּם בִּגְלַל מָה שֶׁאֲנִי כְּשֶׁאֲנִי אִתָּךְ \"<br/>״ אֲנִי אוֹהֶבֶת אוֹתְךָ לֹא רַק בִּגְלַל מָה שֶׁאַתָּה, אֶלָּא גַּם בִּגְלַל מִי שֶׁאֲנִי כְּשֶׁאֲנִי אִתְּךָ ״<br/>\" אוֹהֶבֶת יוֹתֵר מֵאֶתְמוֹל, וּפָחוֹת מִמָּחָר \"<br/>״ הָיוּ מִלְחָמוֹת וְנִצַּחְנוּ.. כַּמָּה רָחוֹק שֶׁהִגַּעְנוּ, הָפַכְנוּ לִהְיוֹת שְׁלֵמִים ״<br/>\" וְאֵיךְ שֶׁלֹּא אֶפְנֶה לִרְאוֹת, תָּמִיד אִתְּךָ אַרְצָה לִהְיוֹת \"<br/>\" יֵשׁ שְׁנֵי זְמַנִּים שֶׁאֲנִי רוֹצָה לִהְיוֹת אִתְּךָ, עַכְשָׁו וְתָמִיד \"<br/>\" לֶאֱהֹב מִישֶׁהוּ פֵּרוּשׁוֹ לְהַכִּיר אוֹתוֹ הֵיטֵב וְלֶאֱהֹב אוֹתוֹ לַמְרוֹת זֹאת \"<br/>\" אֵיךְ שֶׁאַתָּה אוֹהֵב אֲחֵרִים, זֶה אֵיךְ שֶׁאַתָּה מְלַמֵּד אֲחֵרִים לֶאֱהֹב אוֹתְךָ \"<br/>\" אַהֲבָה אֵינֶנָּה הִתְבּוֹנְנוּת זֶה בָּזוֹ, אֶלָּא הִתְבּוֹנְנוּת מְשֻׁתֶּפֶת לְאוֹתוֹ כִּוּוּן \"<br/>״ חֲזַרְזִיר: \"אֵיךְ אַתָּה מְאַיֵּת 'אַהֲבָה'?\" פּוֹ הַדֹּב: \"אַתָּה לֹא מְאַיֵּת אֶת זֶה...אַתָּה מַרְגִּישׁ אֶת זֶה ״<br/>\" אִתְּךָ גַּם סוֹף הָעוֹלָם לֹא מַפְחִיד אוֹתִי \"<br/>\" תִּרְאֶה אוֹתָנוּ אוֹהֲבִים הַלְּוַאי נֹאהַב כָּל הַחַיִּים \"<br/>\" אַהֲבָה אֵינָהּ נִמְדֶּדֶת בְּרִגְעֵי הַשִּׂיא, אֶלָּא דַּוְקָא בְּרִגְעֵי הַשֵּׁפֶל \"<br/>\" אֲנַחְנוּ נִהְיֶה חֲבֵרִים לְעוֹלְמֵי עַד, נָכוֹן פּוּ? \" שֶׁאֶל חֲזַרְזִיר \"אֲפִלּוּ יוֹתֵר\" עָנָה פּוּ (פּוָּ הַדֹּב ) . \"</p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "heading",
-        "text_yDtAwV"
+        "heading"
       ],
       "settings": {
         "content_direction": "column",
@@ -106,98 +79,10 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
-    },
-    "section_GJxCzG": {
-      "type": "section",
-      "blocks": {
-        "text_N3xYBP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and special offers. </p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "email_signup_C8NU4q": {
-          "type": "email-signup",
-          "settings": {
-            "width": "custom",
-            "custom_width": 50,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "heading": "",
-            "heading_preset": "h3",
-            "border_style": "all",
-            "border_width": 1,
-            "border_radius": 100,
-            "input_type_preset": "paragraph",
-            "style_class": "button-unstyled",
-            "display_type": "arrow",
-            "label": "Sign up",
-            "integrated_button": true,
-            "button_type_preset": "paragraph",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_N3xYBP",
-        "email_signup_C8NU4q"
-      ],
-      "name": "t:names.email_signup",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 40,
-        "padding-block-end": 40
-      }
     }
   },
   "order": [
     "main",
-    "17679419335fe86697",
-    "section_GJxCzG"
+    "17679419335fe86697"
   ]
 }
