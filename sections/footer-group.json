@@ -91,7 +91,7 @@
         "ai_gen_block_a91d615_nM9aLm": {
           "type": "ai_gen_block_a91d615",
           "settings": {
-            "menu": "footer-1",
+            "menu": "main-menu",
             "alignment": "flex-end",
             "background_color": "#ffffff",
             "text_color": "#000000",
