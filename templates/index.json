@@ -340,7 +340,7 @@
       },
       "name": "Featured collection",
       "settings": {
-        "collection": "איור-קובץ-במייל-בלבד",
+        "collection": "all",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 4,
