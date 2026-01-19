@@ -208,7 +208,7 @@
                 "text": "<h1>המוצרים שלנו : </h1>",
                 "width": "100%",
                 "max_width": "normal",
-                "alignment": "center",
+                "alignment": "right",
                 "type_preset": "custom",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
